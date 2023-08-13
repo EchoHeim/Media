@@ -1,0 +1,4 @@
+Audio/BGM/庵ＢＧＭ
+Audio/BGM/店ＢＧＭ
+Audio/ME/升级
+Audio/BGM/药师kabuto - 战鼓雷雷
