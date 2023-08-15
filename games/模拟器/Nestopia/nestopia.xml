@@ -258,7 +258,7 @@
         </keys>
     </input>
     <language>
-        <file>D:\Recreation\_Media_\games\模拟器\Nestopia\language\english.nlg</file>
+        <file>F:\Media\games\模拟器\Nestopia\language\english.nlg</file>
     </language>
     <launcher>
         <search>
@@ -329,7 +329,7 @@
         </fds>
         <images>
             <directory>C:\Users\shilo\Downloads\nestopia_1.52.0-win32\</directory>
-            <recent-directory>D:\Recreation\_Media_\games\nes合集\快打旋风\</recent-directory>
+            <recent-directory>F:\Media\games\nes合集\03.吞食天地\</recent-directory>
             <use-recent-directory>yes</use-recent-directory>
         </images>
         <patches>
@@ -339,23 +339,23 @@
         </patches>
         <recent>
             <directories>
+                <directory>F:\Media\games\nes合集\03.吞食天地\</directory>
+                <directory>F:\Media\games\nes合集\攻击动物学园\</directory>
+                <directory>F:\Media\games\nes合集\</directory>
                 <directory>D:\Recreation\_Media_\games\nes合集\快打旋风\</directory>
                 <directory>D:\Recreation\_Media_\games\nes合集\热血物语\</directory>
-                <directory>D:\Recreation\_Media_\games\nes合集\马里奥医生\</directory>
-                <directory>D:\Recreation\_Media_\games\nes合集\绿野仙踪(中文)\</directory>
-                <directory>D:\Recreation\_Media_\games\nes合集\绿色兵团\</directory>
                 <locked>no</locked>
             </directories>
             <files>
-                <file>D:\Recreation\_Media_\games\nes合集\快打旋风\Mighty Final Fight (J).nes</file>
-                <file>D:\Recreation\_Media_\games\nes合集\快打旋风\finalf3.nes</file>
-                <file>D:\Recreation\_Media_\games\nes合集\热血物语\Downtown - Nekketsu Monogatari (J).zip &lt;Downtown - Nekketsu Monogatari (J).nes&gt;</file>
-                <file>D:\Recreation\_Media_\games\nes合集\马里奥医生\vs dr mario.zip &lt;vs dr mario.nes&gt;</file>
-                <file>D:\Recreation\_Media_\games\nes合集\绿野仙踪(中文)\lyxz.zip &lt;lyxz.nes&gt;</file>
-                <file>D:\Recreation\_Media_\games\nes合集\绿色兵团\Rush&apos;n Attack (U).nes</file>
-                <file>D:\Recreation\_Media_\games\nes合集\荆轲新传(中文)\Gen Ke Le Zhuan (C).nes</file>
-                <file>D:\Recreation\_Media_\games\nes合集\基督山恩仇记(中文)\jdsecj.nes</file>
-                <file>D:\Recreation\_Media_\games\nes合集\柯纳米世界(KONAMI世界).zip &lt;Wai Wai World (J).nes&gt;</file>
+                <file>F:\Media\games\nes合集\03.吞食天地\NTS2R典藏改造珍藏版3(1).nes</file>
+                <file>F:\Media\games\nes合集\攻击动物学园\Attack Animal Gakuen (J).nes</file>
+                <file>F:\Media\games\nes合集\圣三国英杰传v1.4.nes</file>
+                <file>F:\Media\games\nes合集\哥伦布传.zip &lt;Columbus - Ougon No Yoake (J).nes&gt;</file>
+                <file>F:\Media\games\nes合集\高桥名人的冒险岛4.zip &lt;Takahashi Meijin No Boukenjima 4 (J).nes&gt;</file>
+                <file>F:\Media\games\nes合集\复活魔龙(龙之卷轴).zip &lt;Dragon Scroll - Yomigaerishi Maryuu (J).nes&gt;</file>
+                <file>F:\Media\games\nes合集\凤舞三国-第11次改版.nes</file>
+                <file>F:\Media\games\nes合集\疯狂爬梯工.zip &lt;Crazy Climber (J).nes&gt;</file>
+                <file>F:\Media\games\nes合集\封神榜之伏魔三太子 (2).nes</file>
                 <locked>no</locked>
             </files>
         </recent>
@@ -489,7 +489,7 @@
             </ry>
             <yellow-boost>no</yellow-boost>
         </decoder>
-        <device>D7B71EE2-55C1-11CF-527C-7D6B67C2D235</device>
+        <device>D7B71E3E-6284-11CF-8B68-CA010EC2D335</device>
         <filters>
             <2xsai>
                 <bilinear>no</bilinear>
@@ -527,7 +527,7 @@
             </xbr>
         </filters>
         <fullscreen>
-            <bpp>16</bpp>
+            <bpp>32</bpp>
             <height>480</height>
             <width>640</width>
         </fullscreen>
