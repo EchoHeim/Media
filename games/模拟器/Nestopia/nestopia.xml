@@ -135,17 +135,17 @@
                 <up>Up</up>
             </pachinko>
             <pad-1>
-                <a>.</a>
-                <auto-fire-a>L</auto-fire-a>
-                <auto-fire-b>K</auto-fire-b>
-                <b>,</b>
-                <down>Down</down>
-                <left>Left</left>
+                <a>K</a>
+                <auto-fire-a>P</auto-fire-a>
+                <auto-fire-b>O</auto-fire-b>
+                <b>J</b>
+                <down>S</down>
+                <left>A</left>
                 <mic>...</mic>
-                <right>Right</right>
-                <select>Right shift</select>
+                <right>D</right>
+                <select>Space</select>
                 <start>Enter</start>
-                <up>Up</up>
+                <up>W</up>
             </pad-1>
             <pad-2>
                 <a>X</a>
@@ -258,7 +258,7 @@
         </keys>
     </input>
     <language>
-        <file>D:\Relax\Media\games\模拟器\Nestopia\language\english.nlg</file>
+        <file>D:\Recreation\_Media_\games\模拟器\Nestopia\language\english.nlg</file>
     </language>
     <launcher>
         <search>
@@ -329,7 +329,7 @@
         </fds>
         <images>
             <directory>C:\Users\shilo\Downloads\nestopia_1.52.0-win32\</directory>
-            <recent-directory>D:\Relax\Media\games\外星科技\</recent-directory>
+            <recent-directory>D:\Recreation\_Media_\games\nes合集\快打旋风\</recent-directory>
             <use-recent-directory>yes</use-recent-directory>
         </images>
         <patches>
@@ -339,12 +339,23 @@
         </patches>
         <recent>
             <directories>
-                <directory>D:\Relax\Media\games\外星科技\</directory>
+                <directory>D:\Recreation\_Media_\games\nes合集\快打旋风\</directory>
+                <directory>D:\Recreation\_Media_\games\nes合集\热血物语\</directory>
+                <directory>D:\Recreation\_Media_\games\nes合集\马里奥医生\</directory>
+                <directory>D:\Recreation\_Media_\games\nes合集\绿野仙踪(中文)\</directory>
+                <directory>D:\Recreation\_Media_\games\nes合集\绿色兵团\</directory>
                 <locked>no</locked>
             </directories>
             <files>
-                <file>D:\Relax\Media\games\外星科技\爆笑三国.NES</file>
-                <file>D:\Relax\Media\games\外星科技\爆笑三国(147201688转简体版).nes</file>
+                <file>D:\Recreation\_Media_\games\nes合集\快打旋风\Mighty Final Fight (J).nes</file>
+                <file>D:\Recreation\_Media_\games\nes合集\快打旋风\finalf3.nes</file>
+                <file>D:\Recreation\_Media_\games\nes合集\热血物语\Downtown - Nekketsu Monogatari (J).zip &lt;Downtown - Nekketsu Monogatari (J).nes&gt;</file>
+                <file>D:\Recreation\_Media_\games\nes合集\马里奥医生\vs dr mario.zip &lt;vs dr mario.nes&gt;</file>
+                <file>D:\Recreation\_Media_\games\nes合集\绿野仙踪(中文)\lyxz.zip &lt;lyxz.nes&gt;</file>
+                <file>D:\Recreation\_Media_\games\nes合集\绿色兵团\Rush&apos;n Attack (U).nes</file>
+                <file>D:\Recreation\_Media_\games\nes合集\荆轲新传(中文)\Gen Ke Le Zhuan (C).nes</file>
+                <file>D:\Recreation\_Media_\games\nes合集\基督山恩仇记(中文)\jdsecj.nes</file>
+                <file>D:\Recreation\_Media_\games\nes合集\柯纳米世界(KONAMI世界).zip &lt;Wai Wai World (J).nes&gt;</file>
                 <locked>no</locked>
             </files>
         </recent>
@@ -551,7 +562,7 @@
         </show>
         <size>
             <fullscreen>matched</fullscreen>
-            <window>2</window>
+            <window>3</window>
         </size>
     </view>
 </configuration>
