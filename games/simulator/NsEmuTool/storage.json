@@ -1,0 +1,32 @@
+{
+  "yuzu_history": {
+    "D:\\Yuzu": {
+      "yuzu_path": "D:\\Yuzu",
+      "yuzu_version": null,
+      "yuzu_firmware": null,
+      "branch": "ea"
+    },
+    "D:\\Recreation\\Yuzu": {
+      "yuzu_path": "D:\\Recreation\\Yuzu",
+      "yuzu_version": null,
+      "yuzu_firmware": null,
+      "branch": "ea"
+    }
+  },
+  "suyu_history": {},
+  "ryujinx_history": {
+    "D:\\Ryujinx": {
+      "path": "D:\\Ryujinx",
+      "version": null,
+      "firmware": null,
+      "branch": "mainline"
+    },
+    "D:\\Recreation\\Ryujinx": {
+      "path": "D:\\Recreation\\Ryujinx",
+      "version": null,
+      "firmware": null,
+      "branch": "mainline"
+    }
+  },
+  "yuzu_save_backup_path": "D:\\yuzu_save_backup"
+}
