@@ -2,7 +2,7 @@
   "yuzu": {
     "yuzu_path": "D:\\Recreation\\Yuzu",
     "yuzu_version": "4176",
-    "yuzu_firmware": "18.0.1",
+    "yuzu_firmware": null,
     "branch": "ea"
   },
   "ryujinx": {
@@ -19,7 +19,7 @@
   },
   "setting": {
     "ui": {
-      "lastOpenEmuPage": "ryujinx",
+      "lastOpenEmuPage": "yuzu",
       "dark": true,
       "mode": "auto",
       "width": 1280,
