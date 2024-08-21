@@ -1,0 +1,151 @@
+[   8.047168] Input <Info> input_common/udp/client.cpp:StartCommunication:206: Starting communication with UDP input server on 127.0.0.1:26760
+[   8.076492] Frontend <Info> citra_qt/main.cpp:GMainWindow:237: Citra Version: 8433057 | HEAD-8433057
+[   8.076509] Frontend <Info> citra_qt/main.cpp:GMainWindow:252: Host CPU: 12th Gen Intel(R) Core(TM) i7-12700KF | AVX2 | FMA
+[   8.076721] Frontend <Info> citra_qt/main.cpp:GMainWindow:254: Host OS: Windows 11 Version 23H2 (Build 22631.3527)
+[   8.076736] Frontend <Info> citra_qt/main.cpp:GMainWindow:257: Host RAM: 31.84 GiB
+[   8.076737] Frontend <Info> citra_qt/main.cpp:GMainWindow:258: Host Swap: 4.75 GiB
+[   8.112758] Frontend <Warning> citra_qt/game_list.cpp:LoadCompatibilityList:821: Game compatibility list is empty
+[  13.761047] Frontend <Warning> citra_qt/main.cpp:CheckForUpdates:1033: Unable to start check for updates
+[  21.627728] Frontend <Info> citra_qt/main.cpp:BootGame:1264: Citra starting...
+[  21.627906] Frontend <Info> citra_qt/main.cpp:BootGame:1283: Loading per game config file for title 0004001000026700
+[  21.635899] Config <Info> common/settings.cpp:LogSettings:83: Citra Configuration:
+[  21.635905] Config <Info> common/settings.cpp:operator():80: Core_UseCpuJit: true
+[  21.635906] Config <Info> common/settings.cpp:operator():80: Core_CPUClockPercentage: 100
+[  21.635906] Config <Info> common/settings.cpp:operator():80: Renderer_UseGLES: false
+[  21.635910] Config <Info> common/settings.cpp:operator():80: Renderer_GraphicsAPI: OpenGL
+[  21.635911] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncShaders: false
+[  21.635911] Config <Info> common/settings.cpp:operator():80: Renderer_AsyncPresentation: true
+[  21.635912] Config <Info> common/settings.cpp:operator():80: Renderer_SpirvShaderGen: true
+[  21.635912] Config <Info> common/settings.cpp:operator():80: Renderer_Debug: false
+[  21.635912] Config <Info> common/settings.cpp:operator():80: Renderer_UseHwShader: true
+[  21.635913] Config <Info> common/settings.cpp:operator():80: Renderer_ShadersAccurateMul: true
+[  21.635913] Config <Info> common/settings.cpp:operator():80: Renderer_UseShaderJit: true
+[  21.635913] Config <Info> common/settings.cpp:operator():80: Renderer_UseResolutionFactor: 1
+[  21.635914] Config <Info> common/settings.cpp:operator():80: Renderer_FrameLimit: 100
+[  21.635914] Config <Info> common/settings.cpp:operator():80: Renderer_VSyncNew: true
+[  21.635914] Config <Info> common/settings.cpp:operator():80: Renderer_PostProcessingShader: none (builtin)
+[  21.635914] Config <Info> common/settings.cpp:operator():80: Renderer_FilterMode: true
+[  21.635915] Config <Info> common/settings.cpp:operator():80: Renderer_TextureFilter: None
+[  21.635915] Config <Info> common/settings.cpp:operator():80: Renderer_TextureSampling: GameControlled
+[  21.635918] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Render3d: 0
+[  21.635918] Config <Info> common/settings.cpp:operator():80: Stereoscopy_Factor3d: 0
+[  21.635919] Config <Info> common/settings.cpp:operator():80: Stereoscopy_MonoRenderOption: 0
+[  21.635919] Config <Info> common/settings.cpp:operator():80: Layout_LayoutOption: 0
+[  21.635919] Config <Info> common/settings.cpp:operator():80: Layout_SwapScreen: false
+[  21.635920] Config <Info> common/settings.cpp:operator():80: Layout_UprightScreen: false
+[  21.635921] Config <Info> common/settings.cpp:operator():80: Layout_LargeScreenProportion: 4
+[  21.635923] Config <Info> common/settings.cpp:operator():80: Utility_DumpTextures: false
+[  21.635923] Config <Info> common/settings.cpp:operator():80: Utility_CustomTextures: false
+[  21.635924] Config <Info> common/settings.cpp:operator():80: Utility_PreloadTextures: false
+[  21.635924] Config <Info> common/settings.cpp:operator():80: Utility_AsyncCustomLoading: true
+[  21.635924] Config <Info> common/settings.cpp:operator():80: Utility_UseDiskShaderCache: true
+[  21.635924] Config <Info> common/settings.cpp:operator():80: Audio_Emulation: HLE
+[  21.635927] Config <Info> common/settings.cpp:operator():80: Audio_OutputType: 0
+[  21.635928] Config <Info> common/settings.cpp:operator():80: Audio_OutputDevice: auto
+[  21.635928] Config <Info> common/settings.cpp:operator():80: Audio_InputType: 0
+[  21.635928] Config <Info> common/settings.cpp:operator():80: Audio_InputDevice: auto
+[  21.635929] Config <Info> common/settings.cpp:operator():80: Audio_EnableAudioStretching: true
+[  21.635929] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightName: blank
+[  21.635929] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightConfig: 
+[  21.635929] Config <Info> common/settings.cpp:operator():80: Camera_OuterRightFlip: 0
+[  21.635930] Config <Info> common/settings.cpp:operator():80: Camera_InnerName: blank
+[  21.635930] Config <Info> common/settings.cpp:operator():80: Camera_InnerConfig: 
+[  21.635930] Config <Info> common/settings.cpp:operator():80: Camera_InnerFlip: 0
+[  21.635930] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftName: blank
+[  21.635930] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftConfig: 
+[  21.635931] Config <Info> common/settings.cpp:operator():80: Camera_OuterLeftFlip: 0
+[  21.635931] Config <Info> common/settings.cpp:operator():80: DataStorage_UseVirtualSd: true
+[  21.635931] Config <Info> common/settings.cpp:operator():80: DataStorage_UseCustomStorage: false
+[  21.635931] Config <Info> common/settings.cpp:operator():80: System_IsNew3ds: true
+[  21.635932] Config <Info> common/settings.cpp:operator():80: System_LLEApplets: false
+[  21.635932] Config <Info> common/settings.cpp:operator():80: System_RegionValue: -1
+[  21.635932] Config <Info> common/settings.cpp:operator():80: System_PluginLoader: false
+[  21.635932] Config <Info> common/settings.cpp:operator():80: System_PluginLoaderAllowed: true
+[  21.635933] Config <Info> common/settings.cpp:operator():80: Debugging_DelayStartForLLEModules: true
+[  21.635933] Config <Info> common/settings.cpp:operator():80: Debugging_UseGdbstub: false
+[  21.635933] Config <Info> common/settings.cpp:operator():80: Debugging_GdbstubPort: 24689
+[  21.816077] Audio.DSP <Info> audio_core/hle/aac_decoder.cpp:AACDecoder:27: Created FAAD2 AAC decoder.
+[  22.488631] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:135: Cubeb Audio Stream Started
+[  22.488659] RPC_Server <Info> core/rpc/rpc_server.cpp:RPCServer:14: Starting RPC server.
+[  22.489054] RPC_Server <Info> core/rpc/rpc_server.cpp:HandleRequestsLoop:104: Request handler started.
+[  22.489222] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name '﻿generator'
+[  22.489260] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name 'common0N'
+[  22.489262] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name 'common1N'
+[  22.489264] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name 'common2N'
+[  22.489266] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name 'common3N'
+[  22.489268] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name 'common4N'
+[  22.489273] HW.AES <Error> core/hw/aes/key.cpp:LoadPresetKeys:285: Invalid key name 'common5N'
+[  22.492537] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:75: Non-existing file C:\Users\Lodge\Downloads\canary2798/user/nand/data/00000000000000000000000000000000/sysdata/00010017/00000000/config can't be open without mode create.
+[  22.492572] Service.FS <Error> core/file_sys/savedata_archive.cpp:DeleteFile:116: File not found C:\Users\Lodge\Downloads\canary2798/user/nand/data/00000000000000000000000000000000/sysdata/00010017/00000000/config
+[  22.494257] Service.FS <Error> core/file_sys/savedata_archive.cpp:OpenFile:75: Non-existing file C:\Users\Lodge\Downloads\canary2798/user/nand/data/00000000000000000000000000000000/sysdata/00010035/00000000/news.db can't be open without mode create.
+[  22.495373] Service.HTTP <Error> core/hle/service/http/http_c.cpp:DecryptClCertA:1974: ClCertA file missing
+[  22.495440] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:135: GL_VERSION: 4.3.0 NVIDIA 555.85
+[  22.495443] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:136: GL_VENDOR: NVIDIA Corporation
+[  22.495444] Render.OpenGL <Info> video_core/renderer_opengl/gl_driver.cpp:ReportDriverInfo:137: GL_RENDERER: NVIDIA GeForce RTX 3060/PCIe/SSE2
+[  22.846798] Loader <Info> core/loader/ncch.cpp:Load:271: Program ID: 0004001000026700
+[  22.846850] Service.FS <Warning> core/file_sys/ncch_container.cpp:OpenFile:126: Failed to open C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/title/0004001e/00026700/content/00000000.app
+[  22.878081] Loader <Info> core/hle/kernel/process.cpp:ParseKernelCaps:196: ExHeader kernel version: 2.32
+[  22.879829] Service.FS <Info> core/file_sys/ncch_container.cpp:LoadSectionExeFS:506: Attempting to load logo from the ExeFS
+[  22.912441] Render.OpenGL <Error> video_core/renderer_opengl/gl_shader_disk_cache.cpp:LoadTransferable:129: Failed to get transferable cache version for title id=0004001000026700 - removing
+[  23.093180] Service.CAM <Info> citra_qt/camera/qt_multimedia_camera.cpp:ResumeCameras:50: Resuming all cameras
+[  23.180180] Kernel.SVC <Error> core/hle/kernel/svc.cpp:GetProcessInfo:1856: unimplemented GetProcessInfo type=1
+[  23.203094] Service.SRV <Warning> core/hle/service/sm/srv.cpp:RegisterClient:63: (STUBBED) called. Caller PID=11
+[  23.203227] Service.SRV <Warning> core/hle/service/sm/srv.cpp:EnableNotification:85: (STUBBED) called
+[  23.205955] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:OverrideDefaultDaemons:186: (STUBBED) bit_mask=0x0000000F
+[  23.206333] Service.NDM <Warning> core/hle/service/ndm/ndm_u.cpp:SuspendDaemons:74: (STUBBED) bit_mask=0x00000006
+[  23.206529] Service.FS <Warning> core/hle/service/fs/fs_user.cpp:InitializeWithSdkVersion:614: (STUBBED) called, version: 0x030300C8
+[  23.209663] Service.FS <Error> core/file_sys/archive_extsavedata.cpp:OpenFile:138: C:\Users\Lodge\Downloads\canary2798/user/nand/data/00000000000000000000000000000000/extdata/00048000/F000000B/user/ublg.lst not found
+[  23.210137] Service.FRD <Warning> core/hle/service/frd/frd.cpp:SetClientSdkVersion:233: (STUBBED) called, version: 0x030300C8
+[  23.210432] Service.FRD <Warning> core/hle/service/frd/frd.cpp:GetMyPresence:41: (STUBBED) called
+[  23.210749] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:194: Delay generator was not initalized. Using default
+[  23.216158] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:194: Delay generator was not initalized. Using default
+[  23.223895] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:194: Delay generator was not initalized. Using default
+[  23.274960] Service.APT <Warning> core/hle/service/apt/apt.cpp:NotifyToWait:343: (STUBBED) app_id=768
+[  23.276212] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000007, input_size=0X00000004, output_size=0X00000001
+[  23.276377] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[  23.304367] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:460: Firmware hash: 0x4e08624ada4a60e0
+[  23.304373] Service.DSP <Info> audio_core/hle/hle.cpp:LoadComponent:464: Structures hash: 0x228655de1258d999
+[  23.304374] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:LoadComponent:192: called size=0xBFFA, prog_mask=0x00FF, data_mask=0x00FF
+[  23.304680] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:RegisterInterruptEvents:259: Registered interrupt=2, channel=2, event=event-0010d7f4
+[  23.304799] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:GetSemaphoreEventHandle:275: (STUBBED) called
+[  23.304915] Service.DSP <Warning> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphoreMask:285: (STUBBED) called mask=0x2000
+[  23.305087] Audio.DSP <Info> audio_core/hle/hle.cpp:PipeWrite:224: Application has requested initialization of DSP hardware
+[  23.305164] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[  23.305887] Service.DSP <Info> core/hle/service/dsp/dsp_dsp.cpp:SetSemaphore:57: called, semaphore_value=4000
+[  23.412088] Service.CFG <Info> core/hle/service/cfg/cfg.cpp:UpdatePreferredRegionCode:797: Preferred region code set to 4
+[  23.412096] Service.CFG <Warning> core/hle/service/cfg/cfg.cpp:UpdatePreferredRegionCode:801: System language 1 does not fit the region. Adjusted to 6
+[  23.430550] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000007, input_size=0X00000004, output_size=0X00000001
+[  23.430590] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[  23.431046] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000007, input_size=0X00000004, output_size=0X00000001
+[  23.431058] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[  24.061446] Service.FS <Error> core/file_sys/archive_sdmc.cpp:OpenFileBase:86: Path not found C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/Private/00020400/phtcache.bin
+[  24.062528] Service.FS <Error> core/file_sys/archive_sdmc.cpp:OpenDirectory:351: C:\Users\Lodge\Downloads\canary2798/user/sdmc/DCIM not found
+[  24.062534] Service.FS <Error> core/hle/service/fs/fs_user.cpp:OpenDirectory:305: failed to get a handle for directory type=4 size=12 data=[Wchar: /DCIM]
+[  24.063365] Service.FS <Error> core/file_sys/archive_sdmc.cpp:OpenDirectory:351: C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/Private/00020400 not found
+[  24.063371] Service.FS <Error> core/hle/service/fs/fs_user.cpp:OpenDirectory:305: failed to get a handle for directory type=4 size=62 data=[Wchar: /Nintendo 3DS/Private/00020400]
+[  24.091271] Service.FS <Error> core/file_sys/archive_sdmc.cpp:OpenDirectory:351: C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS not found
+[  24.091278] Service.FS <Error> core/hle/service/fs/fs_user.cpp:OpenDirectory:305: failed to get a handle for directory type=4 size=28 data=[Wchar: /Nintendo 3DS]
+[  24.091625] Service.FS <Error> core/file_sys/archive_sdmc.cpp:DeleteDirectoryHelper:198: Path not found C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS
+[  24.092395] Service.FS <Error> core/file_sys/archive_sdmc.cpp:OpenDirectory:351: C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/Private not found
+[  24.092400] Service.FS <Error> core/hle/service/fs/fs_user.cpp:OpenDirectory:305: failed to get a handle for directory type=4 size=44 data=[Wchar: /Nintendo 3DS/Private]
+[  24.092460] Service.FS <Error> core/file_sys/archive_sdmc.cpp:DeleteDirectoryHelper:198: Path not found C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/Private
+[  24.092811] Service.FS <Error> core/file_sys/archive_sdmc.cpp:OpenDirectory:351: C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/Private/00020400 not found
+[  24.092815] Service.FS <Error> core/hle/service/fs/fs_user.cpp:OpenDirectory:305: failed to get a handle for directory type=4 size=62 data=[Wchar: /Nintendo 3DS/Private/00020400]
+[  24.092911] Service.FS <Error> core/file_sys/archive_sdmc.cpp:DeleteDirectoryHelper:198: Path not found C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/Private/00020400
+[  24.095654] Service.SRV <Warning> core/hle/service/sm/srv.cpp:Subscribe:212: (STUBBED) called, notification_id=0x207
+[  24.095732] Service.SRV <Warning> core/hle/service/sm/srv.cpp:Subscribe:212: (STUBBED) called, notification_id=0x209
+[  24.096092] Service.SRV <Warning> core/hle/service/sm/srv.cpp:Subscribe:212: (STUBBED) called, notification_id=0x208
+[  24.096204] Service.SRV <Warning> core/hle/service/sm/srv.cpp:Subscribe:212: (STUBBED) called, notification_id=0x20A
+[  24.096402] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:194: Delay generator was not initalized. Using default
+[  24.096552] Service.FS <Warning> core/hle/service/fs/fs_user.cpp:CardSlotIsInserted:549: (STUBBED) called
+[  24.097091] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:194: Delay generator was not initalized. Using default
+[  24.107375] Service.APT <Warning> core/hle/service/apt/apt.cpp:AppletUtility:694: (STUBBED) called command=0X00000004, input_size=0X00000001, output_size=0X00000001
+[  24.107646] Service.FS <Error> ./core/file_sys/archive_backend.h:GetOpenDelayNs:194: Delay generator was not initalized. Using default
+[  24.280640] Service.FS <Error> core/hle/service/fs/fs_user.cpp:OpenArchive:333: failed to get a handle for archive archive_id=0x00000006 archive_path=[Binary: 010000006702000000000000]
+[  24.638050] Service.FS <Error> core/file_sys/savedata_archive.cpp:DeleteFile:116: File not found C:\Users\Lodge\Downloads\canary2798/user/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/extdata/00000000/00000267/user/ExBanner/COMMON.bin
+[  35.517926] RPC_Server <Info> core/rpc/server.cpp:NewRequestCallback:36: Received end packet
+[  35.518157] Audio.DSP <Info> audio_core/hle/aac_decoder.cpp:~AACDecoder:35: Destroyed FAAD2 AAC decoder.
+[  35.518517] Audio.Sink <Info> audio_core/cubeb_sink.cpp:StateCallback:138: Cubeb Audio Stream Stopped
+[  35.550114] Kernel <Info> core/hle/kernel/process.cpp:~Process:634: Cleaning up process 11
+[  75.151694] WebService <Error> web_service/web_backend.cpp:GenericRequest:115: POST to https://api.citra-emu.org/telemetry returned error status code: 522
+[  75.151694] WebService <Error> web_service/web_backend.cpp:GenericRequest:115: POST to https://api.citra-emu.org/telemetry returned error status code: 522

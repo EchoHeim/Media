@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BadgeSettings</key>
+	<dict>
+		<key>FontSize</key>
+		<integer>12</integer>
+		<key>ShadowYoffset</key>
+		<real>1</real>
+		<key>TextColor</key>
+		<string>#ffffff80</string>
+		<key>TextYoffset</key>
+		<real>1</real>
+		<key>WidthChange</key>
+		<real>0.0</real>
+	</dict>
+	<key>IB-MaskIcons</key>
+	<true/>
+	<key>PackageName</key>
+	<string>主题</string>
+</dict>
+</plist>

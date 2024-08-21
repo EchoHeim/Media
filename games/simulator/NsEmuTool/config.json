@@ -1,0 +1,45 @@
+{
+  "yuzu": {
+    "yuzu_path": "D:\\Recreation\\Yuzu",
+    "yuzu_version": "4176",
+    "yuzu_firmware": null,
+    "branch": "ea"
+  },
+  "ryujinx": {
+    "path": "D:\\Recreation\\Ryujinx",
+    "version": "1.1.1350",
+    "firmware": "18.1.0r",
+    "branch": "mainline"
+  },
+  "suyu": {
+    "path": "D:\\Suyu",
+    "version": null,
+    "firmware": null,
+    "branch": "dev"
+  },
+  "setting": {
+    "ui": {
+      "lastOpenEmuPage": "yuzu",
+      "dark": true,
+      "mode": "auto",
+      "width": 1280,
+      "height": 850
+    },
+    "network": {
+      "firmwareDownloadSource": "github",
+      "githubApiMode": "direct",
+      "githubDownloadMirror": "cloudflare_load_balance",
+      "useDoh": true,
+      "proxy": "system"
+    },
+    "download": {
+      "autoDeleteAfterInstall": true,
+      "disableAria2Ipv6": true,
+      "removeOldAria2LogFile": true,
+      "verifyFirmwareMd5": true
+    },
+    "other": {
+      "rename_yuzu_to_cemu": false
+    }
+  }
+}

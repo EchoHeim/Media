@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BadgeSettings</key>
+	<dict>
+		<key>FontSize</key>
+		<real>0.10000000000000001</real>
+		<key>TextColor</key>
+		<string>#FFFFFF</string>
+		<key>TextXoffset</key>
+		<integer>0</integer>
+		<key>TextYoffset</key>
+		<integer>0</integer>
+	</dict>
+	<key>PackageName</key>
+	<string>角标</string>
+</dict>
+</plist>
