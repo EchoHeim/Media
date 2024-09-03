@@ -9,6 +9,38 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\召唤之夜 - 铸剑物语 - 起源之石[啪嗒啪嗒](v1.1)[繁](JP)(256Mb).gba",
+      "label": "",
+      "core_path": "D:\\Recreation\\_Media_\\games\\RetroArch\\cores\\vba_next_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (VBA Next)",
+      "crc32": "",
+      "db_name": "Nintendo - Game Boy Advance"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\nes合集\\坦克大战.nes",
+      "label": "",
+      "core_path": "D:\\Recreation\\_Media_\\games\\RetroArch\\cores\\nestopia_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": "Nintendo - Nintendo Entertainment System|Nintendo - Family Computer Disk System"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\古惑狼4[D商+dcillbleed](256Mb).gba",
+      "label": "Gu Huo Lang 4 (Taiwan) (Unl)",
+      "core_path": "D:\\Recreation\\_Media_\\games\\RetroArch\\cores\\vba_next_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (VBA Next)",
+      "crc32": "1608F6DB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\怪物召唤士[Fhz](Beta)(简)(JP)(64Mb).gba",
+      "label": "",
+      "core_path": "D:\\Recreation\\_Media_\\games\\RetroArch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "D:\\Recreation\\_Media_\\games\\gba合集\\GBA_1986_精灵宝可梦 绿宝石_中文典藏版_漫游&TGB联合汉化.gba",
       "label": "",
       "core_path": "D:\\Recreation\\_Media_\\games\\RetroArch-Win64\\cores\\vba_next_libretro.dll",

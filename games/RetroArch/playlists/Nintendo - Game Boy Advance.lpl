@@ -1,0 +1,52 @@
+{
+  "version": "1.5",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\超级玛莉欧DX[D商+yy小龙虾](256Mb).gba",
+      "label": "Chaoji Maliou DX (Taiwan) (Unl)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2C7AF7E8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\古惑狼4[D商+dcillbleed](256Mb).gba",
+      "label": "Gu Huo Lang 4 (Taiwan) (Unl)",
+      "core_path": "D:\\Recreation\\_Media_\\games\\RetroArch\\cores\\vba_next_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (VBA Next)",
+      "crc32": "1608F6DB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\雷曼4 光明之旅[D商](256Mb).gba",
+      "label": "Leiman IV - Guangming Zhi Lv (Taiwan) (Unl)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D05C8414|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\忍者神龟2[D商+yy小龙虾](256Mb).gba",
+      "label": "Renzhe Shen Gui 2 (Taiwan) (Unl)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F4641711|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "D:\\Recreation\\_Media_\\games\\gba合集\\数码怪兽 - 红宝石版[D商](64Mb).gba",
+      "label": "Shuma Guaishou - Hongbaoshi Ban (Taiwan) (Unl)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AC355418|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    }
+  ]
+}
