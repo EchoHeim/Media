@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <logflag>0</logflag>
+    <advanced_ppc_logging>false</advanced_ppc_logging>
+    <mlc_path>D:/Recreation/Cemu/MLC</mlc_path>
+    <permanent_storage>true</permanent_storage>
+    <language>129</language>
+    <use_discord_presence>false</use_discord_presence>
+    <fullscreen_menubar>false</fullscreen_menubar>
+    <feral_gamemode>false</feral_gamemode>
+    <check_update>true</check_update>
+    <receive_untested_updates>true</receive_untested_updates>
+    <save_screenshot>true</save_screenshot>
+    <vk_warning>false</vk_warning>
+    <gp_download>true</gp_download>
+    <macos_disclaimer>false</macos_disclaimer>
+    <fullscreen>false</fullscreen>
+    <proxy_server></proxy_server>
+    <disable_screensaver>true</disable_screensaver>
+    <console_language>6</console_language>
+    <window_position>
+        <x>-1</x>
+        <y>-1</y>
+    </window_position>
+    <window_size>
+        <x>-1</x>
+        <y>-1</y>
+    </window_size>
+    <window_maximized>false</window_maximized>
+    <open_pad>false</open_pad>
+    <pad_position>
+        <x>-1</x>
+        <y>-1</y>
+    </pad_position>
+    <pad_size>
+        <x>-1</x>
+        <y>-1</y>
+    </pad_size>
+    <pad_maximized>false</pad_maximized>
+    <show_icon_column>true</show_icon_column>
+    <GameList>
+        <style>0</style>
+        <order>[0, 1, 2, 3, 4, 5, 6, 7, 8]</order>
+        <name_width>500</name_width>
+        <version_width>60</version_width>
+        <dlc_width>50</dlc_width>
+        <game_time_width>140</game_time_width>
+        <game_started_width>160</game_started_width>
+        <region_width>302</region_width>
+        <title_id>0</title_id>
+    </GameList>
+    <RecentLaunchFiles>
+        <Entry>D:/Recreation/Cemu/MLC/usr/title/00050000/101c9300</Entry>
+        <Entry>D:/Recreation/Cemu/MLC/usr/title/00050000/10116100</Entry>
+        <Entry>D:/Recreation/Cemu/MLC/usr/title/00050000/10143500</Entry>
+        <Entry>D:/Recreation/Cemu/MLC/aa/XenobladeX-[newfont]CHS[v1.00]-WUP</Entry>
+        <Entry>D:/Recreation/Cemu/MLC/usr/title/00050000/101C9300</Entry>
+        <Entry>D:/Recreation/Cemu_2.0-85/MLC/usr/title/00050000/101c9300</Entry>
+        <Entry>D:/Recreation/Cemu_2.0-85/MLC/usr/title/00050000/1019e600</Entry>
+        <Entry>D:/Recreation/Cemu_2.0-85/MLC/usr/title/00050000/10143500</Entry>
+        <Entry>D:/Recreation/Cemu_2.0-85/mlc01/旷野之息.wua</Entry>
+    </RecentLaunchFiles>
+    <RecentNFCFiles>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\时之笛 (希克面罩).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克-弓手 (游隼&amp;王族弓&amp;箭矢).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克-初代 (初始勇者套&amp;长剑).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\风之杖 (风之勇者套&amp;海风飞旋镖).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克 (黄昏之勇者套装&amp;伊波娜)-2.bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克-假面 (鬼神套-鬼神大剑).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\时之笛 (时之勇者套-大鼓隆之剑).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克- (天空之勇者套装&amp;女神的白刃剑).bin</Entry>
+        <Entry>D:\Recreation\Yuzu\王国之泪Tools\amiibo\御天之剑塞尔达与洛夫特飞鸟 TLoZ SS Zelda &amp; Loftwing.bin</Entry>
+        <Entry>D:\Recreation\Yuzu\王国之泪Tools\amiibo\塞尔达传说30周年系列 The Legend of Zelda 30th anniversary series\30周年时之笛林克 TLoZ 30th Anniv OoT Link.bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克-狼.bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克 (黄昏之勇者套装&amp;伊波娜).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\林克-骑马 (旅人马具).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\英杰-达尔克尔 (火神兽头盔).bin</Entry>
+        <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\塞尔达公主 (黄昏之光弓&amp;星星 ).bin</Entry>
+    </RecentNFCFiles>
+    <GamePaths/>
+    <GameCache/>
+    <GraphicPack>
+        <Entry filename="graphicPacks/BreathOfTheWild_BCML_v22.1.5++/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/Byakugan/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!ChangeWeapons/Royalguard/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/RemoveFog/rules.txt">
+            <Preset>
+                <category>Main Menu</category>
+                <preset>Distant Fog Settings</preset>
+            </Preset>
+            <Preset>
+                <category>Field Fog Clouds</category>
+                <preset>Default Field Fog Clouds Enabled</preset>
+            </Preset>
+            <Preset>
+                <category>Distant NPC Fog Percentage</category>
+                <preset>Distant NPC Fog 60%</preset>
+            </Preset>
+            <Preset>
+                <category>Distant World Fog</category>
+                <preset>Fog 80%</preset>
+            </Preset>
+            <Preset>
+                <category>Distant Lighting</category>
+                <preset>Distant Lighting x2</preset>
+            </Preset>
+            <Preset>
+                <category>Distant Fog Color RGB</category>
+                <preset>Default Fog RGB</preset>
+            </Preset>
+            <Preset>
+                <category>Field Fog Clouds RGB</category>
+                <preset>Default RGB Field Fog Clouds</preset>
+            </Preset>
+            <Preset>
+                <category>Castle Aura</category>
+                <preset>Castle Aura 80%</preset>
+            </Preset>
+            <Preset>
+                <category>Castle Aura RGB</category>
+                <preset>Purple Castle Aura</preset>
+            </Preset>
+            <Preset>
+                <category>Castle Fog</category>
+                <preset>Castle Moat Fog 50%</preset>
+            </Preset>
+            <Preset>
+                <category>Castle Moat Fog RGB</category>
+                <preset>Cyan Castle Moat Fog</preset>
+            </Preset>
+            <Preset>
+                <category>CustomPreset</category>
+                <preset>Default Preset</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Linkles_v3/!Hair And Eye Colour/Blue eyes - Pink hair/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!SystemEnv/!Brighter_Lights/SC Logo/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!SystemEnv/ArmorLimit/rules.txt">
+            <Preset>
+                <category>页数</category>
+                <preset>8页</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/ClimbingInTheRain/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/CookingPotFromWood/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/NoPanicMoons/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/InfiniteAmiibo/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/Durability/rules.txt">
+            <Preset>
+                <category>Durability Modifier</category>
+                <preset>Unbreakable</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Enhancements/rules.txt">
+            <Preset>
+                <category>Clarity</category>
+                <preset>Serfrost's Preset (Bright Display)</preset>
+            </Preset>
+            <Preset>
+                <category>Depth Of Field</category>
+                <preset>Enabled</preset>
+            </Preset>
+            <Preset>
+                <category>Reflections</category>
+                <preset>Normal Reflections</preset>
+            </Preset>
+            <Preset>
+                <category>Reflection Range</category>
+                <preset>Low (4 samples, Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Anisotropic Filtering</category>
+                <preset>Ultra (8x, Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Graphics/rules.txt">
+            <Preset>
+                <category>Aspect Ratio</category>
+                <preset>16:9 (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Ultrawide HUD Mode</category>
+                <preset>Edge HUD (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Shadows</category>
+                <preset>Extreme (400%, Unstable)</preset>
+            </Preset>
+            <Preset>
+                <category>Resolution</category>
+                <preset>2560x1440 (2K)</preset>
+            </Preset>
+            <Preset>
+                <category>Anti-Aliasing</category>
+                <preset>None</preset>
+            </Preset>
+            <Preset>
+                <category>Shadow Draw Distance</category>
+                <preset>High (Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/CameraSensitivity/rules.txt">
+            <Preset>
+                <category>Camera Sensitivity</category>
+                <preset>1.4x (Recommended)</preset>
+            </Preset>
+            <Preset>
+                <category>Additional Movement Sensitivity</category>
+                <preset>1.15x (Recommended)</preset>
+            </Preset>
+            <Preset>
+                <category>Additional Vertical Movement Sensitivity</category>
+                <preset>0.8x</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/DayLength/rules.txt">
+            <Preset>
+                <category>Day/Night Cycle</category>
+                <preset>Enabled (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Day Length</category>
+                <preset>24 minutes (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Cloud Speed</category>
+                <preset>Scaled with day length (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Fixed Time Of Day</category>
+                <preset>12:00</preset>
+            </Preset>
+            <Preset>
+                <category>Clock Increment Frequency</category>
+                <preset>Update every 5 minutes (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Time between Blood Moons</category>
+                <preset>28 days</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/DivineLaserBeam/rules.txt">
+            <Preset>
+                <category>Show Laser</category>
+                <preset>Yes (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Laser Color</category>
+                <preset>Rainbow</preset>
+            </Preset>
+            <Preset>
+                <category>Color Saturation</category>
+                <preset>75%</preset>
+            </Preset>
+            <Preset>
+                <category>Laser Opacity</category>
+                <preset>75%</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/DrawDistance/rules.txt">
+            <Preset>
+                <category>NPC, Enemies And Other Entities</category>
+                <preset>Extreme (2x, requires Extended Memory pack!)</preset>
+            </Preset>
+            <Preset>
+                <category>Texture Distance Detail (LOD)</category>
+                <preset>Normal (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Terrain, Buildings, Bushes And Other Objects</category>
+                <preset>Ultra (1.5x, requires Extended Memory pack!)</preset>
+            </Preset>
+            <Preset>
+                <category>Trees (2D Billboards)</category>
+                <preset>Medium (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Grass Blades Density</category>
+                <preset>Medium (Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/ExtendedMemory/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/FPS++/rules.txt">
+            <Preset>
+                <category>Mode</category>
+                <preset>Advanced Settings</preset>
+            </Preset>
+            <Preset>
+                <category>Fence Type</category>
+                <preset>Performance Fence (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>FPS Limit</category>
+                <preset>120FPS Limit</preset>
+            </Preset>
+            <Preset>
+                <category>Framerate Limit</category>
+                <preset>60FPS (ideal for 240/120/60Hz displays)</preset>
+            </Preset>
+            <Preset>
+                <category>Cutscene FPS Limit</category>
+                <preset>Limit all cutscenes to 30FPS</preset>
+            </Preset>
+            <Preset>
+                <category>Static Mode</category>
+                <preset>Disabled (Default, dynamically adjust game speed)</preset>
+            </Preset>
+            <Preset>
+                <category>Debug Options</category>
+                <preset>Disabled (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Frame Average</category>
+                <preset>8 Frames Averaged (Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/GlowingGuardianColor/rules.txt">
+            <Preset>
+                <category>Ancient Armor</category>
+                <preset>Energy Blue</preset>
+            </Preset>
+            <Preset>
+                <category>Ancient Weapons</category>
+                <preset>Varied (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Decayed Guardian</category>
+                <preset>Malice Red (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Guardian, Stalker, Scout and Guardian Weapons</category>
+                <preset>Varied (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Guardian + Skywatcher</category>
+                <preset>Varied (Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/MenuCursorSpeed/rules.txt">
+            <Preset>
+                <category>Menu Navigation Speed</category>
+                <preset>1.1x</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Enhancements/NegativeLOD/rules.txt">
+            <Preset>
+                <preset>LOD -1 (Max for gameplay)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/KirbyRainbow_InvisibleLineFix/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Workarounds/Brightness/rules.txt">
+            <Preset>
+                <preset>NVIDIA</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/NewSuperMarioBrosU/Workarounds/CrashFix/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/SkylandersSwapForce/Workarounds/PortalStabilityFix/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/WindWakerHD_Resolution/rules.txt">
+            <Preset>
+                <preset>1920x1080 (Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Graphics/rules.txt">
+            <Preset>
+                <category>Resolution</category>
+                <preset>2560x1440 (2k)</preset>
+            </Preset>
+            <Preset>
+                <category>Skell Cockpit Resolution</category>
+                <preset>Medium (100%, Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Shadow Quality</category>
+                <preset>High (200%)</preset>
+            </Preset>
+            <Preset>
+                <category>Post-Processing Effect Quality</category>
+                <preset>Medium (100%, Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Mods/60FPS/rules.txt">
+            <Preset>
+                <category>FPS Limit</category>
+                <preset>60FPS Limit (Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Mods/HideOfflineLabel/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Mods/HudNpcInfoBubblesDistance/rules.txt"/>
+    </GraphicPack>
+    <Graphic>
+        <api>1</api>
+        <device>00000000000000000000000000000000</device>
+        <VSync>0</VSync>
+        <GX2DrawdoneSync>true</GX2DrawdoneSync>
+        <UpscaleFilter>1</UpscaleFilter>
+        <DownscaleFilter>0</DownscaleFilter>
+        <FullscreenScaling>0</FullscreenScaling>
+        <AsyncCompile>true</AsyncCompile>
+        <vkAccurateBarriers>true</vkAccurateBarriers>
+        <Overlay>
+            <Position>0</Position>
+            <TextColor>4294967053</TextColor>
+            <TextScale>100</TextScale>
+            <FPS>true</FPS>
+            <DrawCalls>false</DrawCalls>
+            <CPUUsage>false</CPUUsage>
+            <CPUPerCoreUsage>false</CPUPerCoreUsage>
+            <RAMUsage>false</RAMUsage>
+            <VRAMUsage>false</VRAMUsage>
+            <Debug>false</Debug>
+        </Overlay>
+        <Notification>
+            <Position>0</Position>
+            <TextColor>4294967295</TextColor>
+            <TextScale>100</TextScale>
+            <ControllerProfiles>true</ControllerProfiles>
+            <ControllerBattery>false</ControllerBattery>
+            <ShaderCompiling>true</ShaderCompiling>
+            <FriendService>true</FriendService>
+        </Notification>
+    </Graphic>
+    <Audio>
+        <api>0</api>
+        <delay>2</delay>
+        <TVChannels>1</TVChannels>
+        <PadChannels>1</PadChannels>
+        <InputChannels>0</InputChannels>
+        <TVVolume>50</TVVolume>
+        <PadVolume>0</PadVolume>
+        <InputVolume>50</InputVolume>
+        <TVDevice>default</TVDevice>
+        <PadDevice></PadDevice>
+        <InputDevice></InputDevice>
+    </Audio>
+    <Account>
+        <PersistentId>2147483649</PersistentId>
+        <OnlineEnabled>false</OnlineEnabled>
+        <ActiveService>0</ActiveService>
+    </Account>
+    <AccountService/>
+    <Debug>
+        <CrashDumpWindows>0</CrashDumpWindows>
+        <GDBPort>1337</GDBPort>
+    </Debug>
+    <Input>
+        <DSUC host="127.0.0.1" port="26760"/>
+    </Input>
+    <EmulatedUsbDevices>
+        <EmulateSkylanderPortal>false</EmulateSkylanderPortal>
+        <EmulateInfinityBase>true</EmulateInfinityBase>
+    </EmulatedUsbDevices>
+</content>
