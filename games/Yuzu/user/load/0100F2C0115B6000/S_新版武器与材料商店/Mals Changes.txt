@@ -1,0 +1,229 @@
+USen.Product.110.sarc.zs/ActorMsg/PounchContent.msbt Additions:
+
+Item_Enemy_2058_Name: |
+  Fire-Breath Lizalfos Horn (Invisible)
+Item_Enemy_2058_Caption: |
+  A horn that glows red with the power of fire.
+  Cook it with a critter to make an elixir. The
+  right combination could draw out the blazing
+  power contained within.
+
+Item_Enemy_2059_Name: |
+  Ice-Breath Lizalfos Horn (Invisible)
+Item_Enemy_2059_Caption: |
+  The freezing power embedded in this horn's
+  crystal tip can be used to your advantage if
+  you know how. Otherwise, cook it with a
+  critter to make an elixir.
+  
+Item_Enemy_2060_Name: |
+  Electric Lizalfos Horn (Invisible)
+Item_Enemy_2060_Caption: |
+  A horn charged with as much electricity as a
+  bolt of lightning. Cook it with a critter to
+  make an elixir. It will discharge electricity
+  when stimulated.
+  
+Item_Enemy_2080_Name: |
+  Silver Bokoblin Horn (Invisible)
+Item_Enemy_2080_Caption: |
+  A large, blade-like horn with a unique flourish
+  on the tip. It's sharper than it looks. Attach it
+  to a weapon to vastly increase attack power,
+  or cook it with a critter to make an elixir.
+  
+Item_Enemy_2092_Name: |
+  Silver Moblin Horn (Invisible)
+Item_Enemy_2092_Caption: |
+  A nasty-looking, rock-hard horn. Attach it to
+  a weapon to vastly increase its attack power,
+  or cook it with a critter to make an elixir.
+  
+Item_Enemy_2103_Name: |
+  Silver Horriblin Horn (Invisible)
+Item_Enemy_2103_Caption: |
+  A curved horn with an extremely hard tip.
+  Attach it to a weapon to vastly increase its
+  attack power, or cook it with a critter to
+  make an elixir.
+  
+Item_Enemy_2109_Name: |
+  Silver Lizalfos Horn (Invisible)
+Item_Enemy_2109_Caption: |
+  A sickle-shaped horn that looks like it could
+  slice anything it touches. Attach it to a
+  weapon to vastly increase its attack power, or
+  cook it with a critter to make an elixir.
+  
+Item_Enemy_2134_Name: |
+  Silver Boss Bokoblin Horn (Invisible)
+Item_Enemy_2134_Caption: |
+  A circular, serrated horn. The neatly tied strap
+  contains arcane power. Attach it to a weapon
+  to vastly increase attack power, or cook it
+  with a critter to make an elixir.
+  
+Item_Enemy_2144_Name: |
+  Black Hinox Horn (Invisible)
+Item_Enemy_2144_Caption: |
+  A horn wrapped in dangerous debris. It's easy
+  to work with and greatly increases the attack
+  power of a weapon when attached. Cook it
+  with a critter to make an elixir.
+  
+Item_Enemy_2151_Name: |
+  Silver Lynel Saber Horn (Invisible)
+Item_Enemy_2151_Caption: |
+  This piercing horn is sharpened to a point for
+  maximum poking. Attach it to a weapon to
+  vastly increase its attack power. Cook it with
+  a critter to make an elixir.
+  
+Item_Enemy_2153_Name: |
+  Gleeok Flame Horn (Invisible)
+Item_Enemy_2153_Caption: |
+  A crown-like, fire-imbued horn of a Gleeok.
+  Attach it to a weapon to vastly increase its
+  attack power. Cook it with a critter to make
+  an elixir.
+  
+Item_Enemy_2154_Name: |
+  Gleeok Frost Horn (Invisible)
+Item_Enemy_2154_Caption: |
+  A crown-like, frost-imbued horn of a Gleeok.
+  Attach it to a weapon to vastly increase its
+  attack power. Cook it with a critter to make
+  an elixir.
+  
+Item_Enemy_2155_Name: |
+  Gleeok Thunder Horn (Invisible)
+Item_Enemy_2155_Caption: |
+  A crown-like, lightning-imbued horn of a
+  Gleeok. Attach it to a weapon to vastly
+  increase its attack power. Cook it with a
+  critter to make an elixir.
+  
+Item_Enemy_2156_Name: |
+  Gleeok Wing (Invisible)
+Item_Enemy_2156_Caption: |
+  This aerodynamic wing segment from a
+  Gleeok is thin and light but extremely sturdy.
+  Arrows and thrown weapons fly farther with
+  this item attached.
+  
+Item_Enemy_2169_Name: |
+  Soldier Construct IV Horn (Invisible)
+Item_Enemy_2169_Caption: |
+  A horn embedded with a sharp disk. The disk
+  spins mysteriously and can slice through
+  almost anything. Attach the horn to a weapon
+  and vastly increase its attack power.
+  
+Item_Enemy_2188_Name: |
+  Blue-White Frox Fang (Invisible)
+Item_Enemy_2188_Caption: |
+  A giant fang that can easily dig through solid
+  bedrock. Attach it to a weapon to vastly
+  increase its attack power, or cook it with a
+  critter to make an elixir.
+  
+Item_Enemy_2193_Name: |
+  Captain Construct IV Horn (Invisible)
+Item_Enemy_2193_Caption: |
+  A mean-looking, branching, blade-like horn.
+  Its edges and tips are extremely sharp. Attach
+  it to a weapon to vastly increase its attack
+  power.
+  
+Item_Enemy_2208_Name: |
+  Stalnox Horn (Invisible)
+Item_Enemy_2208_Caption: |
+  The impaled skulls should serve as a warning.
+  But if you do obtain one, attach it to a
+  weapon to vastly increase its attack power, or
+  cook it with a critter to make an elixir.
+  
+Item_Enemy_2210_Name: |
+  Molduga Jaw (Invisible)
+Item_Enemy_2210_Caption: |
+  A hard jawbone. Its shape allows a Molduga
+  some maneuverability in the sand. Attach it to
+  a weapon to greatly increase its attack power.
+  Cook it with a critter to make an elixir.
+  
+Item_Enemy_2211_Name: |
+  Dinraal's Horn (Invisible)
+Item_Enemy_2211_Caption: |
+  A sharp horn of the red spirit, Dinraal. It is
+  said to be the crystallized power of fire itself.
+  Attach the blade-shaped horn to a weapon to
+  vastly increase attack power.
+  
+Item_Enemy_2212_Name: |
+  Naydra's Horn (Invisible)
+Item_Enemy_2212_Caption: |
+  A sharp horn of the blue spirit, Naydra. It is
+  said to be the crystallized power of ice itself.
+  Attach the blade-shaped horn to a weapon to
+  vastly increase attack power.
+  
+Item_Enemy_2213_Name: |
+  Farosh's Horn (Invisible)
+Item_Enemy_2213_Caption: |
+  A sharp horn of the golden spirit, Farosh. It is
+  said to be the crystallized power of electricity
+  itself. Attach the blade-shaped horn to a
+  weapon to vastly increase attack power.
+  
+Item_Enemy_2214_Name: |
+  Light Dragon's Horn (Invisible)
+Item_Enemy_2214_Caption: |
+  A horn chipped off the Light Dragon. Its
+  gentle glow has a calming effect, and it has a
+  mysterious healing power when attached to
+  a weapon.
+  
+Item_Enemy_2218_Name: |
+  Silver Lynel Mace Horn (Invisible)
+Item_Enemy_2218_Caption: |
+  This wickedly barbed Silver Lynel horn is as
+  hard as a diamond. Attach to a weapon to
+  vastly increase its attack power. It's also a
+  precious elixir ingredient.
+  
+Item_Ore_2A_Name: |
+  Diamond (Invisible)
+Item_Ore_2A_Caption: |
+  The most precious ore one can find. Its
+  signature sparkle has charmed Hyruleans for
+  generations. As such, it has sold for a very
+  high price since ancient times.
+  
+Item_Ore_2B_Name: |
+  Ruby (Invisible)
+Item_Ore_2B_Caption: |
+  A precious red ore mined from large ore
+  deposits. Rubies contain the power of fire and
+  have fetched a high price since ancient times.
+  
+Item_Ore_2C_Name: |
+  Sapphire (Invisible)
+Item_Ore_2C_Caption: |
+  A precious blue ore mined from natural rock
+  formations. Sapphires contain the very
+  essence of ice. They've been known to
+  fetch a high price since ancient times.
+  
+Item_Ore_2D_Name: |
+  Topaz (Invisible)
+Item_Ore_2D_Caption: |
+  This precious yellow ore contains the power
+  of electricity. It's been known to fetch a
+  high price since ancient times.
+  
+Item_Ore_2E_Name: |
+  Opal (Invisible)
+Item_Ore_2E_Caption: |
+  A valuable ore that gives off a mesmerizing
+  iridescence similar to the inside of a seashell.
+  It contains the power of water.

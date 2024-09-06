@@ -1,0 +1,14 @@
+@nsobid-9B4E43650501A4D4489B4BBFDB740F26AF3CF850
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Stamina does not deplete when sprinting
+
+@enabled
+01D6AD84 08008052
+01D6ADE4 E003271E
+01D6AE08 08008052
+@stop
+
+@fruithapje21

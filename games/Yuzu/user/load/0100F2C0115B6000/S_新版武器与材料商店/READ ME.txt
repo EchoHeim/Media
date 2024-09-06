@@ -1,0 +1,7 @@
+Thanks for downloading the mod!
+
+Included are text files containing the edits and additions to the Language file (Mals), RSDB files (ActorInfo, GameActorInfo, and PouchActorInfo), and the Resource Size Table. I've also included an optional additional AttachmentActorInfo file if you want to figure out how to get it working as I haven't been able to.
+
+In regards to the actor files themselves in Pack/Actor, the new actors are clones of existing actors with modifications to them so that they would be treated as new actors as described by ThatRobin3001's tutorial at https://gamebanana.com/tuts/16136. They were then further modified to be invisible using Zenovis's tutorial included in their mod, Invisible Fuses, at https://gamebanana.com/mods/449762. As for the Shop Constructs, their changes were adding the new items to their ShopParam and removing "SpecialDeal: BatteryExchangeGolem" from ShopParam so that they would take materials other than Crystallized Charges.
+
+Leave a comment or DM me if you have any questions regarding the mod. My contacts are Lyasiann on Gamebanana and siann. on Discord. You can also ping me on the TOTK Modding Hub on Discord as well. 
