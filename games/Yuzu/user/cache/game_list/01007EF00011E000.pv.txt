@@ -1,0 +1,6 @@
+Update (1.6.0)
+1.7.8Xe_失落遗迹战斗系统 (LayeredFS)
+1.7.8Xe终焉之地V5 (LayeredFS)
+[D] 1.7.9Xe终焉之地_序章 (LayeredFS)
+60FPS (IPSwitch)
+DLC (1, 2)

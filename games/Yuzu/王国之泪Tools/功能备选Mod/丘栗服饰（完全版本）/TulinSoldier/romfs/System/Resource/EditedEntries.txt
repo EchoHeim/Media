@@ -1,0 +1,3 @@
+TexToGo/Npc_Rito_Moto_Young_Body_Alb.txtg: 212999
+TexToGo/Npc_Rito_Moto_Young_Body_Nrm.txtg: 526999
+TexToGo/Npc_Rito_Moto_Young_Body_Spm.txtg: 212999

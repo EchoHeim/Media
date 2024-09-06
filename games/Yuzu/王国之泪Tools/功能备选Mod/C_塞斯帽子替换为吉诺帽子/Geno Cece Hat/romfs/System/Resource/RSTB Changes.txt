@@ -1,0 +1,19 @@
+If you don't already know, these files are modified with https://github.com/NX-Editor/NxEditor.
+
+To edit the Resource Size Table (RSTB), you will need this hash list:
+https://cdn.discordapp.com/attachments/1098336318607597578/1118643844255326319/Totk.Strings.txt
+
+-----------------------------------------------------------------------------------------------
+
+Model/Armor_1076.Armor_1076_Head.bfres 		236448
+
+Pack/Actor/Armor_1076_Head.pack 			232800
+
+Phive/Cloth/Armor_1076_Head.bphcl			138912
+
+Component/ArmorParam/Armor_1076_Head.game__component__ArmorParam.bgyml	 6640
+
+-----------------------------------------------------------------------------------------------
+
+Uncompressed Bfres Ratio:
+Head:	181,744  x  1.285
