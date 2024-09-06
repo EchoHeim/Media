@@ -1,0 +1,5 @@
+[BotwV208]
+moduleMatches = 0x6267BFD0
+
+0x0365f254 = bl 0x0365f310
+0x03660dd8 = bl 0x03660df0

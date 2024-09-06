@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 修正血月冲突
+path = "塞尔达传说: 旷野之息/系统环境/血月（修正冲突）"
+description = 修正血月冲突。|由 NiceneNerd 制作。
+version = 7

@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = "发光"
+path = "塞尔达传说: 旷野之息/系统环境/发光"
+description = Changes the color of objects that glow in game, view the readme for more info.
+version = 4

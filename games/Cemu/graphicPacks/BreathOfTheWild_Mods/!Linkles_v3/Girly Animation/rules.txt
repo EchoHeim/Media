@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name =  Girly Animation Pack v8.0 
+path = "塞尔达传说: 旷野之息/林可儿组件/少女姿态 v3"
+description = 让林妹妹变得更加少女！|包含行动，拍照，等一系列动作，姿势的改动...|可能还有一些小Bug...||GameBanana：|https://gamebanana.com/mods/49763
+version = 4
+fsPriority = 1003

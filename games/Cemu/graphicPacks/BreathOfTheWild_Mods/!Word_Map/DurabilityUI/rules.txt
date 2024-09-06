@@ -1,0 +1,19 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 显示装备耐久度
+path = "塞尔达传说: 旷野之息/系统环境/显示装备耐久度"
+description = 在装备切换界面显示耐久度信息。
+version = 5
+
+[Default]
+$UIDurFormat:int = 1
+
+[Preset]
+name = 显示装备名称和耐久度
+category = 显示设置
+$UIDurFormat:int = 1
+
+[Preset]
+name = 只显示耐久度
+category = 显示设置
+$UIDurFormat:int = 0

@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 它的衬衫
+path = "塞尔达传说: 旷野之息/林可儿组件/服装替换/它的衬衫/贝优妮塔(粉)"
+description = 只能选一个哦.||GameBanana：|https://gamebanana.com/mods/407559
+version = 4
+fsPriority = 1001

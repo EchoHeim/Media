@@ -1,0 +1,30 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Weapon Limiter
+path = "塞尔达传说: 旷野之息/系统环境/背包扩充/背包武器页数上限"
+description = 更改背包中防具页数量的限制.|注意:需要武器限制器一起开启|
+version = 4
+
+[Preset]
+name = 5 武器, 3 弓箭, 5 盾牌
+$WeaponMaxCount = 5 # non-zero value less than or equal to 20
+$BowMaxCount = 3 # non-zero value less than or equal to 13
+$ShieldMaxCount = 5 # non-zero value less than or equal to 20
+
+[Preset]
+name = 40 武器, 13 弓箭, 40 盾牌
+$WeaponMaxCount = 40 # non-zero value less than or equal to 20
+$BowMaxCount = 13 # non-zero value less than or equal to 13
+$ShieldMaxCount = 40 # non-zero value less than or equal to 20
+
+[Preset]
+name = 40 武器, 34 弓箭, 40 盾牌
+$WeaponMaxCount = 40 # non-zero value less than or equal to 20
+$BowMaxCount = 34 # non-zero value less than or equal to 13
+$ShieldMaxCount = 40 # non-zero value less than or equal to 20
+
+[Preset]
+name = 60 武器, 54 弓箭, 60 盾牌
+$WeaponMaxCount = 60 # non-zero value less than or equal to 20
+$BowMaxCount = 54 # non-zero value less than or equal to 13
+$ShieldMaxCount = 60 # non-zero value less than or equal to 20

@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 禁用血月
+path = "塞尔达传说: 旷野之息/系统环境/血月（禁用）"
+description = 禁用常见的血月。|由 NiceneNerd 制作。
+version = 7

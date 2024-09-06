@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 英杰服
+path = "塞尔达传说: 旷野之息/林可儿组件/服装替换/英杰服/蓝T恤"
+description = 也很蓝的啦.||GameBanana：|https://gamebanana.com/mods/412244
+version = 4
+fsPriority = 1001

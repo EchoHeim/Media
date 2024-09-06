@@ -1,0 +1,61 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 背包防具上限
+path = "塞尔达传说: 旷野之息/系统环境/背包扩充/背包防具页数上限"
+description = 更改背包中防具页数量的限制.|注意:|增加页面数量会减少您可以扩充的武器槽数量.||Made by Moonling.
+version = 6
+
+# Research from https://github.com/zeldaret/botw
+
+[Default]
+$SlotCount = 100
+
+[Preset]
+name = 1页
+category = 页数
+$SlotCount = 20
+
+[Preset]
+name = 2页
+category = 页数
+$SlotCount = 40
+
+[Preset]
+name = 3页
+category = 页数
+$SlotCount = 60
+
+[Preset]
+name = 4页
+category = 页数
+$SlotCount = 80
+
+[Preset]
+name = 5页 (默认)
+category = 页数
+default = 1
+
+[Preset]
+name = 6页
+category = 页数
+$SlotCount = 120
+
+[Preset]
+name = 7页
+category = 页数
+$SlotCount = 140
+
+[Preset]
+name = 8页
+category = 页数
+$SlotCount = 160
+
+[Preset]
+name = 9页
+category = 页数
+$SlotCount = 180
+
+[Preset]
+name = 10页 (可能不稳定)
+category = 页数
+$SlotCount = 200

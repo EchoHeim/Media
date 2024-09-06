@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Linkle MOD v3.0.1
+path = 塞尔达传说: 旷野之息/林可儿组件/林可儿 v3
+description = 除了基础插件，请勿与其他整合类MOD一起使用.||感受全新无敌可爱美丽的林可儿吧！|有的衣服不同染色形态不同哦！|包含开始屏幕壁纸替换，对话修复，服装图标.||第一版MOD，可能会小问题.|后续会慢慢解决，可以关注更新...||发布地址：|https://gamebanana.com/mods/406768|加入Discord了解更多：|https://discord.gg/linkle||制作人：|Lynard Killer：项目负责人，模型，纹理，主文件.|Sofiaharley：其他模型，纹理，重新上色，物理，错误修复.|Moonling：其他物理，人物包，错误修复.|PeregrineHBG：其他错误修复，文件管理等.|同时还有许多参与制作与测试的人员，感谢！||图形插件：浮歌.
+version = 4
+fsPriority = 1000

@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 海利亚士兵套-淡蓝染色
+path = 塞尔达传说: 旷野之息/林可儿组件/服装替换/海利亚士兵套/皇家卫兵
+description = 贴近近卫套装风格的 海利亚士兵套 淡蓝 染色.||GameBanana：|https://gamebanana.com/mods/407301
+version = 4
+fsPriority = 1001

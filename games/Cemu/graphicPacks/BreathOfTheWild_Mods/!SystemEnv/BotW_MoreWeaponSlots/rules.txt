@@ -1,0 +1,13 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = More Weapon Slots
+path = "塞尔达传说: 旷野之息/系统环境/背包扩充/背包武器页数上限-武器限制器"
+description = 这就是使它成为2页的原因，如果您想要更多页面，| 请将每个值增加20以获得整页）和“更多武器插槽”<--- || （此图形包修复了游戏中未显示错误的武器槽）
+
+version = 5
+
+[Default]
+$MaxWeaponCount:int = 40
+$MaxShieldCount:int = 40
+$MaxBowCount: int = 13
+$MaxArrowCount:int = 999
