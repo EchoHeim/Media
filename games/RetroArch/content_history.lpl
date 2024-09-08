@@ -9,7 +9,7 @@
   "sort_mode": 2,
   "items": [
     {
-      "path": "D:\\Recreation\\Media\\games\\_GBC_\\孤岛冒险者2.gbc",
+      "path": "D:\\Recreation\\Media\\games\\_GBA_\\牧场物语-矿石镇伙伴 女孩版 汉化修正版.gba",
       "label": "",
       "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\mgba_libretro.dll",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -17,7 +17,31 @@
       "db_name": ""
     },
     {
+      "path": "D:\\Recreation\\Media\\games\\_NES_\\01.外星科技\\塞尔达传说.众神三角力量.NES",
+      "label": "",
+      "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\fceumm_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (FCEUmm)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "D:\\Recreation\\Media\\games\\_NES_\\超级玛丽\\超级玛丽1.nes",
+      "label": "",
+      "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\nestopia_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "D:\\Recreation\\Media\\games\\_GBC_\\孤岛冒险者.gbc",
+      "label": "",
+      "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\mgba_libretro.dll",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "",
+      "db_name": "Nintendo - Game Boy|Nintendo - Game Boy Color|Nintendo - Game Boy Advance"
+    },
+    {
+      "path": "D:\\Recreation\\Media\\games\\_GBC_\\孤岛冒险者2.gbc",
       "label": "",
       "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\mgba_libretro.dll",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
