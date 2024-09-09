@@ -1,0 +1,61 @@
+TIME: 19:26:13,681 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+RAM: 64 GB 4800 MHz and used 23.3%
+CPU: AMD Ryzen 7 6800H with Radeon Graphics         
+
+TIME: 19:26:13,977 - root - INFO: Attempting to create API instructions. Mon Sep  9 19:26:13 2024
+TIME: 19:26:14,665 - LOGGER - INFO: Attemping to fetch list and dict of zip files.
+TIME: 19:26:14,665 - LOGGER - INFO: Fetch list and dict operation success.
+TIME: 19:26:14,666 - root - INFO: Github Api instructions have been fetched succesfully.
+TIME: 19:26:14,666 - root - INFO: Attempting to create api.json.
+TIME: 19:26:14,666 - root - INFO: Creating api.json file..
+TIME: 19:26:14,667 - root - INFO: Adding API time to config_file. Mon Sep  9 19:26:14 2024.
+TIME: 19:26:16,925 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 19:26:16,925 - LOGGER - WARNING: qt-config.ini not found, the script will assume default appdata directories, please reopen Legacy for consistency and make sure TOTK is present..!
+TIME: 19:26:17,691 - LOGGER - INFO: main
+TIME: 19:26:17,749 - LOGGER - INFO: No Benchmarks detected.
+TIME: 19:26:17,750 - LOGGER - INFO: Checking for Updates!
+TIME: 19:26:18,450 - LOGGER - INFO: No Updates Found. Your app is up to date.
+TIME: 19:27:18,921 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 19:27:19,251 - LOGGER - INFO: Couldn`t detect if Legacy.exe is running.
+TIME: 19:27:19,253 - LOGGER - INFO: Downloading: UltraCam
+TIME: 19:27:24,932 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 19:27:24,932 - LOGGER - INFO: Checking for Settings...
+TIME: 19:27:24,961 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 19:27:24,963 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 19:27:24,964 - LOGGER - INFO: Successfully written into log file
+TIME: 19:27:24,964 - LOGGER - INFO: Starting Mod Creator.
+TIME: 19:27:24,964 - LOGGER - INFO: Generating mod at C:\Users\Lodge\AppData\Roaming\yuzu\load\0100F2C0115B6000
+TIME: 19:27:24,968 - LOGGER - INFO: scale:4
+TIME: 19:27:24,974 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 19:27:24,976 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
+TIME: 19:27:46,807 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 19:29:31,197 - LOGGER - WARNING: Game not found in None
+ Please select your game file.
+TIME: 19:29:56,609 - LOGGER - INFO: Launching game D:/Recreation/Media/games/Yuzu/ROM/The Legend of Zelda/The Legend of Zelda Tears of the Kingdom[0100F2C0115B6000][v0].xci
+TIME: 19:29:56,797 - LOGGER - INFO: Couldn`t detect if yuzu.exe is running.
+TIME: 19:30:02,407 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 19:30:02,407 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 19:30:02,408 - LOGGER - INFO: Successfully written into log file
+TIME: 19:30:02,408 - LOGGER - INFO: Successfully selected Legacy.exe! And a portable folder was found at D:/Recreation/Media/games/Yuzu!
+TIME: 19:34:46,21 - LOGGER - WARNING: Couldn't' find QT-config 'NoneType' object is not iterable
+TIME: 19:34:46,28 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 19:34:46,281 - LOGGER - INFO: Couldn`t detect if Legacy.exe is running.
+TIME: 19:34:46,283 - LOGGER - INFO: Downloading: UltraCam
+TIME: 19:34:51,965 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 19:34:51,966 - LOGGER - INFO: Checking for Settings...
+TIME: 19:34:51,966 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 19:34:51,970 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 19:34:51,971 - LOGGER - INFO: Successfully written into log file
+TIME: 19:34:51,971 - LOGGER - INFO: Starting Mod Creator.
+TIME: 19:34:51,971 - LOGGER - INFO: Generating mod at C:\Users\Lodge\Downloads\TOTK Optimizer
+TIME: 19:34:51,974 - LOGGER - INFO: scale:4
+TIME: 19:34:51,976 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 19:34:51,976 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
+TIME: 19:34:57,529 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
