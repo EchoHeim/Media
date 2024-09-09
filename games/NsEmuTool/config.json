@@ -1,13 +1,13 @@
 {
   "yuzu": {
-    "yuzu_path": "D:\\Recreation\\Yuzu",
+    "yuzu_path": "D:\\Recreation\\Media\\games\\Yuzu",
     "yuzu_version": "4176",
     "yuzu_firmware": null,
     "branch": "ea"
   },
   "ryujinx": {
-    "path": "D:\\Recreation\\Ryujinx",
-    "version": "1.1.1380",
+    "path": "D:\\Recreation\\Media\\games\\Ryujinx",
+    "version": null,
     "firmware": null,
     "branch": "mainline"
   },
@@ -19,7 +19,7 @@
   },
   "setting": {
     "ui": {
-      "lastOpenEmuPage": "ryujinx",
+      "lastOpenEmuPage": "suyu",
       "dark": true,
       "mode": "auto",
       "width": 1280,
