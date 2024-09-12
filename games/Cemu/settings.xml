@@ -141,16 +141,17 @@
                 <preset>8页</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/ClimbingInTheRain/rules.txt"/>
-        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/CookingPotFromWood/rules.txt"/>
-        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/InfiniteAmiibo/rules.txt"/>
-        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/NoPanicMoons/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/Durability/rules.txt">
             <Preset>
                 <category>Durability Modifier</category>
                 <preset>Unbreakable</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Weapon_and_Armor/!Master Sword/Gold Master Sword/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/ClimbingInTheRain/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/CookingPotFromWood/rules.txt"/>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/InfiniteAmiibo/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/NoPanicMoons/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Enhancements/rules.txt">
             <Preset>
                 <category>Depth Of Field</category>
