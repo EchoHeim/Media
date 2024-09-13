@@ -1,0 +1,27 @@
+[
+  {
+    "path": "D:\\Recreation\\Media\\games\\Yuzu\\ROM\\Dave The Diver v1.0.2.882 [010097F018538000] [v1310720] (1G\u002B1U\u002B4D).xci",
+    "dlc_nca_list": [
+      {
+        "path": "/a6ff69aacb32498790b958fd7eef1648.nca",
+        "title_id": 72224651494002689,
+        "is_enabled": true
+      },
+      {
+        "path": "/1e4888342b656d344212143e6626d8e2.nca",
+        "title_id": 72224651494002690,
+        "is_enabled": true
+      },
+      {
+        "path": "/9f5b4bdd002cba7650c4425b78cab303.nca",
+        "title_id": 72224651494002691,
+        "is_enabled": true
+      },
+      {
+        "path": "/b8ca352ece160ac8c2bfd2f8989ecdf8.nca",
+        "title_id": 72224651494002692,
+        "is_enabled": true
+      }
+    ]
+  }
+]
