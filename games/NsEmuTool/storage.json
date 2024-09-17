@@ -7,7 +7,20 @@
       "branch": "ea"
     }
   },
-  "suyu_history": {},
+  "suyu_history": {
+    "D:\\Suyu": {
+      "path": "D:\\Suyu",
+      "version": null,
+      "firmware": null,
+      "branch": "dev"
+    },
+    "D:\\Recreation\\Media\\games\\Suyu": {
+      "path": "D:\\Recreation\\Media\\games\\Suyu",
+      "version": null,
+      "firmware": null,
+      "branch": "dev"
+    }
+  },
   "ryujinx_history": {
     "D:\\Recreation\\Media\\games\\Ryujinx": {
       "path": "D:\\Recreation\\Media\\games\\Ryujinx",

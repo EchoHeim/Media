@@ -12,8 +12,8 @@
     "branch": "mainline"
   },
   "suyu": {
-    "path": "D:\\Suyu",
-    "version": null,
+    "path": "D:\\Recreation\\Media\\games\\Suyu",
+    "version": "v0.0.3",
     "firmware": null,
     "branch": "dev"
   },
