@@ -6,8 +6,25 @@
 		<api>SDLController</api>
 		<uuid>0_0300b7e67e0500000920000000006803</uuid>
 		<display_name>Nintendo Switch Pro Controller</display_name>
-		<motion>true</motion>
-		<rumble>0.1</rumble>
+		<axis>
+			<deadzone>0.25</deadzone>
+			<range>1</range>
+		</axis>
+		<rotation>
+			<deadzone>0.25</deadzone>
+			<range>1</range>
+		</rotation>
+		<trigger>
+			<deadzone>0.25</deadzone>
+			<range>1</range>
+		</trigger>
+		<mappings />
+	</controller>
+	<controller>
+		<api>SDLController</api>
+		<uuid>0_03000b035e040000200b000020057200</uuid>
+		<display_name>Xbox One S Controller</display_name>
+		<rumble>0</rumble>
 		<axis>
 			<deadzone>0.25</deadzone>
 			<range>1</range>
@@ -23,19 +40,19 @@
 		<mappings>
 			<entry>
 				<mapping>1</mapping>
-				<button>0</button>
-			</entry>
-			<entry>
-				<mapping>2</mapping>
 				<button>1</button>
 			</entry>
 			<entry>
+				<mapping>2</mapping>
+				<button>0</button>
+			</entry>
+			<entry>
 				<mapping>3</mapping>
-				<button>2</button>
+				<button>3</button>
 			</entry>
 			<entry>
 				<mapping>4</mapping>
-				<button>3</button>
+				<button>2</button>
 			</entry>
 			<entry>
 				<mapping>5</mapping>

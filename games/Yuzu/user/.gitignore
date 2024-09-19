@@ -7,5 +7,10 @@ load/01007EF00011E000/1.7.9Xe终焉之地_序章
 load/01007EF00011F001/1.7.8Xe终焉之地V5
 load/01007EF00011F001/1.7.9Xe终焉之地_序章
 
-shader/
+amiibo/
+cache/
 log/
+qtwebengine/
+screenshots/
+
+shader/
