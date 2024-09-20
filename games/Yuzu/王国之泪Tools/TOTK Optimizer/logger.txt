@@ -59,3 +59,27 @@ TIME: 19:34:51,974 - LOGGER - INFO: scale:4
 TIME: 19:34:51,976 - LOGGER - INFO: FINISHED APPLYING PATCHES
 TIME: 19:34:51,976 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
 TIME: 19:34:57,529 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 11:51:48,14 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+RAM: 64 GB 4800 MHz and used 17.8%
+CPU: AMD Ryzen 7 6800H with Radeon Graphics         
+
+TIME: 11:51:48,308 - root - INFO: Attempting to create API instructions. Thu Sep 19 11:51:48 2024
+TIME: 11:51:49,4 - LOGGER - INFO: Attemping to fetch list and dict of zip files.
+TIME: 11:51:49,4 - LOGGER - INFO: Fetch list and dict operation success.
+TIME: 11:51:49,5 - root - INFO: Github Api instructions have been fetched succesfully.
+TIME: 11:51:49,5 - root - INFO: Attempting to create api.json.
+TIME: 11:51:49,5 - root - INFO: Creating api.json file..
+TIME: 11:51:49,6 - root - INFO: Adding API time to config_file. Thu Sep 19 11:51:49 2024.
+TIME: 11:51:52,729 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 11:51:52,729 - LOGGER - INFO: a qt-config.ini file found!
+TIME: 11:51:53,481 - LOGGER - INFO: main
+TIME: 11:51:53,531 - LOGGER - INFO: No Benchmarks detected.
+TIME: 11:51:53,532 - LOGGER - INFO: Checking for Updates!
+TIME: 11:51:54,232 - LOGGER - INFO: No Updates Found. Your app is up to date.
