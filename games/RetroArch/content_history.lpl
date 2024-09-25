@@ -9,6 +9,14 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "D:\\Recreation\\Media\\games\\_NES_\\01.外星科技\\爆笑三国.nes",
+      "label": "",
+      "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\nestopia_libretro.dll",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "",
+      "db_name": "Nintendo - Nintendo Entertainment System|Nintendo - Family Computer Disk System"
+    },
+    {
       "path": "D:\\Recreation\\Media\\games\\_NES_\\01.外星科技\\吞食天地1(简体中文版).nes",
       "label": "",
       "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\nestopia_libretro.dll",
@@ -21,14 +29,6 @@
       "label": "",
       "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\fceumm_libretro.dll",
       "core_name": "Nintendo - NES / Famicom (FCEUmm)",
-      "crc32": "",
-      "db_name": "Nintendo - Nintendo Entertainment System|Nintendo - Family Computer Disk System"
-    },
-    {
-      "path": "D:\\Recreation\\Media\\games\\_NES_\\01.外星科技\\爆笑三国.nes",
-      "label": "",
-      "core_path": "D:\\Recreation\\Media\\games\\RetroArch\\cores\\nestopia_libretro.dll",
-      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
       "crc32": "",
       "db_name": "Nintendo - Nintendo Entertainment System|Nintendo - Family Computer Disk System"
     },

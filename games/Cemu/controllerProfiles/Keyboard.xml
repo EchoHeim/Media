@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <emulated_controller>
 	<type>Wii U GamePad</type>
-	<profile>KeyBoard</profile>
+	<profile>Keyboard</profile>
 	<controller>
 		<api>Keyboard</api>
 		<uuid>keyboard</uuid>
@@ -116,23 +116,5 @@
 				<button>76</button>
 			</entry>
 		</mappings>
-	</controller>
-	<controller>
-		<api>SDLController</api>
-		<uuid>0_0300b7e67e0500000920000000006803</uuid>
-		<display_name>Nintendo Switch Pro Controller</display_name>
-		<axis>
-			<deadzone>0.25</deadzone>
-			<range>1</range>
-		</axis>
-		<rotation>
-			<deadzone>0.25</deadzone>
-			<range>1</range>
-		</rotation>
-		<trigger>
-			<deadzone>0.25</deadzone>
-			<range>1</range>
-		</trigger>
-		<mappings />
 	</controller>
 </emulated_controller>
