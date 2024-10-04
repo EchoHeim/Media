@@ -83,3 +83,157 @@ TIME: 11:51:53,481 - LOGGER - INFO: main
 TIME: 11:51:53,531 - LOGGER - INFO: No Benchmarks detected.
 TIME: 11:51:53,532 - LOGGER - INFO: Checking for Updates!
 TIME: 11:51:54,232 - LOGGER - INFO: No Updates Found. Your app is up to date.
+TIME: 18:00:46,870 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+RAM: 64 GB 4800 MHz and used 21.3%
+CPU: AMD Ryzen 7 6800H with Radeon Graphics         
+
+TIME: 18:00:47,161 - root - INFO: Attempting to create API instructions. Mon Sep 30 18:00:47 2024
+TIME: 18:00:47,862 - LOGGER - INFO: Attemping to fetch list and dict of zip files.
+TIME: 18:00:47,862 - LOGGER - INFO: Fetch list and dict operation success.
+TIME: 18:00:47,862 - root - INFO: Github Api instructions have been fetched succesfully.
+TIME: 18:00:47,863 - root - INFO: Attempting to create api.json.
+TIME: 18:00:47,863 - root - INFO: Creating api.json file..
+TIME: 18:00:47,863 - root - INFO: Adding API time to config_file. Mon Sep 30 18:00:47 2024.
+TIME: 18:00:48,997 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 18:00:48,997 - LOGGER - INFO: a qt-config.ini file found!
+TIME: 18:00:49,753 - LOGGER - INFO: main
+TIME: 18:00:49,807 - LOGGER - INFO: No Benchmarks detected.
+TIME: 18:00:49,809 - LOGGER - INFO: Checking for Updates!
+TIME: 18:00:50,522 - LOGGER - INFO: No Updates Found. Your app is up to date.
+TIME: 18:02:08,37 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 18:02:08,333 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 18:02:08,335 - LOGGER - INFO: Downloading: UltraCam
+TIME: 18:02:14,28 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 18:02:14,28 - LOGGER - INFO: Checking for Settings...
+TIME: 18:02:14,28 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 18:02:14,31 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 18:02:14,32 - LOGGER - INFO: Successfully written into log file
+TIME: 18:02:14,32 - LOGGER - INFO: Starting Mod Creator.
+TIME: 18:02:14,32 - LOGGER - INFO: Generating mod at C:\Users\Lodge\AppData\Roaming\Ryujinx\mods\contents\0100f2C0115b6000
+TIME: 18:02:14,33 - LOGGER - INFO: scale:4
+TIME: 18:02:30,939 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+RAM: 64 GB 4800 MHz and used 20.7%
+CPU: AMD Ryzen 7 6800H with Radeon Graphics         
+
+TIME: 18:02:31,206 - root - INFO: Attempting to load local api.json..
+TIME: 18:02:31,206 - root - INFO: Loading api.json file..
+TIME: 18:02:31,207 - LOGGER - INFO: Succesfully loaded api.json.
+TIME: 18:02:36,216 - LOGGER - ERROR: Error occurred while fetching or parsing Description.json: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+TIME: 18:02:41,345 - LOGGER - ERROR: Error occurred while fetching or parsing Description.json: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+TIME: 18:02:42,188 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 18:02:42,939 - LOGGER - INFO: main
+TIME: 18:02:42,990 - LOGGER - INFO: No Benchmarks detected.
+TIME: 18:02:42,997 - LOGGER - INFO: Checking for Updates!
+TIME: 18:02:43,765 - LOGGER - INFO: No Updates Found. Your app is up to date.
+TIME: 18:02:54,945 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 18:02:55,85 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 18:02:55,87 - LOGGER - INFO: Downloading: UltraCam
+TIME: 18:03:00,194 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 18:03:00,195 - LOGGER - INFO: Checking for Settings...
+TIME: 18:03:00,196 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 18:03:00,198 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 18:03:00,198 - LOGGER - INFO: Successfully written into log file
+TIME: 18:03:00,198 - LOGGER - INFO: Starting Mod Creator.
+TIME: 18:03:00,199 - LOGGER - INFO: Generating mod at C:\Users\Lodge\AppData\Roaming\Ryujinx\mods\contents\0100f2C0115b6000
+TIME: 18:03:00,200 - LOGGER - INFO: scale:4
+TIME: 18:03:39,731 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 18:03:39,872 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 18:03:39,874 - LOGGER - INFO: Downloading: UltraCam
+TIME: 18:03:44,943 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 18:03:44,943 - LOGGER - INFO: Checking for Settings...
+TIME: 18:03:44,943 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 18:03:44,949 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 18:03:44,950 - LOGGER - INFO: Successfully written into log file
+TIME: 18:03:44,950 - LOGGER - INFO: Starting Mod Creator.
+TIME: 18:03:44,950 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\王国之泪Tools\TOTK Optimizer
+TIME: 18:03:44,961 - LOGGER - INFO: scale:4
+TIME: 18:03:44,962 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 18:03:47,174 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 18:04:55,548 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 18:04:55,549 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 18:04:55,549 - LOGGER - INFO: Successfully written into log file
+TIME: 18:04:55,550 - LOGGER - INFO: Successfully selected Ryujinx.exe! And a portable folder was found at D:/Recreation/Media/games/Ryujinx!
+TIME: 18:04:57,452 - LOGGER - WARNING: Game not found in D:/Recreation/Media/games/Yuzu/ROM/The Legend of Zelda/The Legend of Zelda Tears of the Kingdom[0100F2C0115B6000][v0].xci
+ Please select your game file.
+TIME: 18:05:15,815 - LOGGER - INFO: Launching game D:/Recreation/Media/games/Ryujinx/Ryujinx.exe
+TIME: 18:05:15,990 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 18:05:41,343 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 18:05:41,472 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 18:05:41,473 - LOGGER - INFO: Downloading: UltraCam
+TIME: 18:05:46,862 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 18:05:46,862 - LOGGER - INFO: Checking for Settings...
+TIME: 18:05:46,864 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 18:05:46,866 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 18:05:46,867 - LOGGER - INFO: Successfully written into log file
+TIME: 18:05:46,867 - LOGGER - INFO: Starting Mod Creator.
+TIME: 18:05:46,867 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\王国之泪Tools\TOTK Optimizer
+TIME: 18:05:46,870 - LOGGER - INFO: scale:4
+TIME: 18:05:46,871 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 18:05:49,140 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 11:30:19,109 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+RAM: 64 GB 4800 MHz and used 15.3%
+CPU: AMD Ryzen 7 6800H with Radeon Graphics         
+
+TIME: 11:30:19,434 - root - INFO: Attempting to create API instructions. Tue Oct  1 11:30:19 2024
+TIME: 11:30:20,146 - LOGGER - INFO: Attemping to fetch list and dict of zip files.
+TIME: 11:30:20,146 - LOGGER - INFO: Fetch list and dict operation success.
+TIME: 11:30:20,147 - root - INFO: Github Api instructions have been fetched succesfully.
+TIME: 11:30:20,147 - root - INFO: Attempting to create api.json.
+TIME: 11:30:20,147 - root - INFO: Creating api.json file..
+TIME: 11:30:20,148 - root - INFO: Adding API time to config_file. Tue Oct  1 11:30:20 2024.
+TIME: 11:30:23,251 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 11:30:24,24 - LOGGER - INFO: main
+TIME: 11:30:24,80 - LOGGER - INFO: No Benchmarks detected.
+TIME: 11:30:24,87 - LOGGER - INFO: Checking for Updates!
+TIME: 11:30:24,805 - LOGGER - INFO: No Updates Found. Your app is up to date.
+TIME: 11:30:43,143 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 11:30:43,145 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 11:30:43,145 - LOGGER - INFO: Successfully written into log file
+TIME: 11:30:43,146 - LOGGER - INFO: Successfully selected Ryujinx.exe! And a portable folder was found at D:/Recreation/Media/games/Ryujinx!
+TIME: 11:30:55,78 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 11:30:55,519 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 11:30:55,520 - LOGGER - INFO: Downloading: UltraCam
+TIME: 11:31:17,538 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 11:31:17,538 - LOGGER - INFO: Checking for Settings...
+TIME: 11:31:17,539 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 11:31:17,542 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 11:31:17,543 - LOGGER - INFO: Successfully written into log file
+TIME: 11:31:17,543 - LOGGER - INFO: Starting Mod Creator.
+TIME: 11:31:17,543 - LOGGER - INFO: Generating mod at C:\Users\Lodge\AppData\Roaming\Ryujinx\mods\contents\0100f2C0115b6000
+TIME: 11:31:17,551 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 11:31:26,952 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 11:31:28,338 - LOGGER - INFO: Launching game D:/Recreation/Media/games/Ryujinx/Ryujinx.exe
+TIME: 11:31:28,469 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 11:32:22,888 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 11:32:23,37 - LOGGER - INFO: Couldn`t detect if Ryujinx.exe is running.
+TIME: 11:32:23,40 - LOGGER - INFO: Downloading: UltraCam
+TIME: 11:32:28,141 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 11:32:28,141 - LOGGER - INFO: Checking for Settings...
+TIME: 11:32:28,142 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 11:32:28,145 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 11:32:28,145 - LOGGER - INFO: Successfully written into log file
+TIME: 11:32:28,145 - LOGGER - INFO: Starting Mod Creator.
+TIME: 11:32:28,145 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\王国之泪Tools\TOTK Optimizer
+TIME: 11:32:28,149 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 11:32:29,431 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
