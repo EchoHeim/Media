@@ -23,7 +23,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "China",
   "system_time_zone": "UTC",
-  "system_time_offset": -806,
+  "system_time_offset": -823,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
@@ -75,8 +75,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 359,
-    "window_position_y": 203,
+    "window_position_x": 422,
+    "window_position_y": 159,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -161,7 +161,7 @@
       },
       "version": 1,
       "backend": "GamepadSDL2",
-      "id": "0-00000003-045e-0000-200b-000020057200",
+      "id": "0-f0440003-045e-0000-e002-000000007200",
       "controller_type": "ProController",
       "player_index": "Player1"
     }

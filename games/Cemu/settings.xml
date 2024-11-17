@@ -82,31 +82,30 @@
     <GameCache/>
     <GraphicPack>
         <Entry filename="graphicPacks/BreathOfTheWild_BCML_v23.0.1++1/rules.txt"/>
-        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!ChangeWeapons/Royalguard/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/RemoveFog/rules.txt">
             <Preset>
-                <category>Main Menu</category>
-                <preset>Distant Fog Settings</preset>
+                <category>Distant NPC Fog Percentage</category>
+                <preset>Distant NPC Fog 60%</preset>
             </Preset>
             <Preset>
                 <category>Field Fog Clouds</category>
                 <preset>Default Field Fog Clouds Enabled</preset>
             </Preset>
             <Preset>
-                <category>Distant NPC Fog Percentage</category>
-                <preset>Distant NPC Fog 60%</preset>
+                <category>Main Menu</category>
+                <preset>Distant Fog Settings</preset>
             </Preset>
             <Preset>
-                <category>Distant World Fog</category>
-                <preset>Fog 80%</preset>
+                <category>Distant Fog Color RGB</category>
+                <preset>Default Fog RGB</preset>
             </Preset>
             <Preset>
                 <category>Distant Lighting</category>
                 <preset>Distant Lighting x2</preset>
             </Preset>
             <Preset>
-                <category>Distant Fog Color RGB</category>
-                <preset>Default Fog RGB</preset>
+                <category>Distant World Fog</category>
+                <preset>Fog 80%</preset>
             </Preset>
             <Preset>
                 <category>Field Fog Clouds RGB</category>
@@ -121,18 +120,19 @@
                 <preset>Purple Castle Aura</preset>
             </Preset>
             <Preset>
-                <category>Castle Fog</category>
-                <preset>Castle Moat Fog 50%</preset>
-            </Preset>
-            <Preset>
                 <category>Castle Moat Fog RGB</category>
                 <preset>Cyan Castle Moat Fog</preset>
+            </Preset>
+            <Preset>
+                <category>Castle Fog</category>
+                <preset>Castle Moat Fog 50%</preset>
             </Preset>
             <Preset>
                 <category>CustomPreset</category>
                 <preset>Default Preset</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!ChangeWeapons/Royalguard/rules.txt"/>
         <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Linkles_v3/!Hair And Eye Colour/Blue eyes - Pink hair/rules.txt"/>
         <Entry filename="graphicPacks/BreathOfTheWild_Mods/!SystemEnv/ArmorLimit/rules.txt">
             <Preset>
@@ -140,26 +140,26 @@
                 <preset>8页</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Weapon_and_Armor/!Master Sword/Gold Master Sword/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/Durability/rules.txt">
             <Preset>
                 <category>Durability Modifier</category>
                 <preset>Unbreakable</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Weapon_and_Armor/!Master Sword/Gold Master Sword/rules.txt"/>
         <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/Byakugan/rules.txt"/>
         <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/ClimbingInTheRain/rules.txt"/>
         <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/CookingPotFromWood/rules.txt"/>
-        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/NoPanicMoons/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Cheats/InfiniteAmiibo/rules.txt"/>
+        <Entry filename="graphicPacks/BreathOfTheWild_Mods/!Word_Map/NoPanicMoons/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Enhancements/rules.txt">
-            <Preset>
-                <category>Clarity</category>
-                <preset>Serfrost's Preset (Bright Display)</preset>
-            </Preset>
             <Preset>
                 <category>Depth Of Field</category>
                 <preset>Enabled</preset>
+            </Preset>
+            <Preset>
+                <category>Clarity</category>
+                <preset>Serfrost's Preset (Bright Display)</preset>
             </Preset>
             <Preset>
                 <category>Reflections</category>
@@ -176,28 +176,28 @@
         </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Graphics/rules.txt">
             <Preset>
-                <category>Aspect Ratio</category>
-                <preset>16:9 (Default)</preset>
+                <category>Shadows</category>
+                <preset>Extreme (400%, Unstable)</preset>
             </Preset>
             <Preset>
                 <category>Ultrawide HUD Mode</category>
                 <preset>Edge HUD (Default)</preset>
             </Preset>
             <Preset>
-                <category>Shadows</category>
-                <preset>Extreme (400%, Unstable)</preset>
+                <category>Aspect Ratio</category>
+                <preset>16:9 (Default)</preset>
             </Preset>
             <Preset>
                 <category>Resolution</category>
                 <preset>2560x1440 (2K)</preset>
             </Preset>
             <Preset>
-                <category>Anti-Aliasing</category>
-                <preset>None</preset>
-            </Preset>
-            <Preset>
                 <category>Shadow Draw Distance</category>
                 <preset>High (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Anti-Aliasing</category>
+                <preset>None</preset>
             </Preset>
         </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/CameraSensitivity/rules.txt">
@@ -224,20 +224,42 @@
                 <preset>24 minutes (Default)</preset>
             </Preset>
             <Preset>
+                <category>Fixed Time Of Day</category>
+                <preset>12:00</preset>
+            </Preset>
+            <Preset>
                 <category>Cloud Speed</category>
                 <preset>Scaled with day length (Default)</preset>
             </Preset>
             <Preset>
-                <category>Fixed Time Of Day</category>
-                <preset>12:00</preset>
+                <category>Time between Blood Moons</category>
+                <preset>28 days</preset>
             </Preset>
             <Preset>
                 <category>Clock Increment Frequency</category>
                 <preset>Update every 5 minutes (Default)</preset>
             </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/DrawDistance/rules.txt">
             <Preset>
-                <category>Time between Blood Moons</category>
-                <preset>28 days</preset>
+                <category>Texture Distance Detail (LOD)</category>
+                <preset>Normal (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>NPC, Enemies And Other Entities</category>
+                <preset>Extreme (2x, requires Extended Memory pack!)</preset>
+            </Preset>
+            <Preset>
+                <category>Terrain, Buildings, Bushes And Other Objects</category>
+                <preset>Ultra (1.5x, requires Extended Memory pack!)</preset>
+            </Preset>
+            <Preset>
+                <category>Trees (2D Billboards)</category>
+                <preset>Medium (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Grass Blades Density</category>
+                <preset>Medium (Default)</preset>
             </Preset>
         </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/DivineLaserBeam/rules.txt">
@@ -258,37 +280,15 @@
                 <preset>75%</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/DrawDistance/rules.txt">
-            <Preset>
-                <category>NPC, Enemies And Other Entities</category>
-                <preset>Extreme (2x, requires Extended Memory pack!)</preset>
-            </Preset>
-            <Preset>
-                <category>Texture Distance Detail (LOD)</category>
-                <preset>Normal (Default)</preset>
-            </Preset>
-            <Preset>
-                <category>Terrain, Buildings, Bushes And Other Objects</category>
-                <preset>Ultra (1.5x, requires Extended Memory pack!)</preset>
-            </Preset>
-            <Preset>
-                <category>Trees (2D Billboards)</category>
-                <preset>Medium (Default)</preset>
-            </Preset>
-            <Preset>
-                <category>Grass Blades Density</category>
-                <preset>Medium (Default)</preset>
-            </Preset>
-        </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/ExtendedMemory/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/FPS++/rules.txt">
             <Preset>
-                <category>Mode</category>
-                <preset>Advanced Settings</preset>
-            </Preset>
-            <Preset>
                 <category>Fence Type</category>
                 <preset>Performance Fence (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Mode</category>
+                <preset>Advanced Settings</preset>
             </Preset>
             <Preset>
                 <category>FPS Limit</category>
@@ -303,12 +303,12 @@
                 <preset>Limit all cutscenes to 30FPS</preset>
             </Preset>
             <Preset>
-                <category>Static Mode</category>
-                <preset>Disabled (Default, dynamically adjust game speed)</preset>
-            </Preset>
-            <Preset>
                 <category>Debug Options</category>
                 <preset>Disabled (Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Static Mode</category>
+                <preset>Disabled (Default, dynamically adjust game speed)</preset>
             </Preset>
             <Preset>
                 <category>Frame Average</category>
@@ -337,38 +337,33 @@
                 <preset>Varied (Default)</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Enhancements/NegativeLOD/rules.txt">
+            <Preset>
+                <preset>LOD -1 (Max for gameplay)</preset>
+            </Preset>
+        </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/MenuCursorSpeed/rules.txt">
             <Preset>
                 <category>Menu Navigation Speed</category>
                 <preset>1.1x</preset>
             </Preset>
         </Entry>
-        <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Enhancements/NegativeLOD/rules.txt">
-            <Preset>
-                <preset>LOD -1 (Max for gameplay)</preset>
-            </Preset>
-        </Entry>
-        <Entry filename="graphicPacks/downloadedGraphicPacks/KirbyRainbow_InvisibleLineFix/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Workarounds/Brightness/rules.txt">
             <Preset>
                 <preset>NVIDIA</preset>
             </Preset>
         </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/KirbyRainbow_InvisibleLineFix/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/NewSuperMarioBrosU/Workarounds/CrashFix/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/SkylandersSwapForce/Workarounds/PortalStabilityFix/rules.txt"/>
-        <Entry filename="graphicPacks/downloadedGraphicPacks/WindWakerHD_Resolution/rules.txt">
-            <Preset>
-                <preset>1920x1080 (Default)</preset>
-            </Preset>
-        </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Graphics/rules.txt">
-            <Preset>
-                <category>Resolution</category>
-                <preset>2560x1440 (2k)</preset>
-            </Preset>
             <Preset>
                 <category>Skell Cockpit Resolution</category>
                 <preset>Medium (100%, Default)</preset>
+            </Preset>
+            <Preset>
+                <category>Resolution</category>
+                <preset>2560x1440 (2k)</preset>
             </Preset>
             <Preset>
                 <category>Shadow Quality</category>
@@ -377,6 +372,11 @@
             <Preset>
                 <category>Post-Processing Effect Quality</category>
                 <preset>Medium (100%, Default)</preset>
+            </Preset>
+        </Entry>
+        <Entry filename="graphicPacks/downloadedGraphicPacks/WindWakerHD_Resolution/rules.txt">
+            <Preset>
+                <preset>1920x1080 (Default)</preset>
             </Preset>
         </Entry>
         <Entry filename="graphicPacks/downloadedGraphicPacks/XenobladeChroniclesX/Mods/60FPS/rules.txt">
@@ -449,5 +449,6 @@
     <EmulatedUsbDevices>
         <EmulateSkylanderPortal>false</EmulateSkylanderPortal>
         <EmulateInfinityBase>true</EmulateInfinityBase>
+        <EmulateDimensionsToypad>false</EmulateDimensionsToypad>
     </EmulatedUsbDevices>
 </content>
