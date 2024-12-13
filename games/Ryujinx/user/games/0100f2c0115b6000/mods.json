@@ -3,31 +3,6 @@
     {
       "name": "!!!TOTK Optimizer",
       "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\!!!TOTK Optimizer",
-      "enabled": true
-    },
-    {
-      "name": "NPC_\u539F\u8272\u8D24\u8005\u65B0\u7248\u5E26\u8BED\u97F3",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\NPC_\u539F\u8272\u8D24\u8005\u65B0\u7248\u5E26\u8BED\u97F3",
-      "enabled": false
-    },
-    {
-      "name": "NPC_\u666E\u5C14\u4E9A\u897F\u5F0F\u670D\u88C5",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\NPC_\u666E\u5C14\u4E9A\u897F\u5F0F\u670D\u88C5",
-      "enabled": false
-    },
-    {
-      "name": "NPC_\u7C73\u6D85\u9C81\u6027\u80FD\u589E\u5F3A",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\NPC_\u7C73\u6D85\u9C81\u6027\u80FD\u589E\u5F3A",
-      "enabled": false
-    },
-    {
-      "name": "S_\u591A\u529F\u80FD\u63D2\u4EF6",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u591A\u529F\u80FD\u63D2\u4EF6",
-      "enabled": false
-    },
-    {
-      "name": "S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6",
       "enabled": false
     }
   ]

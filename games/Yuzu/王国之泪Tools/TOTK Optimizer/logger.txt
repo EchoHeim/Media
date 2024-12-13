@@ -237,3 +237,110 @@ TIME: 11:32:28,145 - LOGGER - INFO: Starting Mod Creator.
 TIME: 11:32:28,145 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\王国之泪Tools\TOTK Optimizer
 TIME: 11:32:28,149 - LOGGER - INFO: FINISHED APPLYING PATCHES
 TIME: 11:32:29,431 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 21:43:04,997 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060
+RAM: 32 GB 2400 MHz and used 21.5%
+CPU: 12th Gen Intel(R) Core(TM) i7-12700KF
+
+TIME: 21:43:05,259 - root - INFO: Attempting to create API instructions. Fri Dec 13 21:43:05 2024
+TIME: 21:43:05,724 - LOGGER - INFO: Attemping to fetch list and dict of zip files.
+TIME: 21:43:05,724 - LOGGER - INFO: Fetch list and dict operation success.
+TIME: 21:43:05,724 - root - INFO: Github Api instructions have been fetched succesfully.
+TIME: 21:43:05,724 - root - INFO: Attempting to create api.json.
+TIME: 21:43:05,725 - root - INFO: Creating api.json file..
+TIME: 21:43:05,725 - root - INFO: Adding API time to config_file. Fri Dec 13 21:43:05 2024.
+TIME: 21:43:07,139 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 21:43:07,708 - LOGGER - INFO: main
+TIME: 21:43:07,767 - LOGGER - INFO: No Benchmarks detected.
+TIME: 21:43:07,777 - LOGGER - INFO: Checking for Updates!
+TIME: 21:43:10,605 - LOGGER - INFO: Applying Update...
+TIME: 21:43:10,606 - LOGGER - INFO: Old executable deleted.
+TIME: 21:43:10,606 - LOGGER - ERROR: Error applying update: [WinError 2] 系统找不到指定的文件。: 'TOTK.Optimizer.2.1.2.exe' -> 'TOTK Optimizer.exe'
+TIME: 21:43:10,607 - LOGGER - INFO: Downloading TOTK.Optimizer.2.1.2.exe
+TIME: 21:43:12,396 - LOGGER - INFO: Asset downloaded successfully.
+TIME: 21:43:12,396 - LOGGER - INFO: Applying Update...
+TIME: 21:43:21,127 - LOGGER - INFO: 
+
+
+
+Attempting to start Application.
+__SystemINFO__
+System: Windows
+GPU: NVIDIA GeForce RTX 3060
+RAM: 32 GB 2400 MHz and used 21.5%
+CPU: 12th Gen Intel(R) Core(TM) i7-12700KF
+
+TIME: 21:43:21,397 - root - INFO: Attempting to load local api.json..
+TIME: 21:43:21,397 - root - INFO: Loading api.json file..
+TIME: 21:43:21,397 - LOGGER - INFO: Succesfully loaded api.json.
+TIME: 21:43:22,607 - LOGGER - INFO: Detected a Windows based SYSTEM!
+TIME: 21:43:23,174 - LOGGER - INFO: main
+TIME: 21:43:23,234 - LOGGER - INFO: No Benchmarks detected.
+TIME: 21:43:23,244 - LOGGER - INFO: Checking for Updates!
+TIME: 21:43:23,387 - LOGGER - INFO: No Updates Found. Your app is up to date.
+TIME: 21:44:24,279 - LOGGER - WARNING: Couldn't' find QT-config 'gbk' codec can't decode byte 0xad in position 231: illegal multibyte sequence
+TIME: 21:44:24,282 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 21:44:24,516 - LOGGER - INFO: Couldn`t detect if Legacy.exe is running.
+TIME: 21:44:24,518 - LOGGER - INFO: Downloading: UltraCam
+TIME: 21:44:29,808 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 21:44:29,809 - LOGGER - INFO: Checking for Settings...
+TIME: 21:44:29,810 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 21:44:29,814 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 21:44:29,814 - LOGGER - INFO: Successfully written into log file
+TIME: 21:44:29,814 - LOGGER - INFO: Starting Mod Creator.
+TIME: 21:44:29,814 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\user\load\0100F2C0115B6000
+TIME: 21:44:29,822 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 21:44:29,822 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
+TIME: 21:44:33,287 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 21:44:34,952 - LOGGER - WARNING: Couldn't' find QT-config 'NoneType' object is not iterable
+TIME: 21:44:34,955 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 21:44:35,50 - LOGGER - INFO: Couldn`t detect if Legacy.exe is running.
+TIME: 21:44:35,52 - LOGGER - INFO: Downloading: UltraCam
+TIME: 21:44:40,12 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 21:44:40,12 - LOGGER - INFO: Checking for Settings...
+TIME: 21:44:40,13 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 21:44:40,16 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 21:44:40,16 - LOGGER - INFO: Successfully written into log file
+TIME: 21:44:40,16 - LOGGER - INFO: Starting Mod Creator.
+TIME: 21:44:40,16 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\王国之泪Tools\TOTK Optimizer
+TIME: 21:44:40,21 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 21:44:40,21 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
+TIME: 21:44:41,638 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 21:44:45,280 - LOGGER - INFO: Launching game D:/Recreation/Media/games/Ryujinx/Ryujinx.exe
+TIME: 21:44:45,369 - LOGGER - INFO: Couldn`t detect if yuzu.exe is running.
+TIME: 21:51:10,640 - LOGGER - WARNING: Couldn't' find QT-config 'gbk' codec can't decode byte 0xad in position 231: illegal multibyte sequence
+TIME: 21:51:10,643 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 21:51:10,806 - LOGGER - INFO: Couldn`t detect if Legacy.exe is running.
+TIME: 21:51:10,808 - LOGGER - INFO: Downloading: UltraCam
+TIME: 21:51:16,384 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 21:51:16,384 - LOGGER - INFO: Checking for Settings...
+TIME: 21:51:16,403 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 21:51:16,405 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 21:51:16,405 - LOGGER - INFO: Successfully written into log file
+TIME: 21:51:16,405 - LOGGER - INFO: Starting Mod Creator.
+TIME: 21:51:16,405 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\user\load\0100F2C0115B6000
+TIME: 21:51:16,412 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 21:51:16,414 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
+TIME: 21:51:18,125 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
+TIME: 21:51:19,152 - LOGGER - INFO: Launching game D:/Recreation/Media/games/Ryujinx/Ryujinx.exe
+TIME: 21:51:19,250 - LOGGER - INFO: Couldn`t detect if yuzu.exe is running.
+TIME: 21:51:56,492 - LOGGER - WARNING: Couldn't' find QT-config 'NoneType' object is not iterable
+TIME: 21:51:56,496 - LOGGER - INFO: Starting TASKs for Normal Patch..
+TIME: 21:51:56,613 - LOGGER - INFO: Couldn`t detect if Legacy.exe is running.
+TIME: 21:51:56,614 - LOGGER - INFO: Downloading: UltraCam
+TIME: 21:52:01,588 - LOGGER - INFO: Downloaded: UltraCam
+TIME: 21:52:01,588 - LOGGER - INFO: Checking for Settings...
+TIME: 21:52:01,589 - LOGGER - INFO: Saving user choices in TOTKOptimizer.ini
+TIME: 21:52:01,591 - LOGGER - INFO: User choices saved in Memory,Attempting to write into file.
+TIME: 21:52:01,591 - LOGGER - INFO: Successfully written into log file
+TIME: 21:52:01,591 - LOGGER - INFO: Starting Mod Creator.
+TIME: 21:52:01,591 - LOGGER - INFO: Generating mod at D:\Recreation\Media\games\Yuzu\王国之泪Tools\TOTK Optimizer
+TIME: 21:52:01,594 - LOGGER - INFO: FINISHED APPLYING PATCHES
+TIME: 21:52:01,594 - LOGGER - INFO: Config has not been able, identify config_title_id: 72324500776771584,the manager will continue but the mods may not be turned off as expected.
+TIME: 21:52:03,461 - LOGGER - INFO: Tasks have been COMPLETED. Feel free to Launch the game.
