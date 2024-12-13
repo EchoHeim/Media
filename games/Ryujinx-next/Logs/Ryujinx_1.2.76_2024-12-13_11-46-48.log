@@ -1,0 +1,58 @@
+00:00:00.240 |I| Configuration LogValueChange: ResScale set to: 1
+00:00:00.247 |I| Configuration LogValueChange: ResScaleCustom set to: 1
+00:00:00.247 |I| Configuration LogValueChange: MaxAnisotropy set to: -1
+00:00:00.248 |I| Configuration LogValueChange: AspectRatio set to: Fixed16x9
+00:00:00.249 |I| Configuration LogValueChange: BackendThreading set to: Auto
+00:00:00.249 |I| Configuration LogValueChange: GraphicsBackend set to: Vulkan
+00:00:00.250 |I| Configuration LogValueChange: PreferredGpu set to: 0x10DE_0x2520
+00:00:00.251 |I| Configuration LogValueChange: AntiAliasing set to: None
+00:00:00.251 |I| Configuration LogValueChange: ScalingFilter set to: Bilinear
+00:00:00.251 |I| Configuration LogValueChange: ScalingFilterLevel set to: 80
+00:00:00.251 |I| Configuration LogValueChange: EnableDebug set to: False
+00:00:00.253 |I| Configuration LogValueChange: Language set to: SimplifiedChinese
+00:00:00.254 |I| Configuration LogValueChange: Region set to: China
+00:00:00.254 |I| Configuration LogValueChange: TimeZone set to: UTC
+00:00:00.257 |I| Configuration LogValueChange: SystemTimeOffset set to: -846
+00:00:00.257 |I| Configuration LogValueChange: EnableDockedMode set to: True
+00:00:00.262 |I| Configuration LogValueChange: IgnoreApplet set to: False
+00:00:00.263 |I| Configuration LogValueChange: EnableVsync set to: True
+00:00:00.263 |I| Configuration LogValueChange: EnableShaderCache set to: True
+00:00:00.263 |I| Configuration LogValueChange: EnableTextureRecompression set to: False
+00:00:00.263 |I| Configuration LogValueChange: EnableMacroHLE set to: True
+00:00:00.263 |I| Configuration LogValueChange: EnableColorSpacePassthrough set to: False
+00:00:00.263 |I| Configuration LogValueChange: EnablePtc set to: True
+00:00:00.263 |I| Configuration LogValueChange: EnableLowPowerPtc set to: False
+00:00:00.264 |I| Configuration LogValueChange: EnableInternetAccess set to: True
+00:00:00.264 |I| Configuration LogValueChange: EnableFsIntegrityChecks set to: True
+00:00:00.264 |I| Configuration LogValueChange: FsGlobalAccessLogMode set to: 0
+00:00:00.265 |I| Configuration LogValueChange: AudioBackend set to: SDL2
+00:00:00.265 |I| Configuration LogValueChange: AudioVolume set to: 0.85
+00:00:00.266 |I| Configuration LogValueChange: MemoryManagerMode set to: HostMappedUnsafe
+00:00:00.267 |I| Configuration LogValueChange: DramSize set to: MemoryConfiguration4GiB
+00:00:00.267 |I| Configuration LogValueChange: IgnoreMissingServices set to: False
+00:00:00.267 |I| Configuration LogValueChange: UseHypervisor set to: True
+00:00:00.271 |I| Configuration LogValueChange: MultiplayerMode set to: LdnRyu
+00:00:00.271 |I| Configuration LogValueChange: DisableP2p set to: False
+00:00:00.271 |I| Configuration LogValueChange: LdnPassphrase set to: 
+00:00:00.271 |I| Configuration LogValueChange: LdnServer set to: 
+00:00:00.276 |N| Application PrintSystemInfo: Ryujinx Version: 1.2.76
+00:00:00.280 |N| Application Print: Operating System: Microsoft Windows 10.0.26100 (X64)
+00:00:00.280 |N| Application Print: CPU: AMD Ryzen 7 6800H with Radeon Graphics ; 16 logical
+00:00:00.282 |N| Application Print: RAM: Total 63.2 GiB ; Available 46.1 GiB
+00:00:00.284 |N| Application PrintSystemInfo: Logs Enabled: Info, Warning, Error, Guest, Stub
+00:00:00.284 |N| Application PrintSystemInfo: Launch Mode: UserProfile
+00:00:03.276 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Octopath Traveler 2 v1.1.1 (1G+1U+1D).xci
+00:00:03.277 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Octopath Traveler v1.0.5 (1G+1U).xci
+00:00:03.277 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Splatoon 3 v9.1.0 (1G+1U+3D).xci
+00:00:03.278 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Pokemon\Pokemon Brilliant Diamond v1.3.0 (1G+1U).xci
+00:00:03.278 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Pokemon\Pokemon Legends Arceus v1.1.1 (1G+1U).xci
+00:00:03.279 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Pokemon\Pokemon Scarlet v3.0.1 (1G+1U+2D).xci
+00:00:03.279 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Pokemon\Pokemon Shining Pearl v1.3.0 (1G+1U).xci
+00:00:03.280 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Pokemon\Pokemon Violet v3.0.1 (1G+1U+2D).xci
+00:00:03.280 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Super Mario\Mario Kart 8 Deluxe v3.0.1(1G+1U+1D).xci
+00:00:03.280 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\Super Mario\Super Mario Odyssey v1.3.0(1G+1U).xci
+00:00:03.281 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\The Legend of Zelda\Breath of the Wild v1.6.0 (1G+1U+2D).xci
+00:00:03.281 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\The Legend of Zelda\Echoes Of Wisdom v1.0.1 (1G+1U).xci
+00:00:03.282 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\The Legend of Zelda\Links Awakening v1.0.1 (1G+1U).xci
+00:00:03.282 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\The Legend of Zelda\Skyward Sword HD v1.0.1(1G+1U).xci
+00:00:03.283 |W| GUI.ApplicationLibraryThread Application TryGetApplicationsFromFile: The header key is incorrect or missing and therefore the NCA header content type check has failed. Errored File: D:\Recreation\Media\games\Yuzu\ROM\The Legend of Zelda\Tears of the Kingdom v1.2.1 (1G+1U).xci
