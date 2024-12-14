@@ -1,6 +1,7 @@
 {
   "mods": [
     {
+<<<<<<< HEAD
       "name": "A_\u57FA\u7840\u5305_\u7EC8\u6781\u4FEE\u6539\u6574\u5408\uFF08\u5FC5\u5F00\uFF09",
       "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\A_\u57FA\u7840\u5305_\u7EC8\u6781\u4FEE\u6539\u6574\u5408\uFF08\u5FC5\u5F00\uFF09",
       "enabled": true
@@ -49,6 +50,11 @@
       "name": "S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
       "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
       "enabled": true
+=======
+      "name": "!!!TOTK Optimizer",
+      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\!!!TOTK Optimizer",
+      "enabled": false
+>>>>>>> 3af4b0a4a029fab6c3b209c3238056c355fa08e2
     }
   ]
 }
