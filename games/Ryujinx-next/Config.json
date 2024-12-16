@@ -21,20 +21,16 @@
   "logging_filtered_classes": [],
   "logging_graphics_debug_level": "None",
   "system_language": "SimplifiedChinese",
-  "system_region": "China",
+  "system_region": "Japan",
   "system_time_zone": "UTC",
-<<<<<<< HEAD
-  "system_time_offset": -1080,
-=======
-  "system_time_offset": -972,
->>>>>>> 3af4b0a4a029fab6c3b209c3238056c355fa08e2
+  "system_time_offset": -175,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
   "show_confirm_exit": true,
   "ignore_applet": false,
   "remember_window_state": true,
-  "show_title_bar": true,
+  "show_title_bar": false,
   "enable_hardware_acceleration": true,
   "hide_cursor": 1,
   "enable_vsync": true,
@@ -44,11 +40,11 @@
   "enable_color_space_passthrough": false,
   "enable_ptc": true,
   "enable_low_power_ptc": false,
-  "enable_internet_access": true,
+  "enable_internet_access": false,
   "enable_fs_integrity_checks": true,
   "fs_global_access_log_mode": 0,
   "audio_backend": "SDL2",
-  "audio_volume": 0.85,
+  "audio_volume": 1,
   "memory_manager_mode": "HostMappedUnsafe",
   "dram_size": 3,
   "ignore_missing_services": false,
@@ -83,26 +79,21 @@
   },
   "window_startup": {
     "window_size_width": 1280,
-    "window_size_height": 775,
-<<<<<<< HEAD
-    "window_position_x": 445,
-    "window_position_y": 152,
-=======
-    "window_position_x": 289,
-    "window_position_y": 184,
->>>>>>> 3af4b0a4a029fab6c3b209c3238056c355fa08e2
+    "window_size_height": 777,
+    "window_position_x": 318,
+    "window_position_y": 117,
     "window_maximized": false
   },
   "language_code": "zh_CN",
   "base_style": "Dark",
   "game_list_view_mode": 0,
-  "show_names": false,
+  "show_names": true,
   "grid_size": 2,
   "application_sort": 3,
   "is_ascending_order": false,
   "start_fullscreen": false,
   "show_console": false,
-  "enable_keyboard": true,
+  "enable_keyboard": false,
   "enable_mouse": false,
   "hotkeys": {
     "toggle_vsync": "F1",
@@ -120,70 +111,54 @@
   "input_config": [
     {
       "left_joycon_stick": {
-        "joystick": "Left",
-        "invert_stick_x": false,
-        "invert_stick_y": false,
-        "rotate90_cw": false,
-        "stick_button": "LeftStick"
+        "stick_up": "W",
+        "stick_down": "S",
+        "stick_left": "A",
+        "stick_right": "D",
+        "stick_button": "F"
       },
       "right_joycon_stick": {
-        "joystick": "Right",
-        "invert_stick_x": false,
-        "invert_stick_y": false,
-        "rotate90_cw": false,
-        "stick_button": "RightStick"
-      },
-      "deadzone_left": 0.1,
-      "deadzone_right": 0.1,
-      "range_left": 1,
-      "range_right": 1,
-      "trigger_threshold": 0.5,
-      "motion": {
-        "motion_backend": "GamepadDriver",
-        "sensitivity": 100,
-        "gyro_deadzone": 1,
-        "enable_motion": true
-      },
-      "rumble": {
-        "strong_rumble": 1,
-        "weak_rumble": 1,
-        "enable_rumble": false
+        "stick_up": "I",
+        "stick_down": "K",
+        "stick_left": "J",
+        "stick_right": "L",
+        "stick_button": "G"
       },
       "left_joycon": {
-        "button_minus": "Back",
-        "button_l": "LeftShoulder",
-        "button_zl": "LeftTrigger",
+        "button_minus": "N",
+        "button_l": "Q",
+        "button_zl": "E",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "dpad_up": "DpadUp",
-        "dpad_down": "DpadDown",
-        "dpad_left": "DpadLeft",
-        "dpad_right": "DpadRight"
+        "dpad_up": "Up",
+        "dpad_down": "Down",
+        "dpad_left": "Left",
+        "dpad_right": "Right"
       },
       "right_joycon": {
-        "button_plus": "Start",
-        "button_r": "RightShoulder",
-        "button_zr": "RightTrigger",
+        "button_plus": "M",
+        "button_r": "T",
+        "button_zr": "R",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "button_x": "X",
-        "button_b": "B",
-        "button_y": "Y",
-        "button_a": "A"
+        "button_x": "V",
+        "button_b": "X",
+        "button_y": "Z",
+        "button_a": "C"
       },
       "version": 1,
-      "backend": "GamepadSDL2",
-      "id": "0-e6b70003-057e-0000-0920-000000006803",
+      "backend": "WindowKeyboard",
+      "id": "0",
       "controller_type": "ProController",
       "player_index": "Player1"
     }
   ],
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2503",
-  "multiplayer_mode": 1,
+  "preferred_gpu": "0x10DE_0x2520",
+  "multiplayer_mode": 0,
   "multiplayer_lan_interface_id": "0",
   "multiplayer_disable_p2p": false,
-  "multiplayer_ldn_passphrase": null,
-  "ldn_server": null,
+  "multiplayer_ldn_passphrase": "",
+  "ldn_server": "",
   "use_hypervisor": true
 }
