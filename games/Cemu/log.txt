@@ -1,119 +1,115 @@
-[08:23:54.894] ------- Init Cemu 2.3 -------
-[08:23:54.895] Init Wii U memory space (base: 0x00000281f6c70000)
-[08:23:54.895] mlc01 path: D:/Recreation/Media/games/Cemu/MLC
-[08:23:54.895] CPU: AMD Ryzen 7 6800H with Radeon Graphics         
-[08:23:54.895] RAM: 64765MB
-[08:23:54.895] Platform: Windows 10 Pro (Build 9200)
-[08:23:54.895] Used CPU extensions: SSSE3, SSE4.1, AVX, AVX2, LZCNT, MOVBE, BMI2, AES-NI, INVARIANT-TSC
-[08:23:54.896] IOSU_CRYPTO: No otp.bin found. Online mode cannot be used
-[08:23:54.897] IOSU_CRYPTO: No Seeprom.bin found. Online mode cannot be used
-[08:24:32.306] Mounting title 00050000101c9300
-[08:24:32.306] Base: D:/Recreation/Media/games/Cemu/MLC/usr/title/00050000/101c9300 [Folder]
-[08:24:32.306] Update: D:/Recreation/Media/games/Cemu/MLC/usr/title/0005000e/101c9300 [Folder]
-[08:24:32.306] DLC: D:/Recreation/Media/games/Cemu/MLC/usr/title/0005000c/101c9300 [Folder]
-[08:24:32.327] COS: System fonts found. Generated shareddata (26609KB)
-[08:24:32.331] Recompiler initialized
-[08:24:32.732] ------- Init Vulkan graphics backend -------
-[08:24:32.829] Vulkan instance version: 1.3
-[08:24:32.992] Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
-[08:24:32.992] Driver version: 566.03
-[08:24:32.992] Vulkan: present_wait extension: supported
-[08:24:32.992] VulkanLimits: UBAlignment 64 nonCoherentAtomSize 64
-[08:24:33.055] Using available debug function: vkCreateDebugUtilsMessengerEXT()
-[08:24:33.055] Vulkan device memory info:
-[08:24:33.055] Heap 0 - Size 5996MB Flags 0x00000001
-[08:24:33.055] Heap 1 - Size 32382MB Flags 0x00000000
-[08:24:33.055] Memory 0 - HeapIndex 1 Flags 0x00000000
-[08:24:33.055] Memory 1 - HeapIndex 0 Flags 0x00000001
-[08:24:33.055] Memory 2 - HeapIndex 0 Flags 0x00000001
-[08:24:33.055] Memory 3 - HeapIndex 1 Flags 0x00000006
-[08:24:33.055] Memory 4 - HeapIndex 1 Flags 0x0000000e
-[08:24:33.055] Memory 5 - HeapIndex 0 Flags 0x00000007
-[08:24:33.365] ------- Loaded title -------
-[08:24:33.365] TitleId: 00050000-101c9300
-[08:24:33.365] TitleVersion: v208
-[08:24:33.365] TitleRegion: JP
-[08:24:33.365] Save path:   D:/Recreation/Media/games/Cemu/MLC/usr/save/00050000/101C9300/user/
-[08:24:33.365] Shader cache file: shaderCache/transferable/00050000101c9300.bin
-[08:24:33.365] gameprofile path: gameProfiles/00050000101c9300.ini
-[08:24:33.365] RPX hash (updated): fb7911ad
-[08:24:33.365] RPX hash (base): dcac9927
-[08:24:33.365] Graphic pack: Using modified RAM mapping 10000000-a0000000 (+1310720KiB)
-[08:24:33.365] Graphic pack: Using modified RAM mapping a0000000-e0000000 (+589824KiB)
-[08:24:33.473] Loaded module 'u-king' with checksum 0x6267bfd0
-[08:24:33.473] RPL link time: 109ms
-[08:24:33.579] HLE scan time: 109ms
-[08:24:33.580] ------- Active settings -------
-[08:24:33.580] CPU-Mode: Multi-core recompiler (gameprofile)
-[08:24:33.580] Load shared libraries: true (gameprofile)
-[08:24:33.580] Use precompiled shaders: auto (gameprofile)
-[08:24:33.580] Full sync at GX2DrawDone: true
-[08:24:33.580] Strict shader mul: true
-[08:24:33.580] Async compile: true
-[08:24:33.580] Console language: 6
-[08:24:33.869] ------- Activate graphic packs -------
-[08:24:37.024] Activate graphic pack: 塞尔达传说: 旷野之息/大型DLC/23.0.1x重置 永远的林可儿3.2.5 灾厄正式版（M权重修复）
-[08:24:37.028] Activate graphic pack: 塞尔达传说: 旷野之息/武器装备/林可儿的近卫装备
-[08:24:37.030] Activate graphic pack: 塞尔达传说: 旷野之息/林可儿组件/头发眼睛颜色 v3 (单选)/蓝眼-粉发
-[08:24:37.031] Applying patch group 'BotW_ArmorLimit_V208'
-[08:24:37.031] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/背包扩充/背包防具页数上限 [Presets: 8页]
-[08:24:37.035] Activate graphic pack: 塞尔达传说: 旷野之息/武器装备/大师剑/金光大师剑(红色剑鞘)
-[08:24:37.037] Applying patch group 'BotwV208' (Codecave: 01800000-018000dc)
-[08:24:37.037] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/敌人生命值显示
-[08:24:37.038] Applying patch group 'BotwV208' (Codecave: 01800100-01800164)
-[08:24:37.038] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/攀登套雨中攀爬
-[08:24:37.039] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/篝火变成烹饪锅
-[08:24:37.040] Applying patch group 'BotwV208'
-[08:24:37.040] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/血月（修正冲突）
-[08:24:37.041] Applying patch group 'BotW_Durability_V208' (Codecave: 01800200-01800204)
-[08:24:37.041] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Cheats/Durability [Presets: Unbreakable]
-[08:24:37.042] Applying patch group 'BotW_InfiniteAmiibo_V208'
-[08:24:37.042] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Cheats/Infinite Amiibo
-[08:24:37.048] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Enhancements [Presets: Serfrost's Preset (Bright Display),Enabled,Normal Reflections,Low (4 samples, Default),Ultra (8x, Default)]
-[08:24:37.091] Applying patch group 'BotW_AspectRatio_Shared' (Codecave: 01800300-01800308)
-[08:24:37.091] Applying patch group 'BotW_AspectRatio_V208'
-[08:24:37.091] Applying patch group 'BotW_GUIAspectRatio_V208' (Codecave: 01800400-01802798)
-[08:24:37.091] Applying patch group 'BotW_GUIScreenNames_V208' (Codecave: 01802800-0180377f)
-[08:24:37.096] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Graphics [Presets: 16:9 (Default),2560x1440 (2K),Edge HUD (Default),None,Extreme (400%, Unstable),High (Default)]
-[08:24:37.097] Applying patch group 'BotW_CameraSensitivity_V208' (Codecave: 01803800-01803808)
-[08:24:37.097] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Camera Sensitivity [Presets: 1.4x (Recommended),1.15x (Recommended),0.8x]
-[08:24:37.099] Applying patch group 'BotW_DayTime_V208' (Codecave: 01803900-018039a0)
-[08:24:37.099] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Day Time [Presets: Enabled (Default),24 minutes (Default),Scaled with day length (Default),Update every 5 minutes (Default),28 days,12:00]
-[08:24:37.101] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Divine Laser Beams [Presets: Yes (Default),Rainbow,75%,75%]
-[08:24:37.102] Applying patch group 'BotW_DrawDistance_V208' (Codecave: 01803a00-01803a40)
-[08:24:37.102] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Draw Distance [Presets: Extreme (2x, requires Extended Memory pack!),Ultra (1.5x, requires Extended Memory pack!),Medium (Default),Medium (Default),Normal (Default)]
-[08:24:37.103] Applying patch group 'BotW_ExtendedMemory_V208'
-[08:24:37.104] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Extended Memory
-[08:24:37.113] Applying patch group 'BotW_ControllerScrollSpeed_V208' (Codecave: 01803b00-01803edc)
-[08:24:37.113] Applying patch group 'BotW_Cutscene_V208' (Codecave: 01803f00-01804138)
-[08:24:37.113] Applying patch group 'BotW_FenceMethod_V208' (Codecave: 01804200-0180426c)
-[08:24:37.113] Applying patch group 'BotW_Gamespeed_V208' (Codecave: 01804300-018045d0)
-[08:24:37.113] Applying patch group 'BotW_KorokChasing_V208' (Codecave: 01804600-01804620)
-[08:24:37.113] Applying patch group 'BotW_LoadingScreen_V208'
-[08:24:37.113] Applying patch group 'BotW_MastercycleSpeed_V208' (Codecave: 01804700-01804714)
-[08:24:37.113] Applying patch group 'BotW_Ragdolls_V208' (Codecave: 01804800-01804810)
-[08:24:37.113] Applying patch group 'BotW_VSync_V208' (Codecave: 01804900-018049a4)
-[08:24:37.113] Applying patch group 'BotW_WaterPhysics_V208' (Codecave: 01804a00-01804a38)
-[08:24:37.114] Set vsync frequency to 60 (graphic pack The Legend of Zelda: Breath of the Wild/Mods/FPS++)
-[08:24:37.114] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/FPS++ [Presets: Advanced Settings,120FPS Limit,60FPS (ideal for 240/120/60Hz displays),Limit all cutscenes to 30FPS,Disabled (Default, dynamically adjust game speed),8 Frames Averaged (Default),Performance Fence (Default),Disabled (Default)]
-[08:24:37.125] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Glowing Guardian Color [Presets: Energy Blue,Varied (Default),Malice Red (Default),Varied (Default),Varied (Default)]
-[08:24:37.126] Applying patch group 'BotW_MenuCursorSpeed_V208'
-[08:24:37.126] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Menu Navigation Speed [Presets: 1.1x]
-[08:24:37.131] graphicPack: error while loading custom shader: using an unknown preset variable in shader
-[08:24:37.134] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Remove Distant Fog [Presets: Distant Fog Settings,Fog 80%,Distant Lighting x2,Default Fog RGB,Default Field Fog Clouds Enabled,Default RGB Field Fog Clouds,Distant NPC Fog 60%,Castle Aura 80%,Purple Castle Aura,Castle Moat Fog 50%,Cyan Castle Moat Fog,Default Preset]
-[08:24:37.134] ------- Init Audio backend -------
-[08:24:37.134] DirectSound: available
-[08:24:37.134] XAudio 2.8: available
-[08:24:37.134] Cubeb: available
-[08:24:37.134] ------- Init Audio input backend -------
-[08:24:37.134] Cubeb: available
-[08:24:37.134] ------- Run title -------
-[08:24:37.136] Graphic pack "Graphics" prevents rendertarget size optimization. This warning can be ignored and is intended for graphic pack developers
-[08:24:43.512] GLSL parsing failed for 4e0bab929e11836f_00003cd249549249: "ERROR: 0:322: '' :  syntax error, unexpected IDENTIFIER, expecting COMMA or SEMICOLON
-ERROR: 1 compilation errors.  No code generated.
-
-"
-[08:24:56.572] Shader cache loaded with 3922 shaders. Commited mem 332MB. Took 19435ms
-[08:25:05.825] Vulkan-Info: Pipeline creation failed due to invalid shader(s)
-[08:25:05.909] Vulkan-Info: Pipeline creation failed due to invalid shader(s)
-[08:25:24.193] IOSU_ACT: using account default in first slot
+[21:17:15.467] error when trying to check visiblity of preset: unknown constant found "$custom" in expression: $custom == 1
+[21:17:15.469] error when trying to check visiblity of preset: unknown constant found "$custom" in expression: $custom == 1
+[21:17:15.531] ------- Init Cemu 2.5 -------
+[21:17:15.532] Init Wii U memory space (base: 0x00000295a7b40000)
+[21:17:15.532] mlc01 path: D:/Recreation/Media/games/Cemu/MLC
+[21:17:15.532] CPU: AMD Ryzen 7 6800H with Radeon Graphics         
+[21:17:15.532] RAM: 64765MB
+[21:17:15.532] Platform: Windows 10 Pro (Build 9200)
+[21:17:15.532] Used CPU extensions: SSSE3, SSE4.1, AVX, AVX2, LZCNT, MOVBE, BMI2, AES-NI, INVARIANT-TSC
+[21:17:15.533] IOSU_CRYPTO: No otp.bin found. Online mode cannot be used
+[21:17:15.533] IOSU_CRYPTO: No Seeprom.bin found. Online mode cannot be used
+[21:17:57.423] Mounting title 00050000101c9300
+[21:17:57.423] Base: D:/Recreation/Media/games/Cemu/MLC/usr/title/00050000/101c9300 [Folder]
+[21:17:57.423] Update: D:/Recreation/Media/games/Cemu/MLC/usr/title/0005000e/101c9300 [Folder]
+[21:17:57.423] DLC: D:/Recreation/Media/games/Cemu/MLC/usr/title/0005000c/101c9300 [Folder]
+[21:17:57.450] COS: System fonts found. Generated shareddata (26609KB)
+[21:17:57.454] Recompiler initialized
+[21:17:57.850] ------- Init Vulkan graphics backend -------
+[21:17:57.926] Vulkan instance version: 1.3
+[21:17:58.025] Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+[21:17:58.025] Driver version: 566.36
+[21:17:58.025] Vulkan: present_wait extension: supported
+[21:17:58.025] VulkanLimits: UBAlignment 64 nonCoherentAtomSize 64
+[21:17:58.073] Using available debug function: vkCreateDebugUtilsMessengerEXT()
+[21:17:58.073] Vulkan device memory info:
+[21:17:58.073] Heap 0 - Size 5996MB Flags 0x00000001
+[21:17:58.073] Heap 1 - Size 32382MB Flags 0x00000000
+[21:17:58.073] Memory 0 - HeapIndex 1 Flags 0x00000000
+[21:17:58.073] Memory 1 - HeapIndex 0 Flags 0x00000001
+[21:17:58.073] Memory 2 - HeapIndex 0 Flags 0x00000001
+[21:17:58.073] Memory 3 - HeapIndex 1 Flags 0x00000006
+[21:17:58.073] Memory 4 - HeapIndex 1 Flags 0x0000000e
+[21:17:58.073] Memory 5 - HeapIndex 0 Flags 0x00000007
+[21:17:58.350] ------- Loaded title -------
+[21:17:58.350] TitleId: 00050000-101c9300
+[21:17:58.350] TitleVersion: v208
+[21:17:58.350] TitleRegion: JP
+[21:17:58.350] Save path:   D:/Recreation/Media/games/Cemu/MLC/usr/save/00050000/101C9300/user/
+[21:17:58.350] Shader cache file: shaderCache/transferable/00050000101c9300.bin
+[21:17:58.350] gameprofile path: gameProfiles/00050000101c9300.ini
+[21:17:58.350] RPX hash (updated): fb7911ad
+[21:17:58.350] RPX hash (base): dcac9927
+[21:17:58.350] Graphic pack: Using modified RAM mapping 10000000-a0000000 (+1310720KiB)
+[21:17:58.350] Graphic pack: Using modified RAM mapping a0000000-e0000000 (+589824KiB)
+[21:17:58.461] Loaded module 'u-king' with checksum 0x6267bfd0
+[21:17:58.461] RPL link time: 109ms
+[21:17:58.558] HLE scan time: 94ms
+[21:17:58.558] ------- Active settings -------
+[21:17:58.558] CPU-Mode: Multi-core recompiler (gameprofile)
+[21:17:58.558] Load shared libraries: true (gameprofile)
+[21:17:58.558] Use precompiled shaders: auto (gameprofile)
+[21:17:58.558] Full sync at GX2DrawDone: true
+[21:17:58.558] Strict shader mul: true
+[21:17:58.558] Async compile: true
+[21:17:58.558] Console language: 6
+[21:17:58.726] ------- Activate graphic packs -------
+[21:18:00.697] Activate graphic pack: 塞尔达传说: 旷野之息/大型DLC/多重整合23.0.5x 永远的可儿3.2.9 暖暖正式版（动作修正版）
+[21:18:00.701] Activate graphic pack: 塞尔达传说: 旷野之息/武器装备/林可儿的近卫装备
+[21:18:00.704] Activate graphic pack: 塞尔达传说: 旷野之息/林可儿组件/头发眼睛颜色 v3 (单选)/蓝眼-粉发
+[21:18:00.704] Applying patch group 'BotW_ArmorLimit_V208'
+[21:18:00.704] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/背包扩充/背包防具页数上限 [Presets: 8页]
+[21:18:00.709] Activate graphic pack: 塞尔达传说: 旷野之息/武器装备/大师剑/金光大师剑(红色剑鞘)
+[21:18:00.711] Applying patch group 'BotwV208' (Codecave: 01800000-018000dc)
+[21:18:00.711] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/敌人生命值显示
+[21:18:00.712] Applying patch group 'BotwV208' (Codecave: 01800100-01800164)
+[21:18:00.712] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/攀登套雨中攀爬
+[21:18:00.714] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/篝火变成烹饪锅
+[21:18:00.715] Applying patch group 'BotwV208'
+[21:18:00.715] Activate graphic pack: 塞尔达传说: 旷野之息/系统环境/血月（修正冲突）
+[21:18:00.716] Applying patch group 'BotW_Durability_V208' (Codecave: 01800200-01800204)
+[21:18:00.716] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Cheats/Durability [Presets: Unbreakable]
+[21:18:00.716] Applying patch group 'BotW_InfiniteAmiibo_V208'
+[21:18:00.717] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Cheats/Infinite Amiibo
+[21:18:00.722] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Enhancements [Presets: Serfrost's Preset (Bright Display),Enabled,Normal Reflections,Low (4 samples, Default),Ultra (8x, Default)]
+[21:18:00.764] Applying patch group 'BotW_AspectRatio_Shared' (Codecave: 01800300-01800308)
+[21:18:00.764] Applying patch group 'BotW_AspectRatio_V208'
+[21:18:00.764] Applying patch group 'BotW_GUIAspectRatio_V208' (Codecave: 01800400-01802798)
+[21:18:00.764] Applying patch group 'BotW_GUIScreenNames_V208' (Codecave: 01802800-0180377f)
+[21:18:00.770] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Graphics [Presets: 16:9 (Default),2560x1440 (2K),Edge HUD (Default),None,Extreme (400%, Unstable),High (Default)]
+[21:18:00.771] Applying patch group 'BotW_CameraSensitivity_V208' (Codecave: 01803800-01803808)
+[21:18:00.771] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Camera Sensitivity [Presets: 1.4x (Recommended),1.15x (Recommended),0.8x]
+[21:18:00.773] Applying patch group 'BotW_DayTime_V208' (Codecave: 01803900-018039a0)
+[21:18:00.773] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Day Time [Presets: Enabled (Default),24 minutes (Default),Scaled with day length (Default),Update every 5 minutes (Default),28 days,12:00]
+[21:18:00.775] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Divine Laser Beams [Presets: Yes (Default),Rainbow,75%,75%]
+[21:18:00.776] Applying patch group 'BotW_DrawDistance_V208' (Codecave: 01803a00-01803a40)
+[21:18:00.776] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Draw Distance [Presets: Extreme (2x, requires Extended Memory pack!),Ultra (1.5x, requires Extended Memory pack!),Medium (Default),Medium (Default),Normal (Default)]
+[21:18:00.777] Applying patch group 'BotW_ExtendedMemory_V208'
+[21:18:00.777] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Extended Memory
+[21:18:00.787] Applying patch group 'BotW_ControllerScrollSpeed_V208' (Codecave: 01803b00-01803edc)
+[21:18:00.787] Applying patch group 'BotW_Cutscene_V208' (Codecave: 01803f00-01804138)
+[21:18:00.787] Applying patch group 'BotW_FenceMethod_V208' (Codecave: 01804200-0180426c)
+[21:18:00.787] Applying patch group 'BotW_Gamespeed_V208' (Codecave: 01804300-018045d0)
+[21:18:00.787] Applying patch group 'BotW_KorokChasing_V208' (Codecave: 01804600-01804620)
+[21:18:00.787] Applying patch group 'BotW_LoadingScreen_V208'
+[21:18:00.787] Applying patch group 'BotW_MastercycleSpeed_V208' (Codecave: 01804700-01804714)
+[21:18:00.787] Applying patch group 'BotW_Ragdolls_V208' (Codecave: 01804800-01804810)
+[21:18:00.787] Applying patch group 'BotW_VSync_V208' (Codecave: 01804900-018049a4)
+[21:18:00.787] Applying patch group 'BotW_WaterPhysics_V208' (Codecave: 01804a00-01804a38)
+[21:18:00.788] Set vsync frequency to 60 (graphic pack The Legend of Zelda: Breath of the Wild/Mods/FPS++)
+[21:18:00.788] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/FPS++ [Presets: Advanced Settings,120FPS Limit,60FPS (ideal for 240/120/60Hz displays),Limit all cutscenes to 30FPS,Disabled (Default, dynamically adjust game speed),8 Frames Averaged (Default),Performance Fence (Default),Disabled (Default)]
+[21:18:00.798] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Glowing Guardian Color [Presets: Energy Blue,Varied (Default),Malice Red (Default),Varied (Default),Varied (Default)]
+[21:18:00.799] Applying patch group 'BotW_MenuCursorSpeed_V208'
+[21:18:00.799] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Menu Navigation Speed [Presets: 1.1x]
+[21:18:00.804] graphicPack: error while loading custom shader: using an unknown preset variable in shader
+[21:18:00.807] Activate graphic pack: The Legend of Zelda: Breath of the Wild/Mods/Remove Distant Fog [Presets: Distant Fog Settings,Fog 80%,Distant Lighting x2,Default Fog RGB,Default Field Fog Clouds Enabled,Default RGB Field Fog Clouds,Distant NPC Fog 60%,Castle Aura 80%,Purple Castle Aura,Castle Moat Fog 50%,Cyan Castle Moat Fog,Default Preset]
+[21:18:00.807] ------- Init Audio backend -------
+[21:18:00.807] DirectSound: available
+[21:18:00.807] XAudio 2.8: available
+[21:18:00.807] Cubeb: available
+[21:18:00.807] ------- Init Audio input backend -------
+[21:18:00.807] Cubeb: available
+[21:18:00.807] ------- Run title -------
+[21:18:00.809] Graphic pack "Graphics" prevents rendertarget size optimization. This warning can be ignored and is intended for graphic pack developers
+[21:18:01.280] Shader cache loaded with 1334 shaders. Commited mem 117MB. Took 470ms
+[21:18:02.370] IOSU_ACT: using account default in first slot
