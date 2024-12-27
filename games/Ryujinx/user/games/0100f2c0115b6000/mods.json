@@ -1,16 +1,6 @@
 {
   "mods": [
     {
-      "name": "A_\u57FA\u7840\u5305_\u7EC8\u6781\u4FEE\u6539\u6574\u5408\uFF08\u5FC5\u5F00\uFF09",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\A_\u57FA\u7840\u5305_\u7EC8\u6781\u4FEE\u6539\u6574\u5408\uFF08\u5FC5\u5F00\uFF09",
-      "enabled": true
-    },
-    {
-      "name": "C_\u53BB\u9664\u5440\u54C8\u54C8\u9762\u5177\u7684\u7EFF\u53F6",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u53BB\u9664\u5440\u54C8\u54C8\u9762\u5177\u7684\u7EFF\u53F6",
-      "enabled": true
-    },
-    {
       "name": "C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
       "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
       "enabled": true
@@ -23,26 +13,6 @@
     {
       "name": "C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
       "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
-      "enabled": true
-    },
-    {
-      "name": "E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
-      "enabled": true
-    },
-    {
-      "name": "E_\u6797\u514B\u62E5\u6709\u53D1\u5149\u7684\u624B\u81C2\uFF08\u84DD\u7EFF\u8272\uFF09",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\E_\u6797\u514B\u62E5\u6709\u53D1\u5149\u7684\u624B\u81C2\uFF08\u84DD\u7EFF\u8272\uFF09",
-      "enabled": true
-    },
-    {
-      "name": "G_\u602A\u7269\u96BE\u5EA6\u63D0\u5347 3\u500D\uFF08up\u63A8\u8350\uFF09",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\G_\u602A\u7269\u96BE\u5EA6\u63D0\u5347 3\u500D\uFF08up\u63A8\u8350\uFF09",
-      "enabled": true
-    },
-    {
-      "name": "NPC_\u666E\u5C14\u4E9A\u897F\u5F0F\u670D\u88C5",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\NPC_\u666E\u5C14\u4E9A\u897F\u5F0F\u670D\u88C5",
       "enabled": true
     },
     {

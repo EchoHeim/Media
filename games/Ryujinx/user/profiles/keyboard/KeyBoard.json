@@ -16,7 +16,7 @@
   "left_joycon": {
     "button_minus": "N",
     "button_l": "Q",
-    "button_zl": "E",
+    "button_zl": "R",
     "button_sl": "Unbound",
     "button_sr": "Unbound",
     "dpad_up": "Up",
@@ -26,8 +26,8 @@
   },
   "right_joycon": {
     "button_plus": "M",
-    "button_r": "T",
-    "button_zr": "R",
+    "button_r": "E",
+    "button_zr": "T",
     "button_sl": "Unbound",
     "button_sr": "Unbound",
     "button_x": "V",
