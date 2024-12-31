@@ -23,7 +23,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -210,
+  "system_time_offset": -264,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
@@ -83,8 +83,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 315,
-    "window_position_y": 200,
+    "window_position_x": 349,
+    "window_position_y": 232,
     "window_maximized": false
   },
   "language_code": "zh_CN",
