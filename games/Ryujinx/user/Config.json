@@ -23,7 +23,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "China",
   "system_time_zone": "UTC",
-  "system_time_offset": -892,
+  "system_time_offset": -897,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
@@ -75,8 +75,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 775,
-    "window_position_x": 221,
-    "window_position_y": 234,
+    "window_position_x": 575,
+    "window_position_y": 387,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -151,7 +151,7 @@
     }
   ],
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2520",
+  "preferred_gpu": "0x10DE_0x2503",
   "multiplayer_mode": 1,
   "multiplayer_lan_interface_id": "0",
   "use_hypervisor": true
