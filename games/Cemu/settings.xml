@@ -81,6 +81,7 @@
     <GamePaths/>
     <GameCache/>
     <GraphicPack>
+        <Entry filename="graphicPacks/BreathOfTheWild_BCML_v23.0.5x/rules.txt"/>
         <Entry filename="graphicPacks/downloadedGraphicPacks/BreathOfTheWild/Mods/RemoveFog/rules.txt">
             <Preset>
                 <category>Distant NPC Fog Percentage</category>
