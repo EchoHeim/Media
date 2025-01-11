@@ -23,7 +23,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -327,
+  "system_time_offset": -334,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
@@ -83,8 +83,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 733,
-    "window_position_y": 298,
+    "window_position_x": 204,
+    "window_position_y": 215,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -127,12 +127,12 @@
         "stick_down": "K",
         "stick_left": "J",
         "stick_right": "L",
-        "stick_button": "H"
+        "stick_button": "G"
       },
       "left_joycon": {
-        "button_minus": "Minus",
-        "button_l": "E",
-        "button_zl": "Q",
+        "button_minus": "N",
+        "button_l": "Q",
+        "button_zl": "R",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
         "dpad_up": "Up",
@@ -141,15 +141,15 @@
         "dpad_right": "Right"
       },
       "right_joycon": {
-        "button_plus": "Plus",
-        "button_r": "U",
-        "button_zr": "O",
+        "button_plus": "M",
+        "button_r": "E",
+        "button_zr": "T",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "button_x": "C",
+        "button_x": "V",
         "button_b": "X",
-        "button_y": "V",
-        "button_a": "Z"
+        "button_y": "Z",
+        "button_a": "C"
       },
       "version": 1,
       "backend": "WindowKeyboard",
@@ -159,7 +159,7 @@
     }
   ],
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2503",
+  "preferred_gpu": "0x10DE_0x2520",
   "multiplayer_mode": 0,
   "multiplayer_lan_interface_id": "0",
   "multiplayer_disable_p2p": false,
