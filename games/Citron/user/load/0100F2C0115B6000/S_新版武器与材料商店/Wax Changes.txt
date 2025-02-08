@@ -1,0 +1,49 @@
+Mals:
+
+Item_Wax_01_Name: |
+  Invisible Shield Wax
+Item_Wax_01_Caption: |
+  An invisible wax for lowering friction on your shield.
+  Apply to your shield for a better shield surfing
+  experience without changing it's appearance.
+
+ActorInfo:
+
+- ActorName: Item_Wax_01
+  CalcRadius: 20.0
+  Category: ObjectPouchContent
+  ClassName: GameActor
+  CreateRadiusOffset: 5.0
+  DeleteRadiusOffset: 10.0
+  DisplayRadius: 80.0
+  ELinkUserName: Item_Material_09
+  FmdbName: Item_Material_09
+  InstanceHeapSize: 146528
+  LoadRadius: 180.0
+  ModelAabbMax: {X: 0.193847656, Y: 0.856445312, Z: 0.125854492}
+  ModelAabbMin: {X: -0.236694336, Y: -0.0103302002, Z: -0.131225586}
+  ModelProjectName: Item_Material_09
+  PreActorRenderInfoHeapSize: 12360
+  SLinkUserName: Item_BottleWater
+  UnloadRadiusOffset: 10.0
+  UsePreActorRenderer: true
+  __RowId: Item_Wax_01
+
+GameActorInfo:
+
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, MaxLife: 100, __RowId: Item_Wax_01}
+
+PouchActorInfo:
+
+- {BundleActorNum: 1, BuyingPrice: 40, DyeColor: Orange, PouchCategory: Material, PouchGetType: Small, PouchSpecialDeal: None,
+  PouchStockable: true, PouchUseType: EatFood, SellingPrice: 10, __RowId: Item_Wax_01}
+
+RSTB:
+
+Actor/Item_Wax_01.engine__actor__ActorParam.bgyml: 10312
+Component/AttachmentParam/Item_Wax_01.game__component__AttachmentParam.bgyml: 7040
+Pack/Actor/Item_Wax_01.pack: 24928
+UI/Tex/Icon/Item_Wax_01.bntx: 70016
+
+
+

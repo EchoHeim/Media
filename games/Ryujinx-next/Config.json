@@ -1,5 +1,5 @@
 {
-  "version": 57,
+  "version": 60,
   "enable_file_log": true,
   "backend_threading": "Auto",
   "res_scale": 1,
@@ -23,7 +23,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -372,
+  "system_time_offset": -396,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
@@ -81,10 +81,10 @@
     "nso": true
   },
   "window_startup": {
-    "window_size_width": 1280,
-    "window_size_height": 777,
-    "window_position_x": 403,
-    "window_position_y": 241,
+    "window_size_width": 800,
+    "window_size_height": 531,
+    "window_position_x": 3,
+    "window_position_y": 579,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -95,6 +95,7 @@
   "application_sort": 3,
   "is_ascending_order": false,
   "start_fullscreen": false,
+  "start_no_ui": false,
   "show_console": false,
   "enable_keyboard": false,
   "enable_mouse": false,
@@ -165,5 +166,7 @@
   "multiplayer_disable_p2p": false,
   "multiplayer_ldn_passphrase": "Ryujinx-cbd48183",
   "ldn_server": "",
-  "use_hypervisor": true
+  "use_hypervisor": true,
+  "show_dirty_hacks": false,
+  "dirty_hacks": []
 }
