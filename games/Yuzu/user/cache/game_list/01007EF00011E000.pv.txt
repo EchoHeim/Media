@@ -1,5 +1,3 @@
 Update (1.6.0)
-01007EF00011E000 (LayeredFS)
-01007EF00011F001 (LayeredFS)
-[D] 60FPS (IPSwitch)
+60FPS (IPSwitch)
 DLC (1, 2)

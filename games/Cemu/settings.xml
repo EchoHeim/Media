@@ -17,6 +17,7 @@
     <fullscreen>false</fullscreen>
     <proxy_server></proxy_server>
     <disable_screensaver>true</disable_screensaver>
+    <play_boot_sound>false</play_boot_sound>
     <console_language>6</console_language>
     <window_position>
         <x>-1</x>

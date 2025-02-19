@@ -1,5 +1,5 @@
 {
-  "version": 60,
+  "version": 67,
   "enable_file_log": true,
   "backend_threading": "Auto",
   "res_scale": 1,
@@ -18,15 +18,19 @@
   "logging_enable_trace": false,
   "logging_enable_guest": true,
   "logging_enable_fs_access_log": false,
+  "logging_enable_avalonia": false,
   "logging_filtered_classes": [],
   "logging_graphics_debug_level": "None",
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
   "system_time_offset": -396,
+  "match_system_time": false,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": true,
+  "update_checker_type": "PromptAtStartup",
+  "focus_lost_action_type": "DoNothing",
   "show_confirm_exit": true,
   "ignore_applet": false,
   "remember_window_state": true,
@@ -81,10 +85,10 @@
     "nso": true
   },
   "window_startup": {
-    "window_size_width": 800,
-    "window_size_height": 531,
-    "window_position_x": 3,
-    "window_position_y": 579,
+    "window_size_width": 1280,
+    "window_size_height": 777,
+    "window_position_x": 154,
+    "window_position_y": 156,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -99,6 +103,7 @@
   "show_console": false,
   "enable_keyboard": false,
   "enable_mouse": false,
+  "disable_input_when_out_of_focus": false,
   "hotkeys": {
     "toggle_vsync_mode": "F1",
     "screenshot": "F8",
@@ -112,8 +117,6 @@
     "custom_vsync_interval_increment": "Unbound",
     "custom_vsync_interval_decrement": "Unbound"
   },
-  "keyboard_config": [],
-  "controller_config": [],
   "input_config": [
     {
       "left_joycon_stick": {
@@ -159,6 +162,7 @@
       "player_index": "Player1"
     }
   ],
+  "rainbow_speed": 1,
   "graphics_backend": "Vulkan",
   "preferred_gpu": "0x10DE_0x2520",
   "multiplayer_mode": 0,
