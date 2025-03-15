@@ -1,5 +1,5 @@
 {
-  "version": 67,
+  "version": 68,
   "enable_file_log": true,
   "backend_threading": "Auto",
   "res_scale": 1,
@@ -28,7 +28,7 @@
   "match_system_time": false,
   "docked_mode": true,
   "enable_discord_integration": true,
-  "check_updates_on_start": true,
+  "check_updates_on_start": false,
   "update_checker_type": "PromptAtStartup",
   "focus_lost_action_type": "DoNothing",
   "show_confirm_exit": true,
@@ -87,8 +87,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 300,
-    "window_position_y": 129,
+    "window_position_x": 309,
+    "window_position_y": 165,
     "window_maximized": false
   },
   "language_code": "zh_CN",
