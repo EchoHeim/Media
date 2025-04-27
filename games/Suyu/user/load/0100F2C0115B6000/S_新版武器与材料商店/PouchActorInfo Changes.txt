@@ -1,0 +1,335 @@
+Additions:
+
+- BundleActorNum: 1
+  BuyingPrice: 60
+  DyeColor: Red
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 540
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 15
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2058
+  
+- BundleActorNum: 1
+  BuyingPrice: 60
+  DyeColor: LightBlue
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 535
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 15
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2059
+  
+  - BundleActorNum: 1
+  BuyingPrice: 60
+  DyeColor: Yellow
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 530
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 15
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2060
+  
+- BundleActorNum: 1
+  BuyingPrice: 100
+  DyeColor: LightYellow
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 585
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 25
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2080
+  
+- BundleActorNum: 1
+  BuyingPrice: 120
+  DyeColor: White
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 265
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 30
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2092
+  
+- BundleActorNum: 1
+  BuyingPrice: 120
+  DyeColor: Purple
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 245
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 30
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2103
+  
+- BundleActorNum: 1
+  BuyingPrice: 120
+  DyeColor: Crimson
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 545
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 30
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2109
+  
+- BundleActorNum: 1
+  BuyingPrice: 176
+  DyeColor: Gray
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 565
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 44
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2134
+  
+- BundleActorNum: 1
+  BuyingPrice: 240
+  DyeColor: Gray
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 205
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 60
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2144
+  
+- BundleActorNum: 1
+  BuyingPrice: 600
+  DyeColor: Black
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 510
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 150
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2151
+  
+- BundleActorNum: 1
+  BuyingPrice: 280
+  DyeColor: Crimson
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 460
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 70
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2153
+  
+- BundleActorNum: 1
+  BuyingPrice: 360
+  DyeColor: Navy
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 455
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 90
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2154
+  
+- BundleActorNum: 1
+  BuyingPrice: 600
+  DyeColor: Yellow
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 450
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 150
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2155
+  
+- BundleActorNum: 1
+  BuyingPrice: 152
+  DyeColor: Green
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 1387
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 38
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2156
+  
+- BundleActorNum: 1
+  BuyingPrice: 96
+  DyeColor: Green
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 490
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 24
+  __RowId: Item_Enemy_2169
+  
+- BundleActorNum: 1
+  BuyingPrice: 160
+  DyeColor: Pink
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 180
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 40
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2188
+  
+- BundleActorNum: 1
+  BuyingPrice: 120
+  DyeColor: Green
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 470
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 30
+  __RowId: Item_Enemy_2193
+  
+- BundleActorNum: 1
+  BuyingPrice: 60
+  DyeColor: Brown
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 200
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 15
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2208
+  
+- BundleActorNum: 1
+  BuyingPrice: 120
+  DyeColor: Brown
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 195
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 30
+  SpiceBoostEffectiveTime: 80
+  SpiceBoostSuccessRate: 10
+  __RowId: Item_Enemy_2210
+  
+- BundleActorNum: 1
+  BuyingPrice: 1200
+  DyeColor: Crimson
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 445
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 300
+  SpiceBoostEffectiveTime: 1800
+  SpiceBoostHitPointRecover: 15
+  SpiceBoostSuccessRate: 100
+  __RowId: Item_Enemy_2211
+  
+- BundleActorNum: 1
+  BuyingPrice: 1200
+  DyeColor: LightBlue
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 440
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 300
+  SpiceBoostEffectiveTime: 1800
+  SpiceBoostHitPointRecover: 15
+  SpiceBoostSuccessRate: 100
+  __RowId: Item_Enemy_2212
+  
+- BundleActorNum: 1
+  BuyingPrice: 1200
+  DyeColor: LightYellow
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 435
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 300
+  SpiceBoostEffectiveTime: 1800
+  SpiceBoostHitPointRecover: 15
+  SpiceBoostSuccessRate: 100
+  __RowId: Item_Enemy_2213
+  
+- BundleActorNum: 1
+  BuyingPrice: 1200
+  DyeColor: White
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 430
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 300
+  SpiceBoostEffectiveTime: 1800
+  SpiceBoostHitPointRecover: 15
+  SpiceBoostSuccessRate: 100
+  __RowId: Item_Enemy_2214
+  
+- BundleActorNum: 1
+  BuyingPrice: 600
+  DyeColor: Black
+  PouchCategory: Material
+  PouchGetType: Small
+  PouchSortKey: 220
+  PouchSpecialDeal: None
+  PouchStockable: true
+  PouchUseType: EatFood
+  SellingPrice: 150
+  SpiceBoostEffectiveTime: 40
+  __RowId: Item_Enemy_2218
+  
+- {BundleActorNum: 1, BuyingPrice: 2000, DyeColor: White, PouchCategory: Material, PouchGetType: Small, PouchSpecialDeal: None,
+  PouchStockable: true, PouchUseType: EatFood, SellingPrice: 500, __RowId: Item_Ore_2A}
+  
+- {BundleActorNum: 1, BuyingPrice: 440, DyeColor: Red, PouchCategory: Material, PouchGetType: Small, PouchSpecialDeal: None,
+  PouchStockable: true, PouchUseType: EatFood, SellingPrice: 110, __RowId: Item_Ore_2B}
+  
+- {BundleActorNum: 1, BuyingPrice: 600, DyeColor: Blue, PouchCategory: Material, PouchGetType: Small, PouchSpecialDeal: None,
+  PouchStockable: true, PouchUseType: EatFood, SellingPrice: 150, __RowId: Item_Ore_2C}
+  
+- {BundleActorNum: 1, BuyingPrice: 320, DyeColor: Yellow, PouchCategory: Material, PouchGetType: Small, PouchSpecialDeal: None,
+  PouchStockable: true, PouchUseType: EatFood, SellingPrice: 80, __RowId: Item_Ore_2D}
+  
+- {BundleActorNum: 1, BuyingPrice: 120, DyeColor: LightYellow, PouchCategory: Material, PouchGetType: Small, PouchSpecialDeal: None,
+  PouchStockable: true, PouchUseType: EatFood, SellingPrice: 30, __RowId: Item_Ore_2E}

@@ -2,7 +2,7 @@
 <content>
     <logflag>0</logflag>
     <advanced_ppc_logging>false</advanced_ppc_logging>
-    <mlc_path>D:/Recreation/Media/games/Cemu/MLC</mlc_path>
+    <mlc_path>E:/Media/games/Cemu/MLC</mlc_path>
     <permanent_storage>true</permanent_storage>
     <language>129</language>
     <use_discord_presence>false</use_discord_presence>
@@ -51,6 +51,7 @@
         <title_id>0</title_id>
     </GameList>
     <RecentLaunchFiles>
+        <Entry>E:/Media/games/Cemu/MLC/usr/title/00050000/101c9300</Entry>
         <Entry>D:/Recreation/Media/games/Cemu/MLC/usr/title/00050000/101c9300</Entry>
         <Entry>D:/Recreation/Media/games/Cemu/MLC/usr/title/00050000/10143500</Entry>
         <Entry>D:/Recreation/Cemu/MLC/usr/title/00050000/101c9300</Entry>
@@ -410,7 +411,7 @@
     </GraphicPack>
     <Graphic>
         <api>1</api>
-        <device>00000000000000000000000000000000</device>
+        <device>d6ca2434b710de7822e76258896a4d66</device>
         <VSync>0</VSync>
         <GX2DrawdoneSync>true</GX2DrawdoneSync>
         <UpscaleFilter>1</UpscaleFilter>

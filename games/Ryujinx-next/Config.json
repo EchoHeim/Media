@@ -1,5 +1,5 @@
 {
-  "version": 68,
+  "version": 69,
   "enable_file_log": true,
   "backend_threading": "Auto",
   "res_scale": 1,
@@ -24,7 +24,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -396,
+  "system_time_offset": -417,
   "match_system_time": false,
   "docked_mode": true,
   "enable_discord_integration": true,
@@ -33,6 +33,7 @@
   "focus_lost_action_type": "DoNothing",
   "show_confirm_exit": true,
   "ignore_applet": false,
+  "skip_user_profiles": false,
   "remember_window_state": true,
   "show_title_bar": false,
   "enable_hardware_acceleration": true,
@@ -47,6 +48,7 @@
   "enable_color_space_passthrough": false,
   "enable_ptc": true,
   "enable_low_power_ptc": false,
+  "tick_scalar": 50,
   "enable_internet_access": true,
   "enable_fs_integrity_checks": true,
   "fs_global_access_log_mode": 0,
@@ -73,7 +75,7 @@
     "sort_ascending": false
   },
   "game_dirs": [
-    "D:\\Recreation\\Media\\games\\Yuzu\\ROM"
+    "E:\\Media\\games\\Yuzu\\ROM"
   ],
   "autoload_dirs": [],
   "shown_file_types": {
@@ -85,8 +87,8 @@
     "nso": true
   },
   "window_startup": {
-    "window_size_width": 800,
-    "window_size_height": 531,
+    "window_size_width": 1280,
+    "window_size_height": 777,
     "window_position_x": 559,
     "window_position_y": 274,
     "window_maximized": false
@@ -115,7 +117,9 @@
     "volume_up": "KeypadAdd",
     "volume_down": "KeypadSubtract",
     "custom_vsync_interval_increment": "Unbound",
-    "custom_vsync_interval_decrement": "Unbound"
+    "custom_vsync_interval_decrement": "Unbound",
+    "turbo_mode": "Unknown",
+    "turbo_mode_while_held": false
   },
   "input_config": [
     {
@@ -164,7 +168,7 @@
   ],
   "rainbow_speed": 1,
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2520",
+  "preferred_gpu": "0x10DE_0x2503",
   "multiplayer_mode": 0,
   "multiplayer_lan_interface_id": "0",
   "multiplayer_disable_p2p": false,

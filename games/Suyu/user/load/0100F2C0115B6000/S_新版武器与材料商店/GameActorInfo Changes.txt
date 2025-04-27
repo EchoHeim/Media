@@ -1,0 +1,31 @@
+Additions:
+
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2058}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2059}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2060}
+- {HasAutoAnim: true, IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2080}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2092}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2103}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2109}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2134}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2144}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2151}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2153}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2154}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2155}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2156}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2169}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2188}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2193}
+- {HasAutoAnim: true, IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2208}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2210}
+- {HasAutoAnim: true, IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2211}
+- {HasAutoAnim: true, IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2212}
+- {HasAutoAnim: true, IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2213}
+- {HasAutoAnim: true, IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2214}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, __RowId: Item_Enemy_2218}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, MaxLife: 100, __RowId: Item_Ore_2A}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, MaxLife: 100, __RowId: Item_Ore_2B}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, MaxLife: 100, __RowId: Item_Ore_2C}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, MaxLife: 100, __RowId: Item_Ore_2D}
+- {IsRespawn: true, MainRigidBodyLayer: SmallObject, MaxLife: 100, __RowId: Item_Ore_2E}
