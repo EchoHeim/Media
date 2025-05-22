@@ -411,7 +411,7 @@
     </GraphicPack>
     <Graphic>
         <api>1</api>
-        <device>d6ca2434b710de7822e76258896a4d66</device>
+        <device>aafb7304e2d9bc73100fe6cfa6a75e55</device>
         <VSync>0</VSync>
         <GX2DrawdoneSync>true</GX2DrawdoneSync>
         <UpscaleFilter>1</UpscaleFilter>
