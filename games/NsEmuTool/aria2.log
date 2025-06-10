@@ -1,2082 +1,661 @@
-2025-03-15 16:02:36.764254 [INFO] [Context.cc:179] <<--- --- --- ---
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:180]   --- --- --- ---
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:181]   --- --- --- --->>
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:182] aria2 1.37.0
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:183] mingw-w64 8.0.0 (alpha) / gcc 10-win32 20220113
+2025-06-10 10:43:59.688208 [INFO] [Context.cc:179] <<--- --- --- ---
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:180]   --- --- --- ---
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:181]   --- --- --- --->>
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:182] aria2 1.37.0
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:183] mingw-w64 8.0.0 (alpha) / gcc 10-win32 20220113
   built by  x86_64-pc-linux-gnu
   targeting x86_64-w64-mingw32
   on        Nov 15 2023 11:17:49
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:184] Windows 6.2 (x86_64) (6.2)
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:185] zlib/1.3 expat/2.5.0 sqlite3/3.43.1 GMP/6.3.0 c-ares/1.19.1 libssh2/1.11.0
-2025-03-15 16:02:36.765263 [INFO] [Context.cc:186] Logging started.
-2025-03-15 16:02:36.766605 [INFO] [SocketCore.cc:1586] Checking configured addresses
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: fe80::35c6:df58:a8e5:7948%16
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: 169.254.97.65
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: fe80::5a23:ac71:1fca:9eb4%12
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: 169.254.167.180
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1647] Found configured address: 2001:da8:203d:20:3270:5325:127:6726
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1647] Found configured address: 2001:da8:203d:20::550
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1647] Found configured address: 2001:da8:203d:20:d8f1:cef2:4d31:65a4
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: fe80::35ae:1b1b:568:8e59%6
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1647] Found configured address: 172.26.71.109
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: fe80::2e08:f8b3:f37a:a740%9
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: 169.254.251.89
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: fe80::cdcb:4888:59a:244c%5
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: 169.254.106.209
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: ::1
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1650] Not considered: 127.0.0.1
-2025-03-15 16:02:36.773873 [INFO] [SocketCore.cc:1657] IPv4 configured=1, IPv6 configured=1
-2025-03-15 16:02:36.773873 [INFO] [HttpListenCommand.cc:106] CUID#8 - Using port 47338 for accepting new connections
-2025-03-15 16:02:36.773873 [NOTICE] [HttpListenCommand.cc:108] IPv4 RPC: listening on TCP port 47338
-2025-03-15 16:02:37.225412 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4700.
-2025-03-15 16:02:37.225412 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:184] Windows 6.2 (x86_64) (6.2)
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:185] zlib/1.3 expat/2.5.0 sqlite3/3.43.1 GMP/6.3.0 c-ares/1.19.1 libssh2/1.11.0
+2025-06-10 10:43:59.689714 [INFO] [Context.cc:186] Logging started.
+2025-06-10 10:43:59.691942 [INFO] [SocketCore.cc:1586] Checking configured addresses
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: fe80::cdcb:4888:59a:244c%5
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: 169.254.106.209
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: fe80::35c6:df58:a8e5:7948%17
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: 169.254.97.65
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: fe80::5a23:ac71:1fca:9eb4%13
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: 169.254.167.180
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: fe80::b72:6bee:49e:5f3b%20
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1647] Found configured address: 192.168.17.1
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1650] Not considered: fe80::b3c1:faf5:be9f:a900%7
+2025-06-10 10:43:59.700499 [INFO] [SocketCore.cc:1647] Found configured address: 192.168.179.1
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1650] Not considered: fe80::35ae:1b1b:568:8e59%6
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1647] Found configured address: 192.168.18.102
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1650] Not considered: fe80::2e08:f8b3:f37a:a740%10
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1650] Not considered: 169.254.251.89
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1650] Not considered: ::1
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1650] Not considered: 127.0.0.1
+2025-06-10 10:43:59.701513 [INFO] [SocketCore.cc:1657] IPv4 configured=1, IPv6 configured=0
+2025-06-10 10:43:59.701513 [INFO] [HttpListenCommand.cc:106] CUID#8 - Using port 48294 for accepting new connections
+2025-06-10 10:43:59.701513 [NOTICE] [HttpListenCommand.cc:108] IPv4 RPC: listening on TCP port 48294
+2025-06-10 10:44:00.130784 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6108.
+2025-06-10 10:44:00.131289 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8881087175daaccc
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-8680ccce1a9c83d4
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 98
 
 
-2025-03-15 16:02:37.225412 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.changeGlobalOption
-2025-03-15 16:02:37.225412 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#9 - HttpServer: all response transmitted.
-2025-03-15 16:02:37.225412 [INFO] [HttpServerResponseCommand.cc:60] CUID#9 - Persist connection.
-2025-03-15 16:02:37.226447 [INFO] [HttpServerCommand.cc:272] CUID#9 - Error occurred while reading HTTP request
+2025-06-10 10:44:00.131289 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.changeGlobalOption
+2025-06-10 10:44:00.131289 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#9 - HttpServer: all response transmitted.
+2025-06-10 10:44:00.131289 [INFO] [HttpServerResponseCommand.cc:60] CUID#9 - Persist connection.
+2025-06-10 10:44:00.132291 [INFO] [HttpServerCommand.cc:272] CUID#9 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:37.229466 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4701.
-2025-03-15 16:02:37.229466 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:00.134301 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6109.
+2025-06-10 10:44:00.134301 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-94fabc81a1e87066
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-92832eb263229a80
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
-Content-Length: 561
+Content-Length: 554
 
 
-2025-03-15 16:02:37.229466 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.addUri
-2025-03-15 16:02:37.229466 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#10 - HttpServer: all response transmitted.
-2025-03-15 16:02:37.229466 [INFO] [HttpServerResponseCommand.cc:60] CUID#10 - Persist connection.
-2025-03-15 16:02:37.229466 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#11 - Connecting to 127.0.0.1:7890
-2025-03-15 16:02:37.231228 [INFO] [HttpServerCommand.cc:272] CUID#10 - Error occurred while reading HTTP request
+2025-06-10 10:44:00.134301 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.addUri
+2025-06-10 10:44:00.134301 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#10 - HttpServer: all response transmitted.
+2025-06-10 10:44:00.134301 [INFO] [HttpServerResponseCommand.cc:60] CUID#10 - Persist connection.
+2025-06-10 10:44:00.134301 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#11 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:00.135660 [INFO] [HttpServerCommand.cc:272] CUID#10 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:37.231228 [INFO] [HttpConnection.cc:128] CUID#11 - Requesting:
-CONNECT slink.ltd:443 HTTP/1.1
+2025-06-10 10:44:00.135660 [INFO] [HttpConnection.cc:128] CUID#11 - Requesting:
+CONNECT www.ghproxy.cc:443 HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Host: slink.ltd:443
+Host: www.ghproxy.cc:443
 
 
-2025-03-15 16:02:37.231228 [INFO] [HttpConnection.cc:163] CUID#11 - Response received:
+2025-06-10 10:44:00.135660 [INFO] [HttpConnection.cc:163] CUID#11 - Response received:
 HTTP/1.1 200 Connection established
 
 
-2025-03-15 16:02:37.233945 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4717.
-2025-03-15 16:02:37.233945 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:00.138238 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6117.
+2025-06-10 10:44:00.138238 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b18e21e2ef9ebb80
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-974b99223875010e
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:37.233945 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:37.233945 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#12 - HttpServer: all response transmitted.
-2025-03-15 16:02:37.233945 [INFO] [HttpServerResponseCommand.cc:60] CUID#12 - Persist connection.
-2025-03-15 16:02:37.234948 [INFO] [HttpServerCommand.cc:272] CUID#12 - Error occurred while reading HTTP request
+2025-06-10 10:44:00.138238 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:00.138238 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#12 - HttpServer: all response transmitted.
+2025-06-10 10:44:00.138238 [INFO] [HttpServerResponseCommand.cc:60] CUID#12 - Persist connection.
+2025-06-10 10:44:00.139746 [INFO] [HttpServerCommand.cc:272] CUID#12 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:37.235953 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4718.
-2025-03-15 16:02:37.235953 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:00.140748 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6129.
+2025-06-10 10:44:00.140748 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-88e2b6a496edbf50
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-8e6533851fb5cc16
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:37.235953 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:37.235953 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#13 - HttpServer: all response transmitted.
-2025-03-15 16:02:37.235953 [INFO] [HttpServerResponseCommand.cc:60] CUID#13 - Persist connection.
-2025-03-15 16:02:37.237287 [INFO] [HttpServerCommand.cc:272] CUID#13 - Error occurred while reading HTTP request
+2025-06-10 10:44:00.141253 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:00.141253 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#13 - HttpServer: all response transmitted.
+2025-06-10 10:44:00.141253 [INFO] [HttpServerResponseCommand.cc:60] CUID#13 - Persist connection.
+2025-06-10 10:44:00.141253 [INFO] [HttpServerCommand.cc:272] CUID#13 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:37.462637 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-2025-03-15 16:02:37.462637 [INFO] [HttpConnection.cc:128] CUID#11 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
+2025-06-10 10:44:00.212091 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:00.212091 [INFO] [HttpConnection.cc:128] CUID#11 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 Accept: */*,application/metalink4+xml,application/metalink+xml
-Host: slink.ltd
+Host: www.ghproxy.cc
 Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
 
 
-2025-03-15 16:02:37.545800 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4720.
-2025-03-15 16:02:37.547173 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:00.249775 [INFO] [HttpConnection.cc:163] CUID#11 - Response received:
+HTTP/1.1 403 Forbidden
+Date: Tue, 10 Jun 2025 02:44:01 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2CyOdKB0iUX3gaRRiPkX78vr28mQXBLZcXoJ7mZdB%2FzXQB6VI0MA3L7duTXOriask%2FD2Z9ElqfonV%2FrhUQkgLGj11lhxbf738wrXkazX"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 94d58647caee85ce-HKG
+
+
+2025-06-10 10:44:00.249775 [INFO] [DownloadEngine.cc:315] Pool socket for www.ghproxy.cc(443)/127.0.0.1(7890)
+2025-06-10 10:44:00.249775 [ERROR] [AbstractCommand.cc:349] CUID#11 - Download aborted. URI=https://www.ghproxy.cc/https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe
+Exception: [AbstractCommand.cc:351] errorCode=22 URI=https://www.ghproxy.cc/https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe
+  -> [HttpSkipResponseCommand.cc:239] errorCode=22 The response status is not successful. status=403
+2025-06-10 10:44:00.250789 [NOTICE] [RequestGroupMan.cc:424] Download GID#0f695cdb742572cc not complete: 
+2025-06-10 10:44:00.451449 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6131.
+2025-06-10 10:44:00.451449 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-882102c34a8535f2
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-ab7504931f5842f7
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:37.547173 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:37.547173 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#14 - HttpServer: all response transmitted.
-2025-03-15 16:02:37.547173 [INFO] [HttpServerResponseCommand.cc:60] CUID#14 - Persist connection.
-2025-03-15 16:02:37.547173 [INFO] [HttpServerCommand.cc:272] CUID#14 - Error occurred while reading HTTP request
+2025-06-10 10:44:00.451449 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:00.452448 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#14 - HttpServer: all response transmitted.
+2025-06-10 10:44:00.452448 [INFO] [HttpServerResponseCommand.cc:60] CUID#14 - Persist connection.
+2025-06-10 10:44:00.452448 [INFO] [HttpServerCommand.cc:272] CUID#14 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:37.850269 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4721.
-2025-03-15 16:02:37.850269 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:07.329916 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6173.
+2025-06-10 10:44:07.329916 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a52c1765eb3b0fd2
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-8670db0212085359
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: keep-alive
+Content-Length: 555
+
+
+2025-06-10 10:44:07.329916 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.addUri
+2025-06-10 10:44:07.329916 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#15 - HttpServer: all response transmitted.
+2025-06-10 10:44:07.329916 [INFO] [HttpServerResponseCommand.cc:60] CUID#15 - Persist connection.
+2025-06-10 10:44:07.329916 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#16 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:07.330933 [INFO] [HttpConnection.cc:128] CUID#16 - Requesting:
+CONNECT github.boki.moe:443 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Host: github.boki.moe:443
+
+
+2025-06-10 10:44:07.330933 [INFO] [HttpConnection.cc:163] CUID#16 - Response received:
+HTTP/1.1 200 Connection established
+
+
+2025-06-10 10:44:07.331598 [INFO] [HttpServerCommand.cc:272] CUID#15 - Error occurred while reading HTTP request
+Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
+2025-06-10 10:44:07.333161 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6176.
+2025-06-10 10:44:07.333161 [INFO] [HttpServer.cc:186] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-91c75bb2e611c286
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:37.850269 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:37.850269 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#15 - HttpServer: all response transmitted.
-2025-03-15 16:02:37.850269 [INFO] [HttpServerResponseCommand.cc:60] CUID#15 - Persist connection.
-2025-03-15 16:02:37.851271 [INFO] [HttpServerCommand.cc:272] CUID#15 - Error occurred while reading HTTP request
+2025-06-10 10:44:07.333161 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:07.334165 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#17 - HttpServer: all response transmitted.
+2025-06-10 10:44:07.334165 [INFO] [HttpServerResponseCommand.cc:60] CUID#17 - Persist connection.
+2025-06-10 10:44:07.334165 [INFO] [HttpServerCommand.cc:272] CUID#17 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:38.153290 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4722.
-2025-03-15 16:02:38.154603 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:07.336308 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6177.
+2025-06-10 10:44:07.336308 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-94488adde8b276bd
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-8089e0e858507060
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:38.154603 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:38.154603 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#16 - HttpServer: all response transmitted.
-2025-03-15 16:02:38.154603 [INFO] [HttpServerResponseCommand.cc:60] CUID#16 - Persist connection.
-2025-03-15 16:02:38.154603 [INFO] [HttpServerCommand.cc:272] CUID#16 - Error occurred while reading HTTP request
+2025-06-10 10:44:07.336308 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:07.336308 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#18 - HttpServer: all response transmitted.
+2025-06-10 10:44:07.336308 [INFO] [HttpServerResponseCommand.cc:60] CUID#18 - Persist connection.
+2025-06-10 10:44:07.337590 [INFO] [HttpServerCommand.cc:272] CUID#18 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:38.252033 [INFO] [HttpConnection.cc:163] CUID#11 - Response received:
+2025-06-10 10:44:07.401883 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:07.401883 [INFO] [HttpConnection.cc:128] CUID#16 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept: */*,application/metalink4+xml,application/metalink+xml
+Host: github.boki.moe
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+
+
+2025-06-10 10:44:07.640486 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6178.
+2025-06-10 10:44:07.640486 [INFO] [HttpServer.cc:186] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-bbf9c84ef607f9ee
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: keep-alive
+Content-Length: 106
+
+
+2025-06-10 10:44:07.640486 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:07.640486 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#19 - HttpServer: all response transmitted.
+2025-06-10 10:44:07.640486 [INFO] [HttpServerResponseCommand.cc:60] CUID#19 - Persist connection.
+2025-06-10 10:44:07.641584 [INFO] [HttpServerCommand.cc:272] CUID#19 - Error occurred while reading HTTP request
+Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
+2025-06-10 10:44:07.944070 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6179.
+2025-06-10 10:44:07.944070 [INFO] [HttpServer.cc:186] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-940fea81e14984e9
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: keep-alive
+Content-Length: 106
+
+
+2025-06-10 10:44:07.944070 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:07.945076 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#20 - HttpServer: all response transmitted.
+2025-06-10 10:44:07.945076 [INFO] [HttpServerResponseCommand.cc:60] CUID#20 - Persist connection.
+2025-06-10 10:44:07.945076 [INFO] [HttpServerCommand.cc:272] CUID#20 - Error occurred while reading HTTP request
+Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
+2025-06-10 10:44:08.247728 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6180.
+2025-06-10 10:44:08.247728 [INFO] [HttpServer.cc:186] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-ae065f2dd0716b3f
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: keep-alive
+Content-Length: 106
+
+
+2025-06-10 10:44:08.247728 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:08.247728 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#21 - HttpServer: all response transmitted.
+2025-06-10 10:44:08.247728 [INFO] [HttpServerResponseCommand.cc:60] CUID#21 - Persist connection.
+2025-06-10 10:44:08.249135 [INFO] [HttpServerCommand.cc:272] CUID#21 - Error occurred while reading HTTP request
+Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
+2025-06-10 10:44:08.410611 [INFO] [HttpConnection.cc:163] CUID#16 - Response received:
 HTTP/1.1 200 OK
-Date: Sat, 15 Mar 2025 08:02:40 GMT
+Date: Tue, 10 Jun 2025 02:44:10 GMT
 Content-Type: application/octet-stream
-Content-Length: 30497719
+Content-Length: 30533996
 Connection: keep-alive
-CF-Ray: 920a7d6489b3b178-HKG
-CF-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 94d58674c83309c4-HKG
+Cf-Cache-Status: DYNAMIC
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 1632
+Age: 0
 Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Etag: "0x8DDA198D47A0E40"
+Last-Modified: Mon, 02 Jun 2025 05:46:32 GMT
 Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 0
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 1f932b8c-601e-0071-5a73-95077e000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000160-IAD, cache-nrt-rjtf7700072-NRT
-x-timer: S1742025760.001215,VS0,VE1
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=7qb9JWIE309aIn%2BgQIRW7H%2Bw%2BMgM4GgtJuHLg01tGtwj4StYI%2BI69cuJOekPPQBd1MGy8NXHSwB16rYK3dLg8Pz3r0ZHu%2FTQV0tUY1Yvzu6mCNZ1oxRFocgSrsA%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
+Access-Control-Expose-Headers: *
+Cf-Placement: local-HKG
+Fastly-Restarts: 1
+X-Cache: HIT, MISS
+X-Cache-Hits: 180, 0
+X-Ms-Blob-Type: BlockBlob
+X-Ms-Creation-Time: Mon, 02 Jun 2025 05:46:32 GMT
+X-Ms-Lease-State: available
+X-Ms-Lease-Status: unlocked
+X-Ms-Request-Id: ca82f148-e01e-0032-8029-d8e122000000
+X-Ms-Server-Encrypted: true
+X-Ms-Version: 2025-05-05
+X-Served-By: cache-iad-kcgs7200094-IAD, cache-nrt-rjtf7700037-NRT
+X-Timer: S1749523450.681164,VS0,VE168
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=q8xpNYUkr70tgnp0WHubrLMGiBTf4%2FjmaNSx0EhlsbQHNljOC2JMw55TyRfAqOZcBUoBGjSn5H90v%2FuoNcdxMXvnDCAu%2Bt3ywoBpWMNBz6rei%2BQFPS%2FXvOp1JZQahKs0aYo%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=635&min_rtt=590&rtt_var=200&sent=6&recv=7&lost=0&retrans=0&sent_bytes=3274&recv_bytes=649&delivery_rate=7063414&cwnd=253&unsent_bytes=0&cid=ec36e1d234f9f5bd&ts=855&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=2370&min_rtt=680&rtt_var=3563&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3279&recv_bytes=661&delivery_rate=5356350&cwnd=253&unsent_bytes=0&cid=140596e383899fc1&ts=1046&x=0"
 
 
-2025-03-15 16:02:38.252033 [INFO] [HttpResponse.cc:129] CUID#11 - Content-Disposition detected. Use NsEmuTools.exe as filename
-2025-03-15 16:02:38.252033 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
-2025-03-15 16:02:38.252537 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
-2025-03-15 16:02:38.252537 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
-2025-03-15 16:02:38.252537 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
-2025-03-15 16:02:38.254540 [INFO] [FileAllocationDispatcherCommand.cc:56] Dispatching FileAllocationCommand for CUID#17.
-2025-03-15 16:02:38.254540 [NOTICE] [SingleFileAllocationIterator.cc:75] Allocating disk space. Use --file-allocation=none to disable it. See --file-allocation option in man page for more details.
-2025-03-15 16:02:38.276796 [INFO] [DefaultBtProgressInfoFile.cc:207] Saving the segment file D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2
-2025-03-15 16:02:38.280949 [INFO] [DefaultBtProgressInfoFile.cc:219] The segment file was saved successfully.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:38.281453 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#18 - Connecting to 127.0.0.1:7890
-2025-03-15 16:02:38.281453 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#19 - Connecting to 127.0.0.1:7890
-2025-03-15 16:02:38.282317 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#20 - Connecting to 127.0.0.1:7890
-2025-03-15 16:02:38.282317 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#21 - Connecting to 127.0.0.1:7890
-2025-03-15 16:02:38.282317 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#22 - Connecting to 127.0.0.1:7890
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:128] CUID#18 - Requesting:
-CONNECT slink.ltd:443 HTTP/1.1
+2025-06-10 10:44:08.411305 [INFO] [HttpResponse.cc:129] CUID#16 - Content-Disposition detected. Use NsEmuTools.exe as filename
+2025-06-10 10:44:08.411305 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
+2025-06-10 10:44:08.411305 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
+2025-06-10 10:44:08.411305 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
+2025-06-10 10:44:08.411305 [INFO] [DefaultBtProgressInfoFile.cc:421] The segment file E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 does not exist.
+2025-06-10 10:44:08.414309 [INFO] [FileAllocationDispatcherCommand.cc:56] Dispatching FileAllocationCommand for CUID#22.
+2025-06-10 10:44:08.414309 [NOTICE] [SingleFileAllocationIterator.cc:75] Allocating disk space. Use --file-allocation=none to disable it. See --file-allocation option in man page for more details.
+2025-06-10 10:44:08.524489 [INFO] [DefaultBtProgressInfoFile.cc:207] Saving the segment file E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2
+2025-06-10 10:44:08.534567 [INFO] [DefaultBtProgressInfoFile.cc:219] The segment file was saved successfully.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#33 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#34 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#35 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#36 - No segment available.
+2025-06-10 10:44:08.535569 [INFO] [AbstractCommand.cc:276] CUID#37 - No segment available.
+2025-06-10 10:44:08.536534 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#23 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:08.536534 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#24 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:08.537038 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#25 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:08.537038 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#26 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:08.537038 [INFO] [HttpInitiateConnectionCommand.cc:83] CUID#27 - Connecting to 127.0.0.1:7890
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:128] CUID#23 - Requesting:
+CONNECT github.boki.moe:443 HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Host: slink.ltd:443
+Host: github.boki.moe:443
 
 
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:128] CUID#19 - Requesting:
-CONNECT slink.ltd:443 HTTP/1.1
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:128] CUID#24 - Requesting:
+CONNECT github.boki.moe:443 HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Host: slink.ltd:443
+Host: github.boki.moe:443
 
 
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:128] CUID#20 - Requesting:
-CONNECT slink.ltd:443 HTTP/1.1
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:128] CUID#25 - Requesting:
+CONNECT github.boki.moe:443 HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Host: slink.ltd:443
+Host: github.boki.moe:443
 
 
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:128] CUID#21 - Requesting:
-CONNECT slink.ltd:443 HTTP/1.1
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:128] CUID#26 - Requesting:
+CONNECT github.boki.moe:443 HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Host: slink.ltd:443
+Host: github.boki.moe:443
 
 
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:128] CUID#22 - Requesting:
-CONNECT slink.ltd:443 HTTP/1.1
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:128] CUID#27 - Requesting:
+CONNECT github.boki.moe:443 HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Host: slink.ltd:443
+Host: github.boki.moe:443
 
 
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:163] CUID#18 - Response received:
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:163] CUID#23 - Response received:
 HTTP/1.1 200 Connection established
 
 
-2025-03-15 16:02:38.282822 [INFO] [HttpConnection.cc:163] CUID#20 - Response received:
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:163] CUID#24 - Response received:
 HTTP/1.1 200 Connection established
 
 
-2025-03-15 16:02:38.283337 [INFO] [HttpConnection.cc:163] CUID#19 - Response received:
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:163] CUID#25 - Response received:
 HTTP/1.1 200 Connection established
 
 
-2025-03-15 16:02:38.283337 [INFO] [HttpConnection.cc:163] CUID#22 - Response received:
+2025-06-10 10:44:08.537659 [INFO] [HttpConnection.cc:163] CUID#26 - Response received:
 HTTP/1.1 200 Connection established
 
 
-2025-03-15 16:02:38.283337 [INFO] [HttpConnection.cc:163] CUID#21 - Response received:
+2025-06-10 10:44:08.538176 [INFO] [HttpConnection.cc:163] CUID#27 - Response received:
 HTTP/1.1 200 Connection established
 
 
-2025-03-15 16:02:38.433539 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-2025-03-15 16:02:38.433539 [INFO] [HttpConnection.cc:128] CUID#22 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
+2025-06-10 10:44:08.551588 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6191.
+2025-06-10 10:44:08.551588 [INFO] [HttpServer.cc:186] HTTP Server received request
+POST /jsonrpc HTTP/1.1
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-87f6726d0ac6dd36
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: keep-alive
+Content-Length: 106
+
+
+2025-06-10 10:44:08.551588 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:08.552175 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#38 - HttpServer: all response transmitted.
+2025-06-10 10:44:08.552175 [INFO] [HttpServerResponseCommand.cc:60] CUID#38 - Persist connection.
+2025-06-10 10:44:08.552175 [INFO] [HttpServerCommand.cc:272] CUID#38 - Error occurred while reading HTTP request
+Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
+2025-06-10 10:44:08.569056 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:08.569056 [INFO] [HttpConnection.cc:128] CUID#25 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 Accept: */*
-Host: slink.ltd
-Range: bytes=19922944-24117247
+Host: github.boki.moe
+Range: bytes=24117248-30533995
 Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
 
 
-2025-03-15 16:02:38.439885 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-2025-03-15 16:02:38.439885 [INFO] [HttpConnection.cc:128] CUID#20 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
+2025-06-10 10:44:08.569567 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:08.569567 [INFO] [HttpConnection.cc:128] CUID#23 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 Accept: */*
-Host: slink.ltd
-Range: bytes=24117248-30497718
-Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
-
-
-2025-03-15 16:02:38.440556 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-2025-03-15 16:02:38.440556 [INFO] [HttpConnection.cc:128] CUID#18 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Accept: */*
-Host: slink.ltd
+Host: github.boki.moe
 Range: bytes=15728640-19922943
 Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
 
 
-2025-03-15 16:02:38.441137 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-2025-03-15 16:02:38.441137 [INFO] [HttpConnection.cc:128] CUID#19 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
+2025-06-10 10:44:08.569567 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:08.569567 [INFO] [HttpConnection.cc:128] CUID#26 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 Accept: */*
-Host: slink.ltd
-Range: bytes=8388608-15728639
-Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
-
-
-2025-03-15 16:02:38.448055 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-2025-03-15 16:02:38.448055 [INFO] [HttpConnection.cc:128] CUID#21 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
-Accept: */*
-Host: slink.ltd
+Host: github.boki.moe
 Range: bytes=4194304-8388607
 Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
 
 
-2025-03-15 16:02:38.457778 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4733.
-2025-03-15 16:02:38.457778 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-9a86c45633c800c9
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:38.457778 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:38.457778 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#33 - HttpServer: all response transmitted.
-2025-03-15 16:02:38.457778 [INFO] [HttpServerResponseCommand.cc:60] CUID#33 - Persist connection.
-2025-03-15 16:02:38.458780 [INFO] [HttpServerCommand.cc:272] CUID#33 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:38.761114 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4734.
-2025-03-15 16:02:38.761114 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-949628db89f8e1a8
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:38.761114 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:38.762135 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#34 - HttpServer: all response transmitted.
-2025-03-15 16:02:38.762135 [INFO] [HttpServerResponseCommand.cc:60] CUID#34 - Persist connection.
-2025-03-15 16:02:38.762135 [INFO] [HttpServerCommand.cc:272] CUID#34 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:39.065058 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4735.
-2025-03-15 16:02:39.065058 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-86cf89d9de7e3ebc
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:39.065058 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:39.066080 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#35 - HttpServer: all response transmitted.
-2025-03-15 16:02:39.066080 [INFO] [HttpServerResponseCommand.cc:60] CUID#35 - Persist connection.
-2025-03-15 16:02:39.066080 [INFO] [HttpServerCommand.cc:272] CUID#35 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:39.242453 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:39.368587 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4736.
-2025-03-15 16:02:39.368587 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a471c298fba25df2
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:39.369591 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:39.369591 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#36 - HttpServer: all response transmitted.
-2025-03-15 16:02:39.369591 [INFO] [HttpServerResponseCommand.cc:60] CUID#36 - Persist connection.
-2025-03-15 16:02:39.369591 [INFO] [HttpServerCommand.cc:272] CUID#36 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:39.595103 [INFO] [HttpConnection.cc:163] CUID#20 - Response received:
-HTTP/1.1 206 Partial Content
-Date: Sat, 15 Mar 2025 08:02:41 GMT
-Content-Type: application/octet-stream
-Content-Length: 6380471
-Connection: keep-alive
-Content-Range: bytes 24117248-30497718/30497719
-CF-Ray: 920a7d6a9f3d0387-HKG
-CF-Cache-Status: DYNAMIC
-Accept-Ranges: bytes
-Access-Control-Allow-Origin: *
-Age: 1633
-Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
-Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 2f9c7122-b01e-0000-0273-95e155000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000166-IAD, cache-nrt-rjtf7700065-NRT
-x-timer: S1742025761.884882,VS0,VE1
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=UigYwbKs8SOIsNN2X4bFTx%2BXnsT8Ua%2FSaafvjk80zWSp6dVNEvK26UcnuOL%2F6T%2FYT6q9Gw6p9yEMQ7vGVI7HFMQvcoEtBcrtB9GmlJRJtk%2FIF2VIZDInwtnOjsw%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=652&min_rtt=649&rtt_var=246&sent=3&recv=6&lost=0&retrans=0&sent_bytes=115&recv_bytes=780&delivery_rate=2231124&cwnd=250&unsent_bytes=0&cid=6fbcb7eb5e1f6a4b&ts=1148&x=0"
-
-
-2025-03-15 16:02:39.650525 [INFO] [HttpConnection.cc:163] CUID#22 - Response received:
-HTTP/1.1 206 Partial Content
-Date: Sat, 15 Mar 2025 08:02:41 GMT
-Content-Type: application/octet-stream
-Content-Length: 4194304
-Connection: keep-alive
-Content-Range: bytes 19922944-24117247/30497719
-CF-Ray: 920a7d6a9eb70893-HKG
-CF-Cache-Status: DYNAMIC
-Accept-Ranges: bytes
-Access-Control-Allow-Origin: *
-Age: 1633
-Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
-Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 136299dc-001e-0067-0573-95f1a9000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000096-IAD, cache-nrt-rjtf7700057-NRT
-x-timer: S1742025761.889808,VS0,VE1
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=q%2FBGGpSjcmijXvOH%2FxfrKyoh7hTsaf%2FwIzTnb2%2Buq26tFUbJyUbCOwKn2xksVTWBgmC6JFrOBSDDW%2B6Vuq6P8twKSwKQ5Uq2wM5O1h%2Fbrbe2LGvQ35mgHFUD6eU%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=603&min_rtt=588&rtt_var=231&sent=3&recv=6&lost=0&retrans=0&sent_bytes=115&recv_bytes=780&delivery_rate=2462585&cwnd=250&unsent_bytes=0&cid=8243e137e81ccc49&ts=1203&x=0"
-
-
-2025-03-15 16:02:39.650525 [INFO] [HttpConnection.cc:163] CUID#18 - Response received:
-HTTP/1.1 206 Partial Content
-Date: Sat, 15 Mar 2025 08:02:41 GMT
-Content-Type: application/octet-stream
-Content-Length: 4194304
-Connection: keep-alive
-Content-Range: bytes 15728640-19922943/30497719
-CF-Ray: 920a7d6a9b9d84d2-HKG
-CF-Cache-Status: DYNAMIC
-Accept-Ranges: bytes
-Access-Control-Allow-Origin: *
-Age: 1633
-Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
-Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 136299dc-001e-0067-0573-95f1a9000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000096-IAD, cache-nrt-rjtf7700095-NRT
-x-timer: S1742025761.888784,VS0,VE1
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eRc%2FBv3LcVpAlY9QrAHkhqn%2ByvQ2bebXIOxtuNBCcOsiLDrpvju5I%2FfLI8scsTkOFl4WyZA8WYYRs9lvuOgQkQSLbQqIHVYsW3TATyNdLyv0LaxL4xa4%2FOUyfmA%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=661&min_rtt=659&rtt_var=252&sent=3&recv=6&lost=0&retrans=0&sent_bytes=115&recv_bytes=780&delivery_rate=2129411&cwnd=250&unsent_bytes=0&cid=6002dc5dadd366e7&ts=1199&x=0"
-
-
-2025-03-15 16:02:39.650525 [INFO] [HttpConnection.cc:163] CUID#19 - Response received:
-HTTP/1.1 206 Partial Content
-Date: Sat, 15 Mar 2025 08:02:41 GMT
-Content-Type: application/octet-stream
-Content-Length: 7340032
-Connection: keep-alive
-Content-Range: bytes 8388608-15728639/30497719
-CF-Ray: 920a7d6a9f64dd65-HKG
-CF-Cache-Status: DYNAMIC
-Accept-Ranges: bytes
-Access-Control-Allow-Origin: *
-Age: 1633
-Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
-Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 1f932b8c-601e-0071-5a73-95077e000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000160-IAD, cache-nrt-rjtf7700079-NRT
-x-timer: S1742025761.877840,VS0,VE3
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Fr9asyglPsMkb5Qlctx8YT8PtVLBd6g%2Bsvm4zA9yFjlkTD3NGTmpgDlufCBveNFeGmyYYLFUew%2FTnKxXju%2Fxy8Vsw5If%2Bfrpe3Ujv40BvzmDfpZbMXTWx3p%2FXck%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=782&min_rtt=779&rtt_var=299&sent=3&recv=6&lost=0&retrans=0&sent_bytes=115&recv_bytes=779&delivery_rate=1796526&cwnd=250&unsent_bytes=0&cid=1e1c4955c0beddec&ts=1193&x=0"
-
-
-2025-03-15 16:02:39.651252 [INFO] [HttpConnection.cc:163] CUID#21 - Response received:
-HTTP/1.1 206 Partial Content
-Date: Sat, 15 Mar 2025 08:02:41 GMT
-Content-Type: application/octet-stream
-Content-Length: 4194304
-Connection: keep-alive
-Content-Range: bytes 4194304-8388607/30497719
-CF-Ray: 920a7d6a9f70e2e0-HKG
-CF-Cache-Status: DYNAMIC
-Accept-Ranges: bytes
-Access-Control-Allow-Origin: *
-Age: 1633
-Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
-Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 1f932b8c-601e-0071-5a73-95077e000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000160-IAD, cache-nrt-rjtf7700051-NRT
-x-timer: S1742025761.891291,VS0,VE1
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zMjolgwvBVntfxO8qlrzcYeDDetk1hD78eqghXCPHzn7MiXOqvZPhX3y1uxgv1Am6npW9xc1eqRBlGvCOsZ%2FbIROg8%2FVpYiUQYng0cFws9WZ8RNX6uYJQqusvPs%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=730&min_rtt=674&rtt_var=292&sent=3&recv=6&lost=0&retrans=0&sent_bytes=115&recv_bytes=778&delivery_rate=2148367&cwnd=250&unsent_bytes=0&cid=9f8230ba7e826cef&ts=1180&x=0"
-
-
-2025-03-15 16:02:39.673246 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4737.
-2025-03-15 16:02:39.673246 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-97e69c77a09dafac
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:39.673246 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:39.673246 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#37 - HttpServer: all response transmitted.
-2025-03-15 16:02:39.673246 [INFO] [HttpServerResponseCommand.cc:60] CUID#37 - Persist connection.
-2025-03-15 16:02:39.673246 [INFO] [HttpServerCommand.cc:272] CUID#37 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:39.976890 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4738.
-2025-03-15 16:02:39.976890 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-86360c3ac749702a
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:39.976890 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:39.976890 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#38 - HttpServer: all response transmitted.
-2025-03-15 16:02:39.977527 [INFO] [HttpServerResponseCommand.cc:60] CUID#38 - Persist connection.
-2025-03-15 16:02:39.978032 [INFO] [HttpServerCommand.cc:272] CUID#38 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:40.102887 [INFO] [DownloadCommand.cc:242] CUID#11 - The download for one segment completed successfully.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:40.232952 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:40.280884 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4739.
-2025-03-15 16:02:40.280884 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-94e600088cab0035
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:40.280884 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:40.280884 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#39 - HttpServer: all response transmitted.
-2025-03-15 16:02:40.280884 [INFO] [HttpServerResponseCommand.cc:60] CUID#39 - Persist connection.
-2025-03-15 16:02:40.281885 [INFO] [HttpServerCommand.cc:272] CUID#39 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:40.583303 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4740.
-2025-03-15 16:02:40.583303 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8813904044dc4b45
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:40.583303 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:40.584608 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#40 - HttpServer: all response transmitted.
-2025-03-15 16:02:40.584608 [INFO] [HttpServerResponseCommand.cc:60] CUID#40 - Persist connection.
-2025-03-15 16:02:40.584608 [INFO] [HttpServerCommand.cc:272] CUID#40 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:40.888094 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4741.
-2025-03-15 16:02:40.888094 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a7522944abd908f3
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:40.888094 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:40.888094 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#41 - HttpServer: all response transmitted.
-2025-03-15 16:02:40.888094 [INFO] [HttpServerResponseCommand.cc:60] CUID#41 - Persist connection.
-2025-03-15 16:02:40.889106 [INFO] [HttpServerCommand.cc:272] CUID#41 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:41.191701 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4742.
-2025-03-15 16:02:41.191701 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-98fa1d70c06d98d3
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:41.191701 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:41.192708 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#42 - HttpServer: all response transmitted.
-2025-03-15 16:02:41.192708 [INFO] [HttpServerResponseCommand.cc:60] CUID#42 - Persist connection.
-2025-03-15 16:02:41.192708 [INFO] [HttpServerCommand.cc:272] CUID#42 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:41.327314 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:41.411048 [INFO] [DownloadCommand.cc:242] CUID#11 - The download for one segment completed successfully.
-2025-03-15 16:02:41.494658 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4743.
-2025-03-15 16:02:41.495660 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b3144154c47c0d0c
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:41.495660 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:41.495660 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#43 - HttpServer: all response transmitted.
-2025-03-15 16:02:41.495660 [INFO] [HttpServerResponseCommand.cc:60] CUID#43 - Persist connection.
-2025-03-15 16:02:41.495660 [INFO] [HttpServerCommand.cc:272] CUID#43 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:41.798279 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4744.
-2025-03-15 16:02:41.799573 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b13a358208ee7d36
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:41.799573 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:41.799573 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#44 - HttpServer: all response transmitted.
-2025-03-15 16:02:41.799573 [INFO] [HttpServerResponseCommand.cc:60] CUID#44 - Persist connection.
-2025-03-15 16:02:41.800606 [INFO] [HttpServerCommand.cc:272] CUID#44 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:42.103573 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4745.
-2025-03-15 16:02:42.103573 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-909d8941b23e77fa
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:42.103573 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:42.103573 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#45 - HttpServer: all response transmitted.
-2025-03-15 16:02:42.103573 [INFO] [HttpServerResponseCommand.cc:60] CUID#45 - Persist connection.
-2025-03-15 16:02:42.103573 [INFO] [HttpServerCommand.cc:272] CUID#45 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:42.364139 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:42.366594 [INFO] [DownloadCommand.cc:242] CUID#11 - The download for one segment completed successfully.
-2025-03-15 16:02:42.406742 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4746.
-2025-03-15 16:02:42.406742 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-ae2aef78ab500268
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:42.406742 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:42.406742 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#46 - HttpServer: all response transmitted.
-2025-03-15 16:02:42.406742 [INFO] [HttpServerResponseCommand.cc:60] CUID#46 - Persist connection.
-2025-03-15 16:02:42.407745 [INFO] [HttpServerCommand.cc:272] CUID#46 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:42.709743 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4747.
-2025-03-15 16:02:42.709743 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-91681a534a43b3e1
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:42.709743 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:42.711120 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#47 - HttpServer: all response transmitted.
-2025-03-15 16:02:42.711120 [INFO] [HttpServerResponseCommand.cc:60] CUID#47 - Persist connection.
-2025-03-15 16:02:42.711120 [INFO] [HttpServerCommand.cc:272] CUID#47 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:42.912783 [INFO] [DownloadCommand.cc:242] CUID#22 - The download for one segment completed successfully.
-2025-03-15 16:02:43.013891 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4748.
-2025-03-15 16:02:43.013891 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-be45ff6619189ba1
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:43.013891 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:43.014912 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#48 - HttpServer: all response transmitted.
-2025-03-15 16:02:43.014912 [INFO] [HttpServerResponseCommand.cc:60] CUID#48 - Persist connection.
-2025-03-15 16:02:43.014912 [INFO] [HttpServerCommand.cc:272] CUID#48 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:43.302310 [INFO] [DownloadCommand.cc:242] CUID#11 - The download for one segment completed successfully.
-2025-03-15 16:02:43.303318 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:43.317917 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4749.
-2025-03-15 16:02:43.317917 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-82a92ee6fc35f35e
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:43.317917 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:43.317917 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#49 - HttpServer: all response transmitted.
-2025-03-15 16:02:43.317917 [INFO] [HttpServerResponseCommand.cc:60] CUID#49 - Persist connection.
-2025-03-15 16:02:43.317917 [INFO] [HttpServerCommand.cc:272] CUID#49 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:43.378022 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:43.621094 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4750.
-2025-03-15 16:02:43.621094 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-85e4193b3e628e17
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:43.621094 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:43.621094 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#50 - HttpServer: all response transmitted.
-2025-03-15 16:02:43.621094 [INFO] [HttpServerResponseCommand.cc:60] CUID#50 - Persist connection.
-2025-03-15 16:02:43.622465 [INFO] [HttpServerCommand.cc:272] CUID#50 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:43.925392 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4751.
-2025-03-15 16:02:43.925392 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-91f6da9f364848dc
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:43.925392 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:43.925392 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#51 - HttpServer: all response transmitted.
-2025-03-15 16:02:43.925392 [INFO] [HttpServerResponseCommand.cc:60] CUID#51 - Persist connection.
-2025-03-15 16:02:43.926408 [INFO] [HttpServerCommand.cc:272] CUID#51 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:44.229334 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4752.
-2025-03-15 16:02:44.229334 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a73ef3cf4667156b
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:44.229334 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:44.229334 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#52 - HttpServer: all response transmitted.
-2025-03-15 16:02:44.229334 [INFO] [HttpServerResponseCommand.cc:60] CUID#52 - Persist connection.
-2025-03-15 16:02:44.230406 [INFO] [HttpServerCommand.cc:272] CUID#52 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:44.530374 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:44.532982 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4753.
-2025-03-15 16:02:44.532982 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b78de676f38b2ac6
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:44.532982 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:44.532982 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#53 - HttpServer: all response transmitted.
-2025-03-15 16:02:44.533984 [INFO] [HttpServerResponseCommand.cc:60] CUID#53 - Persist connection.
-2025-03-15 16:02:44.533984 [INFO] [HttpServerCommand.cc:272] CUID#53 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:44.837123 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4754.
-2025-03-15 16:02:44.837123 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8481d8664aa11b66
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:44.837123 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:44.837123 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#54 - HttpServer: all response transmitted.
-2025-03-15 16:02:44.837123 [INFO] [HttpServerResponseCommand.cc:60] CUID#54 - Persist connection.
-2025-03-15 16:02:44.838229 [INFO] [HttpServerCommand.cc:272] CUID#54 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:45.008676 [INFO] [DownloadCommand.cc:242] CUID#21 - The download for one segment completed successfully.
-2025-03-15 16:02:45.073062 [INFO] [DownloadCommand.cc:242] CUID#18 - The download for one segment completed successfully.
-2025-03-15 16:02:45.140847 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4755.
-2025-03-15 16:02:45.140847 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-aeab9dfe87937538
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:45.142235 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:45.142235 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#55 - HttpServer: all response transmitted.
-2025-03-15 16:02:45.142235 [INFO] [HttpServerResponseCommand.cc:60] CUID#55 - Persist connection.
-2025-03-15 16:02:45.142235 [INFO] [HttpServerCommand.cc:272] CUID#55 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:45.187211 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:45.444887 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4756.
-2025-03-15 16:02:45.444887 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b3a9024976c95f45
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:45.444887 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:45.446295 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#56 - HttpServer: all response transmitted.
-2025-03-15 16:02:45.446295 [INFO] [HttpServerResponseCommand.cc:60] CUID#56 - Persist connection.
-2025-03-15 16:02:45.446295 [INFO] [HttpServerCommand.cc:272] CUID#56 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:45.452127 [INFO] [DownloadCommand.cc:242] CUID#22 - The download for one segment completed successfully.
-2025-03-15 16:02:45.533056 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:45.533056 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:45.533056 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:45.533561 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:45.749390 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4757.
-2025-03-15 16:02:45.749390 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-acb34f1ab83c976e
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:45.749390 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:45.749390 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#57 - HttpServer: all response transmitted.
-2025-03-15 16:02:45.749390 [INFO] [HttpServerResponseCommand.cc:60] CUID#57 - Persist connection.
-2025-03-15 16:02:45.749390 [INFO] [HttpServerCommand.cc:272] CUID#57 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:45.988687 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:46.052831 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4758.
-2025-03-15 16:02:46.052831 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-841c5603705ddf6f
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:46.052831 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:46.052831 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#58 - HttpServer: all response transmitted.
-2025-03-15 16:02:46.053834 [INFO] [HttpServerResponseCommand.cc:60] CUID#58 - Persist connection.
-2025-03-15 16:02:46.053834 [INFO] [HttpServerCommand.cc:272] CUID#58 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:46.356956 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4759.
-2025-03-15 16:02:46.356956 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8c7c594615290b38
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:46.356956 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:46.357976 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#59 - HttpServer: all response transmitted.
-2025-03-15 16:02:46.357976 [INFO] [HttpServerResponseCommand.cc:60] CUID#59 - Persist connection.
-2025-03-15 16:02:46.357976 [INFO] [HttpServerCommand.cc:272] CUID#59 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:46.554883 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:46.661044 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4760.
-2025-03-15 16:02:46.661044 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a55c541624a05591
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:46.661044 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:46.661044 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#60 - HttpServer: all response transmitted.
-2025-03-15 16:02:46.661044 [INFO] [HttpServerResponseCommand.cc:60] CUID#60 - Persist connection.
-2025-03-15 16:02:46.662049 [INFO] [HttpServerCommand.cc:272] CUID#60 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:46.964419 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4761.
-2025-03-15 16:02:46.964419 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8270b2569f422fa1
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:46.964419 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:46.964923 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#61 - HttpServer: all response transmitted.
-2025-03-15 16:02:46.964923 [INFO] [HttpServerResponseCommand.cc:60] CUID#61 - Persist connection.
-2025-03-15 16:02:46.964923 [INFO] [HttpServerCommand.cc:272] CUID#61 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:47.267762 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4762.
-2025-03-15 16:02:47.267762 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b820138abe24834a
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:47.267762 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:47.268765 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#62 - HttpServer: all response transmitted.
-2025-03-15 16:02:47.268765 [INFO] [HttpServerResponseCommand.cc:60] CUID#62 - Persist connection.
-2025-03-15 16:02:47.268765 [INFO] [HttpServerCommand.cc:272] CUID#62 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:47.515821 [INFO] [DownloadCommand.cc:242] CUID#22 - The download for one segment completed successfully.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:47.557282 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:47.571700 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4763.
-2025-03-15 16:02:47.571700 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8d05ac66b2fe0b72
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:47.571700 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:47.571700 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#63 - HttpServer: all response transmitted.
-2025-03-15 16:02:47.571700 [INFO] [HttpServerResponseCommand.cc:60] CUID#63 - Persist connection.
-2025-03-15 16:02:47.571700 [INFO] [HttpServerCommand.cc:272] CUID#63 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:47.873941 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4764.
-2025-03-15 16:02:47.873941 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-955e2f65541d5f4b
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:47.873941 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:47.875295 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#64 - HttpServer: all response transmitted.
-2025-03-15 16:02:47.875295 [INFO] [HttpServerResponseCommand.cc:60] CUID#64 - Persist connection.
-2025-03-15 16:02:47.875295 [INFO] [HttpServerCommand.cc:272] CUID#64 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:47.935158 [INFO] [DownloadCommand.cc:242] CUID#21 - The download for one segment completed successfully.
-2025-03-15 16:02:48.177274 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4765.
-2025-03-15 16:02:48.177274 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-bf92337cc725d951
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:48.177274 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:48.178674 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#65 - HttpServer: all response transmitted.
-2025-03-15 16:02:48.178674 [INFO] [HttpServerResponseCommand.cc:60] CUID#65 - Persist connection.
-2025-03-15 16:02:48.178674 [INFO] [HttpServerCommand.cc:272] CUID#65 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:48.241376 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:48.481385 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4766.
-2025-03-15 16:02:48.481385 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-802f812cfdf3b8a0
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:48.481385 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:48.481385 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#66 - HttpServer: all response transmitted.
-2025-03-15 16:02:48.481385 [INFO] [HttpServerResponseCommand.cc:60] CUID#66 - Persist connection.
-2025-03-15 16:02:48.482390 [INFO] [HttpServerCommand.cc:272] CUID#66 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:48.602875 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:48.709874 [INFO] [DownloadCommand.cc:242] CUID#18 - The download for one segment completed successfully.
-2025-03-15 16:02:48.785263 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4767.
-2025-03-15 16:02:48.785263 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-87c11bb3aa45c1aa
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:48.785263 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:48.785263 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#67 - HttpServer: all response transmitted.
-2025-03-15 16:02:48.785263 [INFO] [HttpServerResponseCommand.cc:60] CUID#67 - Persist connection.
-2025-03-15 16:02:48.786355 [INFO] [HttpServerCommand.cc:272] CUID#67 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:48.958688 [INFO] [DownloadCommand.cc:242] CUID#22 - The download for one segment completed successfully.
-2025-03-15 16:02:48.959243 [INFO] [DownloadEngine.cc:315] Pool socket for slink.ltd(443)/127.0.0.1(7890)
-2025-03-15 16:02:48.959243 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:49.089098 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4768.
-2025-03-15 16:02:49.089098 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8619b568d18e455b
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:49.089098 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:49.089098 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#68 - HttpServer: all response transmitted.
-2025-03-15 16:02:49.089098 [INFO] [HttpServerResponseCommand.cc:60] CUID#68 - Persist connection.
-2025-03-15 16:02:49.090104 [INFO] [HttpServerCommand.cc:272] CUID#68 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:49.392672 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4769.
-2025-03-15 16:02:49.392672 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a9216c1e56893631
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:49.392672 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:49.393694 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#69 - HttpServer: all response transmitted.
-2025-03-15 16:02:49.393694 [INFO] [HttpServerResponseCommand.cc:60] CUID#69 - Persist connection.
-2025-03-15 16:02:49.393694 [INFO] [HttpServerCommand.cc:272] CUID#69 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:49.608757 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:49.695596 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4780.
-2025-03-15 16:02:49.695596 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b3ece12332d2e589
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:49.695596 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:49.696916 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#70 - HttpServer: all response transmitted.
-2025-03-15 16:02:49.696916 [INFO] [HttpServerResponseCommand.cc:60] CUID#70 - Persist connection.
-2025-03-15 16:02:49.696916 [INFO] [HttpServerCommand.cc:272] CUID#70 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:49.784370 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:49.968257 [INFO] [DownloadCommand.cc:242] CUID#21 - The download for one segment completed successfully.
-2025-03-15 16:02:49.999071 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4781.
-2025-03-15 16:02:49.999071 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8f5c29ee81101c09
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:49.999071 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:50.000323 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#71 - HttpServer: all response transmitted.
-2025-03-15 16:02:50.000323 [INFO] [HttpServerResponseCommand.cc:60] CUID#71 - Persist connection.
-2025-03-15 16:02:50.000323 [INFO] [HttpServerCommand.cc:272] CUID#71 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:50.302405 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4782.
-2025-03-15 16:02:50.319425 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-896985940eed1411
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:50.319425 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:50.319425 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#72 - HttpServer: all response transmitted.
-2025-03-15 16:02:50.319425 [INFO] [HttpServerResponseCommand.cc:60] CUID#72 - Persist connection.
-2025-03-15 16:02:50.320605 [INFO] [HttpServerCommand.cc:272] CUID#72 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:50.605106 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:50.623446 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4783.
-2025-03-15 16:02:50.623446 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-93eca45c50c4eaa0
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:50.623446 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:50.623446 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#73 - HttpServer: all response transmitted.
-2025-03-15 16:02:50.623446 [INFO] [HttpServerResponseCommand.cc:60] CUID#73 - Persist connection.
-2025-03-15 16:02:50.624468 [INFO] [HttpServerCommand.cc:272] CUID#73 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:50.788409 [INFO] [DownloadCommand.cc:242] CUID#18 - The download for one segment completed successfully.
-2025-03-15 16:02:50.823156 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:50.926477 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4784.
-2025-03-15 16:02:50.926477 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-bddb1eb80904f56e
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:50.926477 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:50.927824 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#74 - HttpServer: all response transmitted.
-2025-03-15 16:02:50.927824 [INFO] [HttpServerResponseCommand.cc:60] CUID#74 - Persist connection.
-2025-03-15 16:02:50.927824 [INFO] [HttpServerCommand.cc:272] CUID#74 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:51.206807 [INFO] [AbstractCommand.cc:130] CUID#19 - Use faster Request hostname=slink.ltd, port=443
-2025-03-15 16:02:51.207859 [INFO] [DownloadEngine.cc:449] Found socket for slink.ltd(443)/127.0.0.1(7890)
-2025-03-15 16:02:51.207859 [INFO] [HttpConnection.cc:128] CUID#19 - Requesting:
-GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.3/NsEmuTools.exe HTTP/1.1
+2025-06-10 10:44:08.572836 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:08.572836 [INFO] [HttpConnection.cc:128] CUID#27 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
 Accept: */*
-Host: slink.ltd
-Range: bytes=11776800-15728639
+Host: github.boki.moe
+Range: bytes=19922944-24117247
 Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
 
 
-2025-03-15 16:02:51.230600 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4785.
-2025-03-15 16:02:51.230600 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:08.573352 [INFO] [WinTLSSession.cc:788] WinTLS: connected with: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2025-06-10 10:44:08.573352 [INFO] [HttpConnection.cc:128] CUID#24 - Requesting:
+GET /https://github.com/triwinds/ns-emu-tools/releases/download/0.5.4/NsEmuTools.exe HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept: */*
+Host: github.boki.moe
+Range: bytes=8388608-15728639
+Want-Digest: SHA-512;q=1, SHA-256;q=1, SHA;q=0.1
+
+
+2025-06-10 10:44:08.615687 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:08.691634 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:08.753755 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:08.820191 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:08.854411 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6192.
+2025-06-10 10:44:08.854411 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8285de4af16d75af
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-949d955493b160eb
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:51.230600 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:51.230600 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#75 - HttpServer: all response transmitted.
-2025-03-15 16:02:51.230600 [INFO] [HttpServerResponseCommand.cc:60] CUID#75 - Persist connection.
-2025-03-15 16:02:51.231606 [INFO] [HttpServerCommand.cc:272] CUID#75 - Error occurred while reading HTTP request
+2025-06-10 10:44:08.855151 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:08.855151 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#39 - HttpServer: all response transmitted.
+2025-06-10 10:44:08.855151 [INFO] [HttpServerResponseCommand.cc:60] CUID#39 - Persist connection.
+2025-06-10 10:44:08.855875 [INFO] [HttpServerCommand.cc:272] CUID#39 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:51.260379 [INFO] [DownloadCommand.cc:242] CUID#21 - The download for one segment completed successfully.
-2025-03-15 16:02:51.260904 [INFO] [DownloadEngine.cc:315] Pool socket for slink.ltd(443)/127.0.0.1(7890)
-2025-03-15 16:02:51.260904 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:51.533127 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4786.
-2025-03-15 16:02:51.533127 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:08.881124 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:08.944136 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:08.994698 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.049349 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.086562 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.130534 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.157930 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6193.
+2025-06-10 10:44:09.157930 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-90c5658275a96ee3
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-8bc25df4b7e8d703
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:51.534380 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:51.534380 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#76 - HttpServer: all response transmitted.
-2025-03-15 16:02:51.534380 [INFO] [HttpServerResponseCommand.cc:60] CUID#76 - Persist connection.
-2025-03-15 16:02:51.534380 [INFO] [HttpServerCommand.cc:272] CUID#76 - Error occurred while reading HTTP request
+2025-06-10 10:44:09.158462 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:09.158462 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#40 - HttpServer: all response transmitted.
+2025-06-10 10:44:09.158462 [INFO] [HttpServerResponseCommand.cc:60] CUID#40 - Persist connection.
+2025-06-10 10:44:09.158980 [INFO] [HttpServerCommand.cc:272] CUID#40 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:51.597911 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:51.638979 [INFO] [HttpConnection.cc:163] CUID#19 - Response received:
+2025-06-10 10:44:09.168587 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.206505 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.241605 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.279953 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.280982 [INFO] [HttpConnection.cc:163] CUID#25 - Response received:
 HTTP/1.1 206 Partial Content
-Date: Sat, 15 Mar 2025 08:02:53 GMT
+Date: Tue, 10 Jun 2025 02:44:10 GMT
 Content-Type: application/octet-stream
-Content-Length: 3951840
+Content-Length: 6416748
 Connection: keep-alive
-Content-Range: bytes 11776800-15728639/30497719
-CF-Ray: 920a7dba6a3f0893-HKG
-CF-Cache-Status: DYNAMIC
+Server: cloudflare
+Content-Range: bytes 24117248-30533995/30533996
+Cf-Ray: 94d5867c0e67e2f8-HKG
+Cf-Cache-Status: DYNAMIC
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 1645
+Age: 1293
 Content-Disposition: attachment; filename=NsEmuTools.exe
-ETag: "0x8DD638AA761C3B4"
-Last-Modified: Sat, 15 Mar 2025 06:28:52 GMT
-Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Etag: "0x8DDA198D47A0E40"
+Last-Modified: Mon, 02 Jun 2025 05:46:32 GMT
 Via: 1.1 varnish, 1.1 varnish
-access-control-expose-headers: *
-fastly-restarts: 1
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-X-Content-Type-Options: nosniff
-x-ms-blob-type: BlockBlob
-x-ms-creation-time: Sat, 15 Mar 2025 06:28:52 GMT
-x-ms-lease-state: available
-x-ms-lease-status: unlocked
-x-ms-request-id: 136299dc-001e-0067-0573-95f1a9000000
-x-ms-server-encrypted: true
-x-ms-version: 2025-01-05
-x-served-by: cache-iad-kiad7000096-IAD, cache-nrt-rjtf7700035-NRT
-x-timer: S1742025773.383345,VS0,VE1
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Qfgt2hPUjqDHWIydeAn%2FwoDq%2Bfpx0mkOgpXI%2BKbde%2FxmfFrxukzIJYf39zDCB3uxESSCzm8GSIe7XIfP8gqjWrTpV80tbSEX7NcbhkPz6%2Fyl2IeNmf71UKdtLGw%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
+Access-Control-Expose-Headers: *
+Cf-Placement: local-HKG
+Fastly-Restarts: 1
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Ms-Blob-Type: BlockBlob
+X-Ms-Creation-Time: Mon, 02 Jun 2025 05:46:32 GMT
+X-Ms-Lease-State: available
+X-Ms-Lease-Status: unlocked
+X-Ms-Request-Id: 668e2bb8-401e-0049-7183-d3a3be000000
+X-Ms-Server-Encrypted: true
+X-Ms-Version: 2025-05-05
+X-Served-By: cache-iad-kiad7000020-IAD, cache-nrt-rjtf7700026-NRT
+X-Timer: S1749523451.746980,VS0,VE0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=XCwy3B7aPPWg9RXkB%2BBHHXBuQjrNLMJsKxF7EnfRgz5w9qbNuodkwy7zGeuX4EbGX5INKi1zSFuf4xKdOBEebYtj%2FG27INtC3bAWQbmiemuYWmAKRFb5IPDhpCvEYbXf7tM%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Speculation-Rules: "/cdn-cgi/speculation"
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=707&min_rtt=559&rtt_var=24&sent=3079&recv=224&lost=0&retrans=3&sent_bytes=4211262&recv_bytes=1143&delivery_rate=202626480&cwnd=462&unsent_bytes=0&cid=8243e137e81ccc49&ts=13203&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=735&min_rtt=731&rtt_var=277&sent=3&recv=6&lost=0&retrans=0&sent_bytes=115&recv_bytes=792&delivery_rate=1980848&cwnd=250&unsent_bytes=0&cid=5a4eb19eceb528a0&ts=706&x=0"
 
 
-2025-03-15 16:02:51.712655 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:51.836657 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4787.
-2025-03-15 16:02:51.837678 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:09.300442 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
+2025-06-10 10:44:09.311254 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.370499 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#33 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#34 - No segment available.
+2025-06-10 10:44:09.401582 [INFO] [AbstractCommand.cc:276] CUID#35 - No segment available.
+2025-06-10 10:44:09.402099 [INFO] [AbstractCommand.cc:276] CUID#36 - No segment available.
+2025-06-10 10:44:09.402099 [INFO] [AbstractCommand.cc:276] CUID#37 - No segment available.
+2025-06-10 10:44:09.402099 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
+2025-06-10 10:44:09.402099 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
+2025-06-10 10:44:09.420394 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.461155 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6194.
+2025-06-10 10:44:09.461155 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-80aa74e6855da46e
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-92d9820f1fad278e
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:51.837678 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:51.837678 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#77 - HttpServer: all response transmitted.
-2025-03-15 16:02:51.837678 [INFO] [HttpServerResponseCommand.cc:60] CUID#77 - Persist connection.
-2025-03-15 16:02:51.837678 [INFO] [HttpServerCommand.cc:272] CUID#77 - Error occurred while reading HTTP request
+2025-06-10 10:44:09.461155 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:09.462299 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#41 - HttpServer: all response transmitted.
+2025-06-10 10:44:09.462299 [INFO] [HttpServerResponseCommand.cc:60] CUID#41 - Persist connection.
+2025-06-10 10:44:09.462299 [INFO] [HttpServerCommand.cc:272] CUID#41 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:52.007136 [INFO] [DownloadCommand.cc:242] CUID#18 - The download for one segment completed successfully.
-2025-03-15 16:02:52.008231 [INFO] [DownloadEngine.cc:315] Pool socket for slink.ltd(443)/127.0.0.1(7890)
-2025-03-15 16:02:52.008231 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:52.140975 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4788.
-2025-03-15 16:02:52.140975 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:09.490540 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.496556 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.542471 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.575531 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.608139 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.645924 [INFO] [DownloadCommand.cc:242] CUID#16 - The download for one segment completed successfully.
+2025-06-10 10:44:09.647241 [INFO] [AbstractCommand.cc:276] CUID#16 - No segment available.
+2025-06-10 10:44:09.765577 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6195.
+2025-06-10 10:44:09.765577 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-ad1b0abb407e870e
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-b1c7a778b6b93cf1
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:52.140975 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:52.141992 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#78 - HttpServer: all response transmitted.
-2025-03-15 16:02:52.141992 [INFO] [HttpServerResponseCommand.cc:60] CUID#78 - Persist connection.
-2025-03-15 16:02:52.141992 [INFO] [HttpServerCommand.cc:272] CUID#78 - Error occurred while reading HTTP request
+2025-06-10 10:44:09.765577 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:09.765577 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#42 - HttpServer: all response transmitted.
+2025-06-10 10:44:09.765577 [INFO] [HttpServerResponseCommand.cc:60] CUID#42 - Persist connection.
+2025-06-10 10:44:09.766365 [INFO] [HttpServerCommand.cc:272] CUID#42 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:52.443904 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4789.
-2025-03-15 16:02:52.444929 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:09.866932 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:09.910935 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
+2025-06-10 10:44:09.957062 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:10.012407 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:10.060758 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:10.068763 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6196.
+2025-06-10 10:44:10.068763 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8277dc3f354abe3f
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-9e77dc933bcab724
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:52.444929 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:52.444929 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#79 - HttpServer: all response transmitted.
-2025-03-15 16:02:52.444929 [INFO] [HttpServerResponseCommand.cc:60] CUID#79 - Persist connection.
-2025-03-15 16:02:52.445950 [INFO] [HttpServerCommand.cc:272] CUID#79 - Error occurred while reading HTTP request
+2025-06-10 10:44:10.069371 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:10.069371 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#43 - HttpServer: all response transmitted.
+2025-06-10 10:44:10.069371 [INFO] [HttpServerResponseCommand.cc:60] CUID#43 - Persist connection.
+2025-06-10 10:44:10.069880 [INFO] [HttpServerCommand.cc:272] CUID#43 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:52.591637 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:52.747266 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4790.
-2025-03-15 16:02:52.765249 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:10.107560 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:10.151356 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:10.154657 [INFO] [DownloadCommand.cc:242] CUID#25 - The download for one segment completed successfully.
+2025-06-10 10:44:10.154657 [INFO] [DefaultPieceStorage.cc:483] The download was complete.
+2025-06-10 10:44:10.154657 [INFO] [DownloadEngine.cc:315] Pool socket for github.boki.moe(443)/127.0.0.1(7890)
+2025-06-10 10:44:10.202757 [NOTICE] [RequestGroup.cc:1214] Download complete: E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe
+2025-06-10 10:44:10.202757 [INFO] [DefaultBtProgressInfoFile.cc:417] The segment file E:/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 exists.
+2025-06-10 10:44:10.372134 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6197.
+2025-06-10 10:44:10.372134 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-98c8b5c486d4344a
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-a906313ee711af7b
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 106
 
 
-2025-03-15 16:02:52.765249 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:52.765249 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#80 - HttpServer: all response transmitted.
-2025-03-15 16:02:52.765249 [INFO] [HttpServerResponseCommand.cc:60] CUID#80 - Persist connection.
-2025-03-15 16:02:52.766310 [INFO] [HttpServerCommand.cc:272] CUID#80 - Error occurred while reading HTTP request
+2025-06-10 10:44:10.372134 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
+2025-06-10 10:44:10.372134 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#44 - HttpServer: all response transmitted.
+2025-06-10 10:44:10.372134 [INFO] [HttpServerResponseCommand.cc:60] CUID#44 - Persist connection.
+2025-06-10 10:44:10.373568 [INFO] [HttpServerCommand.cc:272] CUID#44 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:53.069020 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4791.
-2025-03-15 16:02:53.069020 [INFO] [HttpServer.cc:186] HTTP Server received request
+2025-06-10 10:44:10.375576 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:6198.
+2025-06-10 10:44:10.375576 [INFO] [HttpServer.cc:186] HTTP Server received request
 POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8d6516a0377480cf
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:53.069020 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:53.070021 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#81 - HttpServer: all response transmitted.
-2025-03-15 16:02:53.070021 [INFO] [HttpServerResponseCommand.cc:60] CUID#81 - Persist connection.
-2025-03-15 16:02:53.070021 [INFO] [HttpServerCommand.cc:272] CUID#81 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:53.190675 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:53.372219 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4792.
-2025-03-15 16:02:53.372219 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-88c433fbcdecee30
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:53.372219 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:53.373641 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#82 - HttpServer: all response transmitted.
-2025-03-15 16:02:53.373641 [INFO] [HttpServerResponseCommand.cc:60] CUID#82 - Persist connection.
-2025-03-15 16:02:53.373641 [INFO] [HttpServerCommand.cc:272] CUID#82 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:53.583225 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:53.676080 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4793.
-2025-03-15 16:02:53.676080 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-9e3c2c0367608bbd
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:53.676080 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:53.677087 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#83 - HttpServer: all response transmitted.
-2025-03-15 16:02:53.677087 [INFO] [HttpServerResponseCommand.cc:60] CUID#83 - Persist connection.
-2025-03-15 16:02:53.677087 [INFO] [HttpServerCommand.cc:272] CUID#83 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:53.937771 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:53.979668 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4794.
-2025-03-15 16:02:53.979668 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8efdff23e0adce3a
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:53.979668 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:53.980643 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#84 - HttpServer: all response transmitted.
-2025-03-15 16:02:53.980643 [INFO] [HttpServerResponseCommand.cc:60] CUID#84 - Persist connection.
-2025-03-15 16:02:53.980643 [INFO] [HttpServerCommand.cc:272] CUID#84 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:54.283609 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4795.
-2025-03-15 16:02:54.283609 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b7ffc5fe2a380951
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:54.283609 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:54.283609 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#85 - HttpServer: all response transmitted.
-2025-03-15 16:02:54.283609 [INFO] [HttpServerResponseCommand.cc:60] CUID#85 - Persist connection.
-2025-03-15 16:02:54.284746 [INFO] [HttpServerCommand.cc:272] CUID#85 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:54.412058 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:54.581689 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:54.587097 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4796.
-2025-03-15 16:02:54.587097 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a0fe70572d5c189a
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:54.587097 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:54.587603 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#86 - HttpServer: all response transmitted.
-2025-03-15 16:02:54.587603 [INFO] [HttpServerResponseCommand.cc:60] CUID#86 - Persist connection.
-2025-03-15 16:02:54.588152 [INFO] [HttpServerCommand.cc:272] CUID#86 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:54.890545 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4797.
-2025-03-15 16:02:54.890545 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-83f296fadbe8043f
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:54.890545 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:54.890545 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#87 - HttpServer: all response transmitted.
-2025-03-15 16:02:54.890545 [INFO] [HttpServerResponseCommand.cc:60] CUID#87 - Persist connection.
-2025-03-15 16:02:54.891552 [INFO] [HttpServerCommand.cc:272] CUID#87 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:54.924930 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:55.150338 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:55.192810 [INFO] [DownloadCommand.cc:242] CUID#20 - The download for one segment completed successfully.
-2025-03-15 16:02:55.192810 [INFO] [DownloadEngine.cc:315] Pool socket for slink.ltd(443)/127.0.0.1(7890)
-2025-03-15 16:02:55.192810 [INFO] [AbstractCommand.cc:276] CUID#20 - No segment available.
-2025-03-15 16:02:55.194122 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4798.
-2025-03-15 16:02:55.194122 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-80e2b27cffa98aa3
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:55.194122 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:55.194628 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#88 - HttpServer: all response transmitted.
-2025-03-15 16:02:55.194628 [INFO] [HttpServerResponseCommand.cc:60] CUID#88 - Persist connection.
-2025-03-15 16:02:55.194628 [INFO] [HttpServerCommand.cc:272] CUID#88 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:55.497585 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4799.
-2025-03-15 16:02:55.498592 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-96f2af24db13e31b
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:55.498592 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:55.498592 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#89 - HttpServer: all response transmitted.
-2025-03-15 16:02:55.498592 [INFO] [HttpServerResponseCommand.cc:60] CUID#89 - Persist connection.
-2025-03-15 16:02:55.499614 [INFO] [HttpServerCommand.cc:272] CUID#89 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:55.802394 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4800.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#20 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:55.802394 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b88cc880502f69ba
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:55.802394 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:55.803414 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#90 - HttpServer: all response transmitted.
-2025-03-15 16:02:55.803414 [INFO] [HttpServerResponseCommand.cc:60] CUID#90 - Persist connection.
-2025-03-15 16:02:55.803414 [INFO] [HttpServerCommand.cc:272] CUID#90 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:56.106909 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4801.
-2025-03-15 16:02:56.106909 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a5ef7ca4a2f41344
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:56.106909 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:56.106909 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#91 - HttpServer: all response transmitted.
-2025-03-15 16:02:56.106909 [INFO] [HttpServerResponseCommand.cc:60] CUID#91 - Persist connection.
-2025-03-15 16:02:56.107930 [INFO] [HttpServerCommand.cc:272] CUID#91 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:56.409850 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4802.
-2025-03-15 16:02:56.409850 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-bd5fd1b440c9da34
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:56.411279 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:56.411279 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#92 - HttpServer: all response transmitted.
-2025-03-15 16:02:56.411279 [INFO] [HttpServerResponseCommand.cc:60] CUID#92 - Persist connection.
-2025-03-15 16:02:56.411279 [INFO] [HttpServerCommand.cc:272] CUID#92 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:56.713421 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4803.
-2025-03-15 16:02:56.714804 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-9676de47be721db8
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:56.714804 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:56.714804 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#93 - HttpServer: all response transmitted.
-2025-03-15 16:02:56.714804 [INFO] [HttpServerResponseCommand.cc:60] CUID#93 - Persist connection.
-2025-03-15 16:02:56.715914 [INFO] [HttpServerCommand.cc:272] CUID#93 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:57.018401 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4804.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#20 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:57.018401 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b1759ecaeb027581
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:57.018401 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:57.018401 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#94 - HttpServer: all response transmitted.
-2025-03-15 16:02:57.018401 [INFO] [HttpServerResponseCommand.cc:60] CUID#94 - Persist connection.
-2025-03-15 16:02:57.019423 [INFO] [HttpServerCommand.cc:272] CUID#94 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:57.321961 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4805.
-2025-03-15 16:02:57.321961 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-80f248e96edf1e4f
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:57.321961 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:57.323047 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#95 - HttpServer: all response transmitted.
-2025-03-15 16:02:57.323047 [INFO] [HttpServerResponseCommand.cc:60] CUID#95 - Persist connection.
-2025-03-15 16:02:57.323047 [INFO] [HttpServerCommand.cc:272] CUID#95 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:57.626617 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4806.
-2025-03-15 16:02:57.626617 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b391ccaeda167dc7
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:57.626617 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:57.627640 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#96 - HttpServer: all response transmitted.
-2025-03-15 16:02:57.627640 [INFO] [HttpServerResponseCommand.cc:60] CUID#96 - Persist connection.
-2025-03-15 16:02:57.627640 [INFO] [HttpServerCommand.cc:272] CUID#96 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:57.931705 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4807.
-2025-03-15 16:02:57.955173 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-8d10218bb457c972
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:57.955173 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:57.955679 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#97 - HttpServer: all response transmitted.
-2025-03-15 16:02:57.955679 [INFO] [HttpServerResponseCommand.cc:60] CUID#97 - Persist connection.
-2025-03-15 16:02:57.955679 [INFO] [HttpServerCommand.cc:272] CUID#97 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:58.259145 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4808.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#20 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:58.259145 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-82a19cd6d0107a91
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:58.259145 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:58.260147 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#98 - HttpServer: all response transmitted.
-2025-03-15 16:02:58.260147 [INFO] [HttpServerResponseCommand.cc:60] CUID#98 - Persist connection.
-2025-03-15 16:02:58.260147 [INFO] [HttpServerCommand.cc:272] CUID#98 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:58.563869 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4809.
-2025-03-15 16:02:58.563869 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-9ff911730db0cdc1
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:58.563869 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:58.564891 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#99 - HttpServer: all response transmitted.
-2025-03-15 16:02:58.564891 [INFO] [HttpServerResponseCommand.cc:60] CUID#99 - Persist connection.
-2025-03-15 16:02:58.564891 [INFO] [HttpServerCommand.cc:272] CUID#99 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:58.867678 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4810.
-2025-03-15 16:02:58.867678 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-aa5282a219bb3069
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:58.867678 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:58.867678 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#100 - HttpServer: all response transmitted.
-2025-03-15 16:02:58.867678 [INFO] [HttpServerResponseCommand.cc:60] CUID#100 - Persist connection.
-2025-03-15 16:02:58.868735 [INFO] [HttpServerCommand.cc:272] CUID#100 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:59.171571 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4811.
-2025-03-15 16:02:59.171571 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b2393c38c9c12696
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:59.171571 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:59.171571 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#101 - HttpServer: all response transmitted.
-2025-03-15 16:02:59.171571 [INFO] [HttpServerResponseCommand.cc:60] CUID#101 - Persist connection.
-2025-03-15 16:02:59.172572 [INFO] [HttpServerCommand.cc:272] CUID#101 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#11 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#18 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#20 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#21 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#22 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#23 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#24 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#25 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#26 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#27 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#28 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#29 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#30 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#31 - No segment available.
-2025-03-15 16:02:59.302810 [INFO] [AbstractCommand.cc:276] CUID#32 - No segment available.
-2025-03-15 16:02:59.474711 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4812.
-2025-03-15 16:02:59.475204 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-a4326193e2decce5
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:59.475204 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:59.475709 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#102 - HttpServer: all response transmitted.
-2025-03-15 16:02:59.475709 [INFO] [HttpServerResponseCommand.cc:60] CUID#102 - Persist connection.
-2025-03-15 16:02:59.475709 [INFO] [HttpServerCommand.cc:272] CUID#102 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:59.494992 [INFO] [DownloadCommand.cc:242] CUID#19 - The download for one segment completed successfully.
-2025-03-15 16:02:59.495680 [INFO] [DefaultPieceStorage.cc:483] The download was complete.
-2025-03-15 16:02:59.495680 [INFO] [DownloadEngine.cc:315] Pool socket for slink.ltd(443)/127.0.0.1(7890)
-2025-03-15 16:02:59.498655 [NOTICE] [RequestGroup.cc:1214] Download complete: D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe
-2025-03-15 16:02:59.498655 [INFO] [DefaultBtProgressInfoFile.cc:417] The segment file D:/Recreation/Media/games/NsEmuTool/download/upgrade_files/NsEmuTools.exe.aria2 exists.
-2025-03-15 16:02:59.778982 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4813.
-2025-03-15 16:02:59.778982 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-b01fd1f8751e6b3e
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate, br, zstd
-Accept: */*
-Connection: keep-alive
-Content-Length: 106
-
-
-2025-03-15 16:02:59.778982 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.tellStatus
-2025-03-15 16:02:59.778982 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#103 - HttpServer: all response transmitted.
-2025-03-15 16:02:59.778982 [INFO] [HttpServerResponseCommand.cc:60] CUID#103 - Persist connection.
-2025-03-15 16:02:59.780003 [INFO] [HttpServerCommand.cc:272] CUID#103 - Error occurred while reading HTTP request
-Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:02:59.782047 [INFO] [HttpListenCommand.cc:77] RPC: Accepted the connection from 127.0.0.1:4814.
-2025-03-15 16:02:59.783106 [INFO] [HttpServer.cc:186] HTTP Server received request
-POST /jsonrpc HTTP/1.1
-Host: 127.0.0.1:47338
-sentry-trace: 19da6b54458048c889a945087e33d6fa-bcf680c7f15e2d43
-User-Agent: python-requests/2.31.0
+Host: 127.0.0.1:48294
+sentry-trace: 6e7d7e9706384f5b830a60cae8bb9c55-8d427dedbff39c3a
+User-Agent: python-requests/2.32.3
 Accept-Encoding: gzip, deflate, br, zstd
 Accept: */*
 Connection: keep-alive
 Content-Length: 95
 
 
-2025-03-15 16:02:59.783106 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.purgeDownloadResult
-2025-03-15 16:02:59.783106 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#104 - HttpServer: all response transmitted.
-2025-03-15 16:02:59.783106 [INFO] [HttpServerResponseCommand.cc:60] CUID#104 - Persist connection.
-2025-03-15 16:02:59.783106 [INFO] [HttpServerCommand.cc:272] CUID#104 - Error occurred while reading HTTP request
+2025-06-10 10:44:10.375576 [INFO] [rpc_helper.cc:103] Executing RPC method aria2.purgeDownloadResult
+2025-06-10 10:44:10.375576 [INFO] [AbstractHttpServerResponseCommand.cc:117] CUID#45 - HttpServer: all response transmitted.
+2025-06-10 10:44:10.375576 [INFO] [HttpServerResponseCommand.cc:60] CUID#45 - Persist connection.
+2025-06-10 10:44:10.376933 [INFO] [HttpServerCommand.cc:272] CUID#45 - Error occurred while reading HTTP request
 Exception: [HttpServer.cc:180] errorCode=1 Got EOF from peer.
-2025-03-15 16:03:03.817343 [INFO] [WatchProcessCommand.cc:115] CUID#7 - Process 26592 is not running. Commencing shutdown.
+2025-06-10 10:44:15.425089 [INFO] [WatchProcessCommand.cc:115] CUID#7 - Process 9112 is not running. Commencing shutdown.

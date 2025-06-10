@@ -2,8 +2,14 @@
   "yuzu_history": {
     "D:\\Recreation\\Media\\games\\Yuzu": {
       "yuzu_path": "D:\\Recreation\\Media\\games\\Yuzu",
-      "yuzu_version": null,
+      "yuzu_version": "4176",
       "yuzu_firmware": null,
+      "branch": "ea"
+    },
+    "E:\\Media\\games\\Yuzu": {
+      "yuzu_path": "E:\\Media\\games\\Yuzu",
+      "yuzu_version": "4176",
+      "yuzu_firmware": "19.0.1",
       "branch": "ea"
     }
   },
@@ -24,6 +30,12 @@
   "ryujinx_history": {
     "D:\\Recreation\\Media\\games\\Ryujinx": {
       "path": "D:\\Recreation\\Media\\games\\Ryujinx",
+      "version": null,
+      "firmware": null,
+      "branch": "canary"
+    },
+    "E:\\Media\\games\\Ryujinx": {
+      "path": "E:\\Media\\games\\Ryujinx",
       "version": null,
       "firmware": null,
       "branch": "mainline"

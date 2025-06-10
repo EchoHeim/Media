@@ -1,5 +1,5 @@
 {
-  "version": 69,
+  "version": 70,
   "enable_file_log": true,
   "backend_threading": "Auto",
   "res_scale": 1,
@@ -24,8 +24,9 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -514,
+  "system_time_offset": -550,
   "match_system_time": false,
+  "use_input_global_config": false,
   "docked_mode": true,
   "enable_discord_integration": true,
   "check_updates_on_start": false,
@@ -89,8 +90,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 253,
-    "window_position_y": 207,
+    "window_position_x": 363,
+    "window_position_y": 213,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -151,13 +152,13 @@
       "rumble": {
         "strong_rumble": 1,
         "weak_rumble": 1,
-        "enable_rumble": false
+        "enable_rumble": true
       },
       "led": {
-        "enable_led": false,
+        "enable_led": true,
         "turn_off_led": false,
-        "use_rainbow": false,
-        "led_color": 0
+        "use_rainbow": true,
+        "led_color": 4284614150
       },
       "left_joycon": {
         "button_minus": "Back",
@@ -176,19 +177,20 @@
         "button_zr": "RightTrigger",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "button_x": "Y",
-        "button_b": "A",
-        "button_y": "X",
-        "button_a": "B"
+        "button_x": "X",
+        "button_b": "B",
+        "button_y": "Y",
+        "button_a": "A"
       },
       "version": 1,
       "backend": "GamepadSDL2",
-      "id": "0-00000003-045e-0000-200b-000020057200",
+      "id": "0-00000003-057e-0000-0920-000000006803",
+      "name": null,
       "controller_type": "ProController",
       "player_index": "Player1"
     }
   ],
-  "rainbow_speed": 1,
+  "rainbow_speed": 1.7647059,
   "graphics_backend": "Vulkan",
   "preferred_gpu": "0x10DE_0x2520",
   "multiplayer_mode": 0,
