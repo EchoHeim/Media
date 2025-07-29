@@ -24,7 +24,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -550,
+  "system_time_offset": -585,
   "match_system_time": false,
   "use_input_global_config": false,
   "docked_mode": true,
@@ -90,8 +90,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 363,
-    "window_position_y": 213,
+    "window_position_x": 311,
+    "window_position_y": 214,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -158,7 +158,7 @@
         "enable_led": true,
         "turn_off_led": false,
         "use_rainbow": true,
-        "led_color": 4284614150
+        "led_color": 0
       },
       "left_joycon": {
         "button_minus": "Back",
@@ -177,22 +177,22 @@
         "button_zr": "RightTrigger",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "button_x": "X",
-        "button_b": "B",
-        "button_y": "Y",
-        "button_a": "A"
+        "button_x": "Y",
+        "button_b": "A",
+        "button_y": "X",
+        "button_a": "B"
       },
       "version": 1,
       "backend": "GamepadSDL2",
-      "id": "0-00000003-057e-0000-0920-000000006803",
-      "name": null,
+      "id": "0-00000003-045e-0000-8e02-000000007200",
+      "name": "Xbox 360 Controller (0)",
       "controller_type": "ProController",
       "player_index": "Player1"
     }
   ],
   "rainbow_speed": 1.7647059,
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2520",
+  "preferred_gpu": "0x10DE_0x2503",
   "multiplayer_mode": 0,
   "multiplayer_lan_interface_id": "0",
   "multiplayer_disable_p2p": false,
