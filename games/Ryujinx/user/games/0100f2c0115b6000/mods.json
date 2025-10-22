@@ -1,34 +1,3 @@
 {
-  "mods": [
-    {
-      "name": "C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
-      "enabled": true
-    },
-    {
-      "name": "C_\u6ED1\u7FD4\u4F1E__\u9ED8\u8BA4\u4F1E\u9762\u6362\u6210\u521D\u97F3\u672A\u6765",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u6ED1\u7FD4\u4F1E__\u9ED8\u8BA4\u4F1E\u9762\u6362\u6210\u521D\u97F3\u672A\u6765",
-      "enabled": true
-    },
-    {
-      "name": "C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
-      "enabled": true
-    },
-    {
-      "name": "S_\u591A\u529F\u80FD\u63D2\u4EF6",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u591A\u529F\u80FD\u63D2\u4EF6",
-      "enabled": true
-    },
-    {
-      "name": "S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6",
-      "enabled": true
-    },
-    {
-      "name": "S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
-      "path": "D:\\Recreation\\Media\\games\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
-      "enabled": true
-    }
-  ]
+  "mods": []
 }

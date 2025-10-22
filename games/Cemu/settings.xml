@@ -2,7 +2,7 @@
 <content>
     <logflag>0</logflag>
     <advanced_ppc_logging>false</advanced_ppc_logging>
-    <mlc_path>E:/Media/games/Cemu/MLC</mlc_path>
+    <mlc_path>F:/Media/games/Cemu/MLC</mlc_path>
     <permanent_storage>true</permanent_storage>
     <language>129</language>
     <use_discord_presence>false</use_discord_presence>

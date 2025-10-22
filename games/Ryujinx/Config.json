@@ -24,7 +24,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "Japan",
   "system_time_zone": "UTC",
-  "system_time_offset": -497,
+  "system_time_offset": -654,
   "match_system_time": true,
   "use_input_global_config": false,
   "docked_mode": true,
@@ -76,7 +76,8 @@
     "sort_ascending": false
   },
   "game_dirs": [
-    "E:\\Media\\games\\Yuzu\\ROM"
+    "E:\\Media\\games\\Yuzu\\ROM",
+    "F:\\Media\\games\\Yuzu\\ROM"
   ],
   "autoload_dirs": [],
   "shown_file_types": {
@@ -90,8 +91,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 284,
-    "window_position_y": 66,
+    "window_position_x": 349,
+    "window_position_y": 151,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -103,7 +104,7 @@
   "is_ascending_order": false,
   "start_fullscreen": false,
   "start_no_ui": false,
-  "show_console": true,
+  "show_console": false,
   "enable_keyboard": false,
   "enable_mouse": false,
   "disable_input_when_out_of_focus": false,
@@ -125,67 +126,45 @@
   "input_config": [
     {
       "left_joycon_stick": {
-        "joystick": "Left",
-        "invert_stick_x": false,
-        "invert_stick_y": false,
-        "rotate90_cw": false,
-        "stick_button": "LeftStick"
+        "stick_up": "W",
+        "stick_down": "S",
+        "stick_left": "A",
+        "stick_right": "D",
+        "stick_button": "F"
       },
       "right_joycon_stick": {
-        "joystick": "Right",
-        "invert_stick_x": false,
-        "invert_stick_y": false,
-        "rotate90_cw": false,
-        "stick_button": "RightStick"
-      },
-      "deadzone_left": 0.1,
-      "deadzone_right": 0.1,
-      "range_left": 1,
-      "range_right": 1,
-      "trigger_threshold": 0.5,
-      "motion": {
-        "motion_backend": "GamepadDriver",
-        "sensitivity": 100,
-        "gyro_deadzone": 1,
-        "enable_motion": true
-      },
-      "rumble": {
-        "strong_rumble": 1,
-        "weak_rumble": 1,
-        "enable_rumble": false
-      },
-      "led": {
-        "enable_led": false,
-        "turn_off_led": false,
-        "use_rainbow": false,
-        "led_color": 0
+        "stick_up": "I",
+        "stick_down": "K",
+        "stick_left": "J",
+        "stick_right": "L",
+        "stick_button": "H"
       },
       "left_joycon": {
-        "button_minus": "Back",
-        "button_l": "LeftShoulder",
-        "button_zl": "LeftTrigger",
+        "button_minus": "Minus",
+        "button_l": "E",
+        "button_zl": "Q",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "dpad_up": "DpadUp",
-        "dpad_down": "DpadDown",
-        "dpad_left": "DpadLeft",
-        "dpad_right": "DpadRight"
+        "dpad_up": "Up",
+        "dpad_down": "Down",
+        "dpad_left": "Left",
+        "dpad_right": "Right"
       },
       "right_joycon": {
-        "button_plus": "Start",
-        "button_r": "RightShoulder",
-        "button_zr": "RightTrigger",
+        "button_plus": "Plus",
+        "button_r": "U",
+        "button_zr": "O",
         "button_sl": "Unbound",
         "button_sr": "Unbound",
-        "button_x": "Y",
-        "button_b": "A",
-        "button_y": "X",
-        "button_a": "B"
+        "button_x": "C",
+        "button_b": "X",
+        "button_y": "V",
+        "button_a": "Z"
       },
       "version": 1,
-      "backend": "GamepadSDL2",
-      "id": "0-00000003-045e-0000-200b-000020057200",
-      "name": "Xbox One S Controller (0)",
+      "backend": "WindowKeyboard",
+      "id": "0",
+      "name": "\u6240\u6709\u952E\u76D8",
       "controller_type": "ProController",
       "player_index": "Player1"
     }
@@ -199,6 +178,9 @@
   "multiplayer_ldn_passphrase": "Ryujinx-3a54089b",
   "ldn_server": "",
   "use_hypervisor": true,
+  "enable_gdb_stub": false,
+  "gdb_stub_port": 0,
+  "debugger_suspend_on_start": false,
   "show_dirty_hacks": false,
   "dirty_hacks": []
 }
