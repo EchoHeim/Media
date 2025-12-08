@@ -1,2 +1,0 @@
-Choose the override you want, and merge the romfs folder in the override folder with the romfs folder for the main mod.
-The override files only contain the Pack.zs file to override, you still need all of the files in the main mod folder.

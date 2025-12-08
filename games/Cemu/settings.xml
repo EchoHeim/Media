@@ -2,7 +2,7 @@
 <content>
     <logflag>0</logflag>
     <advanced_ppc_logging>false</advanced_ppc_logging>
-    <mlc_path>E:/Media/games/Cemu/MLC</mlc_path>
+    <mlc_path></mlc_path>
     <permanent_storage>true</permanent_storage>
     <language>129</language>
     <use_discord_presence>false</use_discord_presence>
@@ -81,7 +81,9 @@
         <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\英杰-达尔克尔 (火神兽头盔).bin</Entry>
         <Entry>D:\Recreation\Cemu\旷野之息Tools\Amiibo\塞尔达公主 (黄昏之光弓&amp;星星 ).bin</Entry>
     </RecentNFCFiles>
-    <GamePaths/>
+    <GamePaths>
+        <Entry>E:\Media\games\Cemu\MLC</Entry>
+    </GamePaths>
     <GameCache/>
     <GraphicPack>
         <Entry filename="graphicPacks/BreathOfTheWild_BCML_v24.0.2nuannuan/rules.txt"/>

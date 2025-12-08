@@ -1,25 +1,19 @@
 {
   "yuzu": {
-    "yuzu_path": "E:\\Media\\games\\Yuzu",
-    "yuzu_version": "4176",
-    "yuzu_firmware": "19.0.1",
-    "branch": "ea"
+    "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Eden",
+    "yuzu_version": "v0.0.4-rc3",
+    "yuzu_firmware": "21.0.1",
+    "branch": "eden"
   },
   "ryujinx": {
-    "path": "E:\\Media\\games\\Ryujinx",
-    "version": "1.3.2",
-    "firmware": null,
+    "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx",
+    "version": "1.3.3",
+    "firmware": "21.0.1",
     "branch": "mainline"
-  },
-  "suyu": {
-    "path": "D:\\Recreation\\Media\\games\\Suyu",
-    "version": "v0.0.3",
-    "firmware": null,
-    "branch": "dev"
   },
   "setting": {
     "ui": {
-      "lastOpenEmuPage": "yuzu",
+      "lastOpenEmuPage": "ryujinx",
       "dark": true,
       "mode": "auto",
       "width": 1280,
@@ -29,6 +23,7 @@
       "firmwareDownloadSource": "github",
       "githubApiMode": "direct",
       "githubDownloadMirror": "cloudflare_load_balance",
+      "ryujinxGitLabDownloadMirror": "direct",
       "useDoh": true,
       "proxy": "system"
     },

@@ -1,30 +1,16 @@
 {
   "yuzu_history": {
-    "D:\\Recreation\\Media\\games\\Yuzu": {
-      "yuzu_path": "D:\\Recreation\\Media\\games\\Yuzu",
-      "yuzu_version": "4176",
+    "E:\\Media\\games\\Citron": {
+      "yuzu_path": "E:\\Media\\games\\Citron",
+      "yuzu_version": "master-51800e249",
       "yuzu_firmware": null,
-      "branch": "ea"
+      "branch": "eden"
     },
-    "E:\\Media\\games\\Yuzu": {
-      "yuzu_path": "E:\\Media\\games\\Yuzu",
-      "yuzu_version": "4176",
-      "yuzu_firmware": "19.0.1",
-      "branch": "ea"
-    }
-  },
-  "suyu_history": {
-    "D:\\Suyu": {
-      "path": "D:\\Suyu",
-      "version": null,
-      "firmware": null,
-      "branch": "dev"
-    },
-    "D:\\Recreation\\Media\\games\\Suyu": {
-      "path": "D:\\Recreation\\Media\\games\\Suyu",
-      "version": null,
-      "firmware": null,
-      "branch": "dev"
+    "E:\\Media\\games\\Switch_EMU\\Eden": {
+      "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Eden",
+      "yuzu_version": "v0.0.4-rc3",
+      "yuzu_firmware": "21.0.1",
+      "branch": "eden"
     }
   },
   "ryujinx_history": {
@@ -36,6 +22,12 @@
     },
     "E:\\Media\\games\\Ryujinx": {
       "path": "E:\\Media\\games\\Ryujinx",
+      "version": "1.3.3",
+      "firmware": null,
+      "branch": "mainline"
+    },
+    "E:\\Media\\games\\Switch_EMU\\Ryujinx": {
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx",
       "version": null,
       "firmware": null,
       "branch": "mainline"
