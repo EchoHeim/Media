@@ -6,6 +6,26 @@
       "enabled": true
     },
     {
+      "name": "C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
+      "enabled": true
+    },
+    {
+      "name": "E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
+      "enabled": true
+    },
+    {
+      "name": "NPC_\u666E\u5C14\u4E9A\u897F\u5F0F\u670D\u88C5",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\NPC_\u666E\u5C14\u4E9A\u897F\u5F0F\u670D\u88C5",
+      "enabled": true
+    },
+    {
+      "name": "S_\u5F69\u8272\u8D24\u8005\u5206\u8EAB",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u5F69\u8272\u8D24\u8005\u5206\u8EAB",
+      "enabled": true
+    },
+    {
       "name": "S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6_Ryjinx",
       "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\user\\mods\\contents\\0100f2c0115b6000\\S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6_Ryjinx",
       "enabled": true

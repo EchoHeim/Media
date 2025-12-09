@@ -1,9 +1,9 @@
 {
   "yuzu": {
-    "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Eden",
-    "yuzu_version": "v0.0.4-rc3",
-    "yuzu_firmware": "21.0.1",
-    "branch": "eden"
+    "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Yuzu",
+    "yuzu_version": "4176",
+    "yuzu_firmware": "19.0.1",
+    "branch": "ea"
   },
   "ryujinx": {
     "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx",
@@ -13,7 +13,7 @@
   },
   "setting": {
     "ui": {
-      "lastOpenEmuPage": "ryujinx",
+      "lastOpenEmuPage": "yuzu",
       "dark": true,
       "mode": "auto",
       "width": 1280,

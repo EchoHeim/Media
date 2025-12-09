@@ -10,6 +10,12 @@
       "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Eden",
       "yuzu_version": "v0.0.4-rc3",
       "yuzu_firmware": "21.0.1",
+      "branch": "ea"
+    },
+    "E:\\Media\\games\\Switch_EMU\\Yuzu": {
+      "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Yuzu",
+      "yuzu_version": null,
+      "yuzu_firmware": null,
       "branch": "eden"
     }
   },
