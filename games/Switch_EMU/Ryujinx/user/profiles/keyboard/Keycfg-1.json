@@ -1,0 +1,44 @@
+{
+  "left_joycon_stick": {
+    "stick_up": "W",
+    "stick_down": "S",
+    "stick_left": "A",
+    "stick_right": "D",
+    "stick_button": "F"
+  },
+  "right_joycon_stick": {
+    "stick_up": "I",
+    "stick_down": "K",
+    "stick_left": "J",
+    "stick_right": "L",
+    "stick_button": "H"
+  },
+  "left_joycon": {
+    "button_minus": "R",
+    "button_l": "E",
+    "button_zl": "Q",
+    "button_sl": "Unbound",
+    "button_sr": "Unbound",
+    "dpad_up": "Up",
+    "dpad_down": "Down",
+    "dpad_left": "Left",
+    "dpad_right": "Right"
+  },
+  "right_joycon": {
+    "button_plus": "U",
+    "button_r": "I",
+    "button_zr": "P",
+    "button_sl": "Unbound",
+    "button_sr": "Unbound",
+    "button_x": "V",
+    "button_b": "X",
+    "button_y": "Z",
+    "button_a": "C"
+  },
+  "version": 1,
+  "backend": "WindowKeyboard",
+  "id": "0",
+  "name": "\u6240\u6709\u952E\u76D8",
+  "controller_type": "ProController",
+  "player_index": "Player1"
+}
