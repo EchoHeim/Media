@@ -1,8 +1,8 @@
 {
   "yuzu": {
-    "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Yuzu",
+    "yuzu_path": "D:\\Media\\games\\Switch_EMU\\Yuzu",
     "yuzu_version": "4176",
-    "yuzu_firmware": "19.0.1",
+    "yuzu_firmware": "21.1.0",
     "branch": "ea"
   },
   "ryujinx": {

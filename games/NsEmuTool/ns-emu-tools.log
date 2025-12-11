@@ -10568,3 +10568,306 @@ RuntimeError: 下载出错, error_code: 22, error message: The response status i
 2025-12-09 10:52:35.093|DEBUG|geventwebsocket.handler|websocket.py:368|close|Closed WebSocket
 2025-12-09 10:52:35.094|DEBUG|geventwebsocket.handler|websocket.py:366|close|Failed to write closing frame -> closing socket
 2025-12-09 10:52:35.094|DEBUG|geventwebsocket.handler|websocket.py:368|close|Closed WebSocket
+2025-12-11 22:51:24.728|INFO|config|config.py:37|log_versions|system version: Windows-11-10.0.26200-SP0
+2025-12-11 22:51:24.728|INFO|config|config.py:38|log_versions|current version: 0.5.9
+2025-12-11 22:51:24.733|INFO|main|main.py:65|main|args: Namespace(mode=None, switch_mode=None, no_sentry=False)
+2025-12-11 22:51:24.787|DEBUG|sentry_sdk.errors|scope.py:240|set_new_propagation_context|[Tracing] Create new propagation context: {'trace_id': 'ad79c43d188a4438b382e4e2745b7d7c', 'span_id': '85127dff6b4a8ca0', 'parent_span_id': None, 'dynamic_sampling_context': None}
+2025-12-11 22:51:24.852|INFO|main|main.py:81|main|ui mode: auto
+2025-12-11 22:51:24.994|INFO|utils.webview2|webview2.py:66|ensure_runtime_components|dot net version: 533509
+2025-12-11 22:51:24.994|INFO|utils.webview2|webview2.py:55|is_chromium|webview2 version: 143.0.3650.66, description: Microsoft Edge WebView2 Runtime
+2025-12-11 22:51:25.915|DEBUG|requests_cache.backends|__init__.py:66|init_backend|Initializing backend: memory http_cache
+2025-12-11 22:51:25.916|DEBUG|requests_cache.backends|__init__.py:66|init_backend|Initializing backend: None http_cache
+2025-12-11 22:51:25.916|DEBUG|requests_cache.backends.base|base.py:322|__init__|Initialized SQLiteDict with serializer: SerializerPipeline(name=pickle, n_stages=2)
+2025-12-11 22:51:25.917|DEBUG|requests_cache.backends.sqlite|sqlite.py:252|connection|Opening connection to D:\Media\games\NsEmuTool\http_cache.sqlite:responses
+2025-12-11 22:51:25.918|DEBUG|requests_cache.backends.base|base.py:322|__init__|Initialized SQLiteDict with serializer: None
+2025-12-11 22:51:25.919|DEBUG|requests_cache.backends.sqlite|sqlite.py:252|connection|Opening connection to D:\Media\games\NsEmuTool\http_cache.sqlite:redirects
+2025-12-11 22:51:25.934|INFO|ui_webview|ui_webview.py:63|main|eel init starting...
+2025-12-11 22:51:26.372|INFO|ui_webview|ui_webview.py:65|main|eel init finished.
+2025-12-11 22:51:28.404|INFO|ui_webview|ui_webview.py:72|main|start webview with url: http://127.0.0.1:21280/
+2025-12-11 22:51:28.832|INFO|ui_webview|ui_webview.py:76|main|window size: (1280, 850), fullscreen: False
+2025-12-11 22:51:29.274|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.274|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.276|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET / HTTP/1.1" 200 2020 0.002097
+2025-12-11 22:51:29.288|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.288|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.290|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/jetbrains-mono-cyrillic-wght-normal-D73BlboJ.woff2 HTTP/1.1" 200 12368 0.001681
+2025-12-11 22:51:29.291|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.291|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.292|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/jetbrains-mono-greek-wght-normal-Bw9x6K1M.woff2 HTTP/1.1" 200 9263 0.000924
+2025-12-11 22:51:29.292|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.292|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.293|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/jetbrains-mono-vietnamese-wght-normal-Bt-aOZkq.woff2 HTTP/1.1" 200 7763 0.000884
+2025-12-11 22:51:29.293|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.293|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.294|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/jetbrains-mono-latin-ext-wght-normal-DBQx-q_a.woff2 HTTP/1.1" 200 15456 0.000804
+2025-12-11 22:51:29.294|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.294|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.295|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2 HTTP/1.1" 200 40664 0.000873
+2025-12-11 22:51:29.295|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.296|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.296|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/index-CAGza_jv.js HTTP/1.1" 200 161635 0.000793
+2025-12-11 22:51:29.297|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.297|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.300|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /eel.js HTTP/1.1" 200 7389 0.003062
+2025-12-11 22:51:29.300|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.300|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.301|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/index-DUtWqwK7.css HTTP/1.1" 200 255785 0.001190
+2025-12-11 22:51:29.325|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.325|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.327|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/default-8Ln2C-Hx.js HTTP/1.1" 200 6821 0.001777
+2025-12-11 22:51:29.327|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.327|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.329|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/AppBar.vue_vue_type_script_setup_true_lang-B6ClHMTs.js HTTP/1.1" 200 7697 0.001238
+2025-12-11 22:51:29.329|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.329|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.330|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/mdi-CAFVvJZe.js HTTP/1.1" 200 8200 0.000904
+2025-12-11 22:51:29.330|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.330|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.331|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/dimensions-C7mZSJ-r.js HTTP/1.1" 200 1033 0.000709
+2025-12-11 22:51:29.331|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.331|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.332|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/index-F27hx--W.js HTTP/1.1" 200 3384 0.000645
+2025-12-11 22:51:29.332|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.332|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.333|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/index-BSKcxg1H.js HTTP/1.1" 200 20228 0.000643
+2025-12-11 22:51:29.333|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.333|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.334|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VSpacer-CZig1kQN.css HTTP/1.1" 200 13987 0.000685
+2025-12-11 22:51:29.334|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.334|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.335|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VProgressCircular-BPJdTVu4.css HTTP/1.1" 200 2161 0.000652
+2025-12-11 22:51:29.335|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.335|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.335|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VBtn-9CtMUee5.css HTTP/1.1" 200 11793 0.000612
+2025-12-11 22:51:29.336|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.336|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.337|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/AppBar-C5qlDwws.css HTTP/1.1" 200 3389 0.001041
+2025-12-11 22:51:29.337|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.337|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.338|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/View-B1JVUNw1.css HTTP/1.1" 200 786 0.001155
+2025-12-11 22:51:29.339|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.339|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.340|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/index-DYj7vStA.css HTTP/1.1" 200 2825 0.000939
+2025-12-11 22:51:29.340|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.340|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.340|DEBUG|geventwebsocket.handler|handler.py:151|upgrade_connection|Attempting to upgrade connection
+2025-12-11 22:51:29.341|DEBUG|geventwebsocket.handler|handler.py:230|upgrade_connection|WebSocket request accepted, switching protocols
+2025-12-11 22:51:29.341|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.341|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.343|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VAvatar-CRBRPrH1.css HTTP/1.1" 200 2777 0.001104
+2025-12-11 22:51:29.343|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.343|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.344|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VDivider-CTbbZwnv.css HTTP/1.1" 200 1115 0.000872
+2025-12-11 22:51:29.344|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.344|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.345|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VList-BTI3jhzy.css HTTP/1.1" 200 14254 0.000700
+2025-12-11 22:51:29.345|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.345|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.346|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/AppDrawer-DnjGkSfu.css HTTP/1.1" 200 3323 0.000653
+2025-12-11 22:51:29.346|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.346|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.347|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/forwardRefs-CJZCRGWG.css HTTP/1.1" 200 1173 0.000677
+2025-12-11 22:51:29.347|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.347|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.347|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VCard-Ckq9XVQu.css HTTP/1.1" 200 6941 0.000684
+2025-12-11 22:51:29.348|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.348|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.349|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VDialog-DwTSAOeg.css HTTP/1.1" 200 2921 0.000728
+2025-12-11 22:51:29.349|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.349|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.349|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VMenu-DvKwEp1j.css HTTP/1.1" 200 894 0.000704
+2025-12-11 22:51:29.350|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.350|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.350|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/default-BOCfu8Fj.css HTTP/1.1" 200 1375 0.000679
+2025-12-11 22:51:29.351|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.351|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.352|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/layout-DKrgRQgl.js HTTP/1.1" 200 4639 0.001230
+2025-12-11 22:51:29.353|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.353|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.354|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/resizeObserver-DDheoeXq.js HTTP/1.1" 200 750 0.001440
+2025-12-11 22:51:29.354|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.356|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.357|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/ssrBoot-uwLznnFA.js HTTP/1.1" 200 522 0.002546
+2025-12-11 22:51:29.358|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.358|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.359|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VBtn-C5RTfE0e.js HTTP/1.1" 200 5598 0.001247
+2025-12-11 22:51:29.360|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.362|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.364|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VProgressCircular-Bx8hXR3S.js HTTP/1.1" 200 5622 0.004190
+2025-12-11 22:51:29.364|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.365|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.366|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VSpacer-CeokoHQ_.js HTTP/1.1" 200 4786 0.001395
+2025-12-11 22:51:29.366|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.366|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.367|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/View.vue_vue_type_script_setup_true_lang-Byl6HTFC.js HTTP/1.1" 200 1236 0.000969
+2025-12-11 22:51:29.368|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.368|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.369|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/AppDrawer-CV3QOaXF.js HTTP/1.1" 200 15565 0.001441
+2025-12-11 22:51:29.370|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.370|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.371|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/yuzu-DV0cs55e.js HTTP/1.1" 200 323 0.001071
+2025-12-11 22:51:29.371|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.371|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.372|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/ryujinx-BlyGcj1a.js HTTP/1.1" 200 4338 0.000779
+2025-12-11 22:51:29.372|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.372|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.373|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/ConfigStore-D2rgD-hq.js HTTP/1.1" 200 930 0.000901
+2025-12-11 22:51:29.374|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.374|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.374|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/common-BBvimTwu.js HTTP/1.1" 200 1283 0.000870
+2025-12-11 22:51:29.375|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.375|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.376|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/scopeId-D1lh1Zw7.js HTTP/1.1" 200 775 0.000819
+2025-12-11 22:51:29.376|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.376|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.377|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VAvatar-BxCdmQWH.js HTTP/1.1" 200 1405 0.001013
+2025-12-11 22:51:29.377|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.377|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.378|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VDivider-BuA_BOAK.js HTTP/1.1" 200 1466 0.001023
+2025-12-11 22:51:29.379|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.379|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.380|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VList-BD7_kQh4.js HTTP/1.1" 200 21784 0.000843
+2025-12-11 22:51:29.380|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.380|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.381|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/_plugin-vue_export-helper-DlAUqK2U.js HTTP/1.1" 200 361 0.000796
+2025-12-11 22:51:29.381|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.381|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.382|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/DialogTitle-C3Yq6VZ_.js HTTP/1.1" 200 648 0.000655
+2025-12-11 22:51:29.382|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.382|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.383|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VCard-LobHOUi4.js HTTP/1.1" 200 5635 0.000652
+2025-12-11 22:51:29.383|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.383|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.383|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VDialog-DFT7O4XW.js HTTP/1.1" 200 2556 0.000645
+2025-12-11 22:51:29.384|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.384|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.384|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/forwardRefs-CR7XaJQv.js HTTP/1.1" 200 25854 0.000657
+2025-12-11 22:51:29.385|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.385|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.386|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/markdown-BS2QN_WF.js HTTP/1.1" 200 62058 0.001044
+2025-12-11 22:51:29.386|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.386|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.387|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/telegram-CMZE59Yh.js HTTP/1.1" 200 4210 0.000827
+2025-12-11 22:51:29.387|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.387|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.388|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VMenu-CXSWVnzo.js HTTP/1.1" 200 3763 0.000709
+2025-12-11 22:51:29.388|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.388|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.389|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/index-s7I2e7Fi.js HTTP/1.1" 200 475 0.000787
+2025-12-11 22:51:29.389|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.389|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.390|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /favicon.ico HTTP/1.1" 200 17206 0.000966
+2025-12-11 22:51:29.430|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.430|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.431|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/icon-eRYry0eL.png HTTP/1.1" 200 4362 0.001129
+2025-12-11 22:51:29.448|INFO|module.network|network.py:245|request_github_api|requesting github api: https://api.github.com/repos/triwinds/ns-emu-tools/releases
+2025-12-11 22:51:29.452|DEBUG|requests_cache.policy.actions|actions.py:103|from_request|Cache directives from request headers: CacheDirectives()
+2025-12-11 22:51:29.453|DEBUG|requests_cache.policy.actions|actions.py:368|_log_cache_criteria|Pre-read cache checks: disabled cache
+2025-12-11 22:51:29.453|DEBUG|requests_cache.policy.actions|actions.py:217|update_from_cached_response|Post-read cache actions: CacheActions(expire_after=-1, send_request=True, skip_read=True)
+2025-12-11 22:51:29.455|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.455|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.456|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/yuzu-Cj7Cuppi.js HTTP/1.1" 200 11453 0.001148
+2025-12-11 22:51:29.456|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.456|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.457|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/ChangeLogDialog-BFPtiYj2.css HTTP/1.1" 200 307 0.000952
+2025-12-11 22:51:29.457|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.457|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.458|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/SimplePage.vue_vue_type_script_setup_true_lang-DqVapLFI.js HTTP/1.1" 200 3949 0.000826
+2025-12-11 22:51:29.458|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.459|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.459|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/ChangeLogDialog.vue_vue_type_style_index_0_lang-Cia6eFEi.js HTTP/1.1" 200 1336 0.000714
+2025-12-11 22:51:29.459|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.459|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.460|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VAutocomplete-CwvBL1UW.js HTTP/1.1" 200 11850 0.000644
+2025-12-11 22:51:29.460|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.460|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.461|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VSelect-Ct_dckx4.js HTTP/1.1" 200 45987 0.000636
+2025-12-11 22:51:29.461|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.461|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.462|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VSelect-BkMdL1D5.css HTTP/1.1" 200 38229 0.000676
+2025-12-11 22:51:29.462|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.462|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.463|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VAutocomplete-CwOGyv1C.css HTTP/1.1" 200 2833 0.000787
+2025-12-11 22:51:29.463|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.463|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.464|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VTooltip-BHXJTQ4V.css HTTP/1.1" 200 852 0.000664
+2025-12-11 22:51:29.464|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.464|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.465|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/VTooltip-CK8hC48K.js HTTP/1.1" 200 1828 0.000633
+2025-12-11 22:51:29.827|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.827|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.828|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /favicon.ico HTTP/1.1" 200 17206 0.000964
+2025-12-11 22:51:29.828|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:51:29.828|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:51:29.829|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:51:29] "GET /assets/yuzu-JHlz74Sq.webp HTTP/1.1" 200 5859 0.000752
+2025-12-11 22:51:29.834|INFO|module.network|network.py:245|request_github_api|requesting github api: https://api.github.com/repos/THZoria/NX_Firmware/releases
+2025-12-11 22:51:29.835|DEBUG|requests_cache.policy.actions|actions.py:103|from_request|Cache directives from request headers: CacheDirectives()
+2025-12-11 22:51:29.835|DEBUG|requests_cache.policy.actions|actions.py:368|_log_cache_criteria|Pre-read cache checks: disabled cache
+2025-12-11 22:51:29.836|DEBUG|requests_cache.policy.actions|actions.py:217|update_from_cached_response|Post-read cache actions: CacheActions(expire_after=-1, send_request=True, skip_read=True)
+2025-12-11 22:51:29.837|INFO|config|config.py:135|update_last_open_emu_page|update lastOpenEmuPage to yuzu
+2025-12-11 22:51:29.837|INFO|config|config.py:125|dump_config|saving config to D:\Media\games\NsEmuTool\config.json
+2025-12-11 22:51:30.676|DEBUG|requests_cache.policy.actions|actions.py:273|_update_from_response_headers|Cache directives from response headers: CacheDirectives(max_age=60, etag='W/"bb9645be8dec78652064cc95e43ce4efd5e6a8fe4985bfc6342917128b908bf7"')
+2025-12-11 22:51:30.676|DEBUG|requests_cache.policy.actions|actions.py:368|_log_cache_criteria|Pre-write cache checks: disabled cache
+2025-12-11 22:51:30.676|DEBUG|requests_cache.session|session.py:265|_send_and_cache|Skipping cache write for URL: https://api.github.com/repos/triwinds/ns-emu-tools/releases
+2025-12-11 22:51:30.744|DEBUG|requests_cache.policy.actions|actions.py:273|_update_from_response_headers|Cache directives from response headers: CacheDirectives(max_age=60, etag='W/"3ce0154e3815758dddb330e1a00978bad51544683b05f6cc242f81552dd03759"')
+2025-12-11 22:51:30.744|DEBUG|requests_cache.policy.actions|actions.py:368|_log_cache_criteria|Pre-write cache checks: Passed
+2025-12-11 22:51:50.133|INFO|api.yuzu_api|yuzu_api.py:25|ask_and_update_yuzu_path|select folder: D:/Media/games/Switch_EMU/Yuzu
+2025-12-11 22:51:50.135|INFO|storage|storage.py:26|dump_storage|saving storage to D:\Media\games\NsEmuTool\storage.json
+2025-12-11 22:51:50.136|INFO|module.yuzu|yuzu.py:323|update_yuzu_path|setting yuzu path to D:\Media\games\Switch_EMU\Yuzu
+2025-12-11 22:51:50.136|INFO|storage|storage.py:26|dump_storage|saving storage to D:\Media\games\NsEmuTool\storage.json
+2025-12-11 22:51:50.136|INFO|config|config.py:125|dump_config|saving config to D:\Media\games\NsEmuTool\config.json
+2025-12-11 22:51:50.138|INFO|module.network|network.py:245|request_github_api|requesting github api: https://api.github.com/repos/eden-emulator/Releases/releases
+2025-12-11 22:51:50.139|DEBUG|requests_cache.policy.actions|actions.py:103|from_request|Cache directives from request headers: CacheDirectives()
+2025-12-11 22:51:50.139|DEBUG|requests_cache.policy.actions|actions.py:368|_log_cache_criteria|Pre-read cache checks: Passed
+2025-12-11 22:51:50.139|DEBUG|requests_cache.policy.actions|actions.py:217|update_from_cached_response|Post-read cache actions: CacheActions(expire_after=-1, send_request=True)
+2025-12-11 22:51:50.695|DEBUG|requests_cache.policy.actions|actions.py:273|_update_from_response_headers|Cache directives from response headers: CacheDirectives(max_age=60, etag='W/"402ec6ee4c84b08408933a97e3aab596104ea673984214b10fefc4b9a017f359"')
+2025-12-11 22:51:50.695|DEBUG|requests_cache.policy.actions|actions.py:368|_log_cache_criteria|Pre-write cache checks: Passed
+2025-12-11 22:51:55.207|INFO|module.yuzu|yuzu.py:207|detect_yuzu_version|yuzu window name: yuzu Early Access 4176
+2025-12-11 22:51:55.207|INFO|module.yuzu|yuzu.py:215|detect_yuzu_version|current yuzu version: 4176, branch: ea
+2025-12-11 22:51:56.208|INFO|config|config.py:125|dump_config|saving config to D:\Media\games\NsEmuTool\config.json
+2025-12-11 22:52:00.123|DEBUG|module.yuzu|yuzu.py:282|_get_yuzu_data_storage_config|{'nand_directory\\default': 'false', 'nand_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/nand', 'sdmc_directory\\default': 'false', 'sdmc_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/sdmc', 'load_directory\\default': 'false', 'load_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/load', 'dump_directory\\default': 'false', 'dump_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/dump', 'tas_directory\\default': 'false', 'tas_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/tas', 'use_virtual_sd\\default': 'true', 'use_virtual_sd': 'true', 'gamecard_inserted\\default': 'true', 'gamecard_inserted': 'false', 'gamecard_current_game\\default': 'true', 'gamecard_current_game': 'false', 'gamecard_path\\default': 'true', 'gamecard_path': ''}
+2025-12-11 22:52:00.124|INFO|module.yuzu|yuzu.py:294|get_yuzu_nand_path|use nand path from yuzu config: D:\Media\games\Switch_EMU\Yuzu\user\nand
+2025-12-11 22:52:00.125|INFO|module.firmware|firmware.py:66|find_target_firmware_file|scanning firmware files...
+2025-12-11 22:52:00.860|INFO|module.firmware|firmware.py:74|find_target_firmware_file|target firmware file: D:\Media\games\Switch_EMU\Yuzu\user\nand\system\Contents\registered\79e18e7cbd5de5b700f054bb95e95efd.nca
+2025-12-11 22:52:00.860|INFO|module.firmware|firmware.py:80|extract_version|decrypt file: D:\Media\games\Switch_EMU\Yuzu\user\nand\system\Contents\registered\79e18e7cbd5de5b700f054bb95e95efd.nca
+2025-12-11 22:52:00.875|INFO|module.firmware|firmware.py:88|extract_version|Firmware version: 19.0.1
+2025-12-11 22:52:00.875|INFO|config|config.py:125|dump_config|saving config to D:\Media\games\NsEmuTool\config.json
+2025-12-11 22:52:13.732|DEBUG|module.yuzu|yuzu.py:282|_get_yuzu_data_storage_config|{'nand_directory\\default': 'false', 'nand_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/nand', 'sdmc_directory\\default': 'false', 'sdmc_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/sdmc', 'load_directory\\default': 'false', 'load_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/load', 'dump_directory\\default': 'false', 'dump_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/dump', 'tas_directory\\default': 'false', 'tas_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/tas', 'use_virtual_sd\\default': 'true', 'use_virtual_sd': 'true', 'gamecard_inserted\\default': 'true', 'gamecard_inserted': 'false', 'gamecard_current_game\\default': 'true', 'gamecard_current_game': 'false', 'gamecard_path\\default': 'true', 'gamecard_path': ''}
+2025-12-11 22:52:13.732|INFO|module.yuzu|yuzu.py:294|get_yuzu_nand_path|use nand path from yuzu config: D:\Media\games\Switch_EMU\Yuzu\user\nand
+2025-12-11 22:52:13.732|INFO|module.network|network.py:185|get_github_download_url|using new url: https://github.limoruirui.com/https://github.com/THZoria/NX_Firmware/releases/download/21.1.0/Firmware.21.1.0.zip
+2025-12-11 22:52:13.732|INFO|module.firmware|firmware.py:177|install_firmware|downloading firmware of [21.1.0] from https://github.limoruirui.com/https://github.com/THZoria/NX_Firmware/releases/download/21.1.0/Firmware.21.1.0.zip
+2025-12-11 22:52:15.767|INFO|module.downloader|downloader.py:56|_init_aria2|starting aria2 daemon at port 25396
+2025-12-11 22:52:15.767|INFO|module.downloader|downloader.py:59|_init_aria2|removing old aria2 logs.
+2025-12-11 22:52:15.768|INFO|module.downloader|downloader.py:73|_init_aria2|aria2 cli: [WindowsPath('C:/Users/Lodge/AppData/Local/Temp/_MEI208402/module/aria2c.exe'), '--enable-rpc', '--rpc-listen-port', '25396', '--async-dns=true', '--rpc-secret', '123456', '--log', 'aria2.log', '--log-level=info', '--stop-with-process=14628', '--disable-ipv6=true', '--async-dns-server=223.5.5.5,119.29.29.29']
+2025-12-11 22:52:15.790|INFO|module.downloader|downloader.py:84|_init_aria2|aria2 global options: {}
+2025-12-11 22:52:16.301|INFO|module.network|network.py:113|is_using_proxy|current proxies: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890', 'ftp': 'http://127.0.0.1:7890'}
+2025-12-11 22:52:17.232|INFO|module.downloader|downloader.py:174|_download|info.error_code: 3, error message: Resource not found
+2025-12-11 22:52:17.232|ERROR|api.common_response|common_response.py:24|exception_response|下载出错, error_code: 3, error message: Resource not found
+Traceback (most recent call last):
+  File "api\yuzu_api.py", line 77, in install_yuzu_firmware
+  File "module\yuzu.py", line 163, in install_firmware_to_yuzu
+  File "module\firmware.py", line 178, in install_firmware
+  File "module\downloader.py", line 119, in download
+  File "module\downloader.py", line 175, in _download
+RuntimeError: 下载出错, error_code: 3, error message: Resource not found
+2025-12-11 22:52:21.562|DEBUG|module.yuzu|yuzu.py:282|_get_yuzu_data_storage_config|{'nand_directory\\default': 'false', 'nand_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/nand', 'sdmc_directory\\default': 'false', 'sdmc_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/sdmc', 'load_directory\\default': 'false', 'load_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/load', 'dump_directory\\default': 'false', 'dump_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/dump', 'tas_directory\\default': 'false', 'tas_directory': 'D:/Media/games/Switch_EMU/Yuzu/user/tas', 'use_virtual_sd\\default': 'true', 'use_virtual_sd': 'true', 'gamecard_inserted\\default': 'true', 'gamecard_inserted': 'false', 'gamecard_current_game\\default': 'true', 'gamecard_current_game': 'false', 'gamecard_path\\default': 'true', 'gamecard_path': ''}
+2025-12-11 22:52:21.563|INFO|module.yuzu|yuzu.py:294|get_yuzu_nand_path|use nand path from yuzu config: D:\Media\games\Switch_EMU\Yuzu\user\nand
+2025-12-11 22:52:21.563|INFO|module.network|network.py:185|get_github_download_url|using new url: https://gh.monlor.com/https://github.com/THZoria/NX_Firmware/releases/download/21.1.0/Firmware.21.1.0.zip
+2025-12-11 22:52:21.563|INFO|module.firmware|firmware.py:177|install_firmware|downloading firmware of [21.1.0] from https://gh.monlor.com/https://github.com/THZoria/NX_Firmware/releases/download/21.1.0/Firmware.21.1.0.zip
+2025-12-11 22:52:21.564|INFO|module.network|network.py:113|is_using_proxy|current proxies: {'http': 'http://127.0.0.1:7890', 'https': 'http://127.0.0.1:7890', 'ftp': 'http://127.0.0.1:7890'}
+2025-12-11 22:54:00.260|INFO|module.downloader|downloader.py:177|_download|progress: 100.00%, total size: 342.55 MiB
+2025-12-11 22:54:00.361|INFO|module.firmware|firmware.py:191|install_firmware|Unzipping firmware files to D:\Media\games\Switch_EMU\Yuzu\user\nand\system\Contents\registered
+2025-12-11 22:54:01.263|INFO|module.firmware|firmware.py:193|install_firmware|Firmware of [21.1.0] install successfully.
+2025-12-11 22:54:01.293|INFO|config|config.py:125|dump_config|saving config to D:\Media\games\NsEmuTool\config.json
+2025-12-11 22:57:26.134|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:57:26.134|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:57:26.135|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:57:26] "GET /assets/keys-DKxgCJII.js HTTP/1.1" 200 2554 0.001324
+2025-12-11 22:57:26.135|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:57:26.136|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:57:26.136|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:57:26] "GET /assets/keys-CpRNxDEG.css HTTP/1.1" 200 367 0.000725
+2025-12-11 22:57:26.160|DEBUG|geventwebsocket.handler|handler.py:68|run_application|Initializing WebSocket
+2025-12-11 22:57:26.160|DEBUG|geventwebsocket.handler|handler.py:100|upgrade_websocket|Validating WebSocket request
+2025-12-11 22:57:26.161|INFO|geventwebsocket.handler|handler.py:242|log_request|127.0.0.1 - - [2025-12-11 22:57:26] "GET /favicon.ico HTTP/1.1" 200 17206 0.001086
+2025-12-11 23:02:19.736|DEBUG|geventwebsocket.handler|websocket.py:368|close|Closed WebSocket
+2025-12-11 23:02:19.736|DEBUG|geventwebsocket.handler|websocket.py:366|close|Failed to write closing frame -> closing socket
+2025-12-11 23:02:19.737|DEBUG|geventwebsocket.handler|websocket.py:368|close|Closed WebSocket
