@@ -20,8 +20,8 @@
     },
     "D:\\Media\\games\\Switch_EMU\\Yuzu": {
       "yuzu_path": "D:\\Media\\games\\Switch_EMU\\Yuzu",
-      "yuzu_version": null,
-      "yuzu_firmware": null,
+      "yuzu_version": "4176",
+      "yuzu_firmware": "21.1.0",
       "branch": "eden"
     }
   },
@@ -32,15 +32,9 @@
       "firmware": null,
       "branch": "canary"
     },
-    "E:\\Media\\games\\Ryujinx": {
-      "path": "E:\\Media\\games\\Ryujinx",
-      "version": "1.3.3",
-      "firmware": null,
-      "branch": "mainline"
-    },
     "E:\\Media\\games\\Switch_EMU\\Ryujinx": {
       "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx",
-      "version": null,
+      "version": "1.3.3",
       "firmware": null,
       "branch": "mainline"
     }
