@@ -24,7 +24,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "China",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -1683,
+  "system_time_offset": -1694,
   "match_system_time": true,
   "use_input_global_config": false,
   "docked_mode": true,
@@ -91,8 +91,8 @@
   "window_startup": {
     "window_size_width": 1280,
     "window_size_height": 777,
-    "window_position_x": 206,
-    "window_position_y": 206,
+    "window_position_x": 233,
+    "window_position_y": 291,
     "window_maximized": false
   },
   "language_code": "zh_CN",
@@ -185,15 +185,15 @@
       },
       "version": 1,
       "backend": "GamepadSDL2",
-      "id": "0-00000003-045e-0000-200b-000020057200",
-      "name": "Xbox One S Controller (0)",
+      "id": "0-00000003-045e-0000-8e02-000000007200",
+      "name": "Xbox 360 Controller (0)",
       "controller_type": "ProController",
       "player_index": "Player1"
     }
   ],
   "rainbow_speed": 1,
   "graphics_backend": "Vulkan",
-  "preferred_gpu": "0x10DE_0x2520",
+  "preferred_gpu": "0x10DE_0x2503",
   "multiplayer_mode": 0,
   "multiplayer_lan_interface_id": "0",
   "multiplayer_disable_p2p": false,

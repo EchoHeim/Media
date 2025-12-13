@@ -1,0 +1,22 @@
+[
+  {
+    "path": "E:\\Media\\games\\Switch_ROM\\Splatoon 3 v9.2.0 (1G\u002B1U\u002B3D).xci",
+    "dlc_nca_list": [
+      {
+        "path": "/504e1ab9902653cefae86c19214ae749.nca",
+        "title_id": 72271243155476580,
+        "is_enabled": true
+      },
+      {
+        "path": "/58e0052d77e1e05bc51f4e95fa86446f.nca",
+        "title_id": 72271243155476581,
+        "is_enabled": true
+      },
+      {
+        "path": "/dd9b5b39be4d7c9de61e18fbc6c5caa1.nca",
+        "title_id": 72271243155476582,
+        "is_enabled": true
+      }
+    ]
+  }
+]
