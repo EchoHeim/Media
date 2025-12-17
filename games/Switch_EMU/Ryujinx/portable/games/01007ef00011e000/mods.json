@@ -2,8 +2,8 @@
   "mods": [
     {
       "name": "60FPS",
-      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\user\\mods\\contents\\01007ef00011e000\\60FPS",
-      "enabled": true
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\01007ef00011e000\\60FPS",
+      "enabled": false
     }
   ]
 }

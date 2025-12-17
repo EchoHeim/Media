@@ -1,0 +1,32 @@
+[
+  {
+    "path": "E:\\Media\\games\\Switch_ROM\\Friends of Mineral Town (1G\u002B1U\u002B5D).xci",
+    "dlc_nca_list": [
+      {
+        "path": "/b43f6f31bf3528b7246c52510de9bdc5.nca",
+        "title_id": 72271792894201857,
+        "is_enabled": true
+      },
+      {
+        "path": "/c63ed76471859793e6fd78b1b137776d.nca",
+        "title_id": 72271792894201858,
+        "is_enabled": true
+      },
+      {
+        "path": "/1f57d634874804dd1ad9076bec2c8120.nca",
+        "title_id": 72271792894201859,
+        "is_enabled": true
+      },
+      {
+        "path": "/6e11a49cb262fcbda5da0265524da122.nca",
+        "title_id": 72271792894201860,
+        "is_enabled": true
+      },
+      {
+        "path": "/35ef216123d79d00fa03b7d0e1cd5fb2.nca",
+        "title_id": 72271792894201861,
+        "is_enabled": true
+      }
+    ]
+  }
+]
