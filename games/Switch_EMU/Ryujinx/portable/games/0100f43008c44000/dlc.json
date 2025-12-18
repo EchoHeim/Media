@@ -8,5 +8,15 @@
         "is_enabled": true
       }
     ]
+  },
+  {
+    "path": "D:\\Media\\games\\Switch_ROM\\Pokemon\\[Pok\u00E9mon\u002BLegends\u002BZ-A][1.0.3][1G\u002B1U\u002B1D][US][21.0.0].xci",
+    "dlc_nca_list": [
+      {
+        "path": "/cb554c01fb6b07e7fd06b7026e3728f2.nca",
+        "title_id": 72326081180618754,
+        "is_enabled": true
+      }
+    ]
   }
 ]

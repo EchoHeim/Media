@@ -24,7 +24,7 @@
   "system_language": "SimplifiedChinese",
   "system_region": "China",
   "system_time_zone": "Hongkong",
-  "system_time_offset": -1722,
+  "system_time_offset": -1902,
   "match_system_time": true,
   "use_input_global_config": false,
   "docked_mode": true,
@@ -91,8 +91,8 @@
   "window_startup": {
     "window_size_width": 1920,
     "window_size_height": 1137,
-    "window_position_x": 383,
-    "window_position_y": 150,
+    "window_position_x": 230,
+    "window_position_y": 182,
     "window_maximized": false
   },
   "language_code": "zh_CN",
