@@ -4,42 +4,42 @@
   <region>1</region>
   <name>XenobladeX</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/00050000/10116100</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/00050000/10116100</path>
  </title>
  <title titleId="0005000010143500" version="0" sdk_version="20911" group_id="00001435" app_type="80000000">
   <region>1</region>
   <name>THE LEGEND OF ZELDA The Wind Waker HD</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/00050000/10143500</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/00050000/10143500</path>
  </title>
  <title titleId="000500001019e600" version="81" sdk_version="21213" group_id="000019e6" app_type="80000000">
   <region>1</region>
   <name>THE LEGEND OF ZELDA Twilight Princess HD</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/00050000/1019e600</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/00050000/1019e600</path>
  </title>
  <title titleId="00050000101c9300" version="0" sdk_version="21301" group_id="00001c93" app_type="80000000">
   <region>1</region>
   <name>The Legend of Zelda Breath of the Wild</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/00050000/101c9300</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/00050000/101c9300</path>
  </title>
  <title titleId="0005000c10116100" version="0" sdk_version="21003" group_id="00001161" app_type="0800000e">
   <region>1</region>
   <name>XenobladeX</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/0005000c/10116100</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/0005000c/10116100</path>
  </title>
  <title titleId="0005000c101c9300" version="80" sdk_version="21301" group_id="00001c93" app_type="0800000e">
   <region>1</region>
   <name>The Legend of Zelda Breath of the Wild</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/0005000c/101c9300</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/0005000c/101c9300</path>
  </title>
  <title titleId="0005000e101c9300" version="208" sdk_version="21301" group_id="00001c93" app_type="0800001b">
   <region>1</region>
   <name>The Legend of Zelda Breath of the Wild</name>
   <format>1</format>
-  <path>E:/Media/games/Cemu/MLC/usr/title/0005000e/101c9300</path>
+  <path>D:/Media/games/Cemu/MLC/usr/title/0005000e/101c9300</path>
  </title>
 </title_list>

@@ -1,6 +1,6 @@
 {
   "yuzu": {
-    "yuzu_path": "E:\\Media\\games\\Switch_EMU\\Eden",
+    "yuzu_path": "D:\\Media\\games\\Switch_EMU\\Eden",
     "yuzu_version": "v0.0.4-rc3 | MSVC 19.44.35219.0",
     "yuzu_firmware": "21.1.0",
     "branch": "eden"

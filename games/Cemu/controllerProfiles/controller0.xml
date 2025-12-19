@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <emulated_controller>
-	<type>Wii U GamePad</type>
-	<profile>Switch Controller</profile>
-	<toggle_display>0</toggle_display>
+	<type>Wii U Pro Controller</type>
+	<profile>Xbox Ctrl</profile>
 	<controller>
 		<api>SDLController</api>
-		<uuid>0_0300b7e67e0500000920000000006803</uuid>
-		<display_name>Nintendo Switch Pro Controller</display_name>
-		<motion>true</motion>
+		<uuid>0_03009a195e0400008e02000000007200</uuid>
+		<display_name>Xbox 360 Controller</display_name>
 		<rumble>0</rumble>
 		<axis>
 			<deadzone>0.25</deadzone>
@@ -24,19 +22,19 @@
 		<mappings>
 			<entry>
 				<mapping>1</mapping>
-				<button>0</button>
-			</entry>
-			<entry>
-				<mapping>2</mapping>
 				<button>1</button>
 			</entry>
 			<entry>
+				<mapping>2</mapping>
+				<button>0</button>
+			</entry>
+			<entry>
 				<mapping>3</mapping>
-				<button>2</button>
+				<button>3</button>
 			</entry>
 			<entry>
 				<mapping>4</mapping>
-				<button>3</button>
+				<button>2</button>
 			</entry>
 			<entry>
 				<mapping>5</mapping>
@@ -63,59 +61,59 @@
 				<button>4</button>
 			</entry>
 			<entry>
-				<mapping>11</mapping>
+				<mapping>12</mapping>
 				<button>11</button>
 			</entry>
 			<entry>
-				<mapping>12</mapping>
+				<mapping>13</mapping>
 				<button>12</button>
 			</entry>
 			<entry>
-				<mapping>13</mapping>
+				<mapping>14</mapping>
 				<button>13</button>
 			</entry>
 			<entry>
-				<mapping>14</mapping>
+				<mapping>15</mapping>
 				<button>14</button>
 			</entry>
 			<entry>
-				<mapping>15</mapping>
+				<mapping>16</mapping>
 				<button>7</button>
 			</entry>
 			<entry>
-				<mapping>16</mapping>
+				<mapping>17</mapping>
 				<button>8</button>
 			</entry>
 			<entry>
-				<mapping>17</mapping>
+				<mapping>18</mapping>
 				<button>45</button>
 			</entry>
 			<entry>
-				<mapping>18</mapping>
+				<mapping>19</mapping>
 				<button>39</button>
 			</entry>
 			<entry>
-				<mapping>19</mapping>
+				<mapping>20</mapping>
 				<button>44</button>
 			</entry>
 			<entry>
-				<mapping>20</mapping>
+				<mapping>21</mapping>
 				<button>38</button>
 			</entry>
 			<entry>
-				<mapping>21</mapping>
+				<mapping>22</mapping>
 				<button>47</button>
 			</entry>
 			<entry>
-				<mapping>22</mapping>
+				<mapping>23</mapping>
 				<button>41</button>
 			</entry>
 			<entry>
-				<mapping>23</mapping>
+				<mapping>24</mapping>
 				<button>46</button>
 			</entry>
 			<entry>
-				<mapping>24</mapping>
+				<mapping>25</mapping>
 				<button>40</button>
 			</entry>
 		</mappings>
