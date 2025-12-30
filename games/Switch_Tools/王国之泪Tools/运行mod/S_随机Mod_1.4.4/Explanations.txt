@@ -1,0 +1,96 @@
+Okay. Let's get to some explanations
+first so you know what is going on!
+  
+As expected, you will get randomized
+items from chests, NPCs, enemies, etc.
+But there is also the Randomizer Cycle!
+
+The Randomizer Cycle is a core feature
+which triggers a random event every 20
+to 40 seconds on normal Cycle speed.
+
+You could receive or lose items, enemies
+could start or stop spawning, the music
+or environment might change, etc.
+
+The Randomizer Cycle speed can be
+adjusted at any time by equipping
+the Randomizer Emblem.
+
+Also the various Cycle event categories
+can be separately disabled by going into
+the Configure options menu.
+
+You will find even more options in the
+Miscellaneous options menu. Try it!
+
+Key Items can be found anywhere in the
+game. Vows are an exception however.
+
+Vows can be found inside of chests and
+be given by NPCs but the chance of
+that happening is pretty low.
+
+You will get a guaranteed randomized
+Vow by completing a Temple. Make
+sure to keep that in mind!
+
+By the way, Vows recharge faster and
+also deal more damage in this mod!
+
+You can leave the Great Sky Island
+immediately. Give it a go!
+
+Shrines and Towers can be activated
+from the start as well.
+
+Zonai Devices and Vows are no longer
+disabled by default in Shrines. Try to
+make use out of that!
+
+Zonai Device Dispensers can drop all
+Zonai Devices and essential items.
+Get some for tactical reasons!
+
+The stronger the monster, the more
+items it will drop. Nifty, eh?
+  
+Almost everything drops randomized
+items! Try to lift up stones or destroy
+rock walls. It's worth it!
+
+Upgraded Armor Pieces will not be stolen
+by the Randomizer Cycle. Go upgrade
+some with that knowledge!
+
+Key Items will also not be taken away,
+though they can be temporarily disabled
+by the Prohibitions Cycle feature.
+
+Burning environmental changes stay
+for a maximum time of 30 seconds.
+Cold and Heat stay 90 seconds.
+
+There is a special mode in this mod
+called Goal Mode. Want to make your
+run more interesting? Try it out!
+
+There is an increased chance to obtain
+items you have a goal for until the goal
+has been completed.
+
+Please note that Headshot goals
+are updated once the enemy has
+been defeated.
+
+Oh, and don't forget the brand-new
+Randomizer Shop! Both features can
+be accessed from the main menu.
+
+Lastly, this mod comes with quality
+of life additions such as removal of 
+first-time animations!
+
+That's it for the explanations. I hope
+that you will have a lot of fun with
+this mod! See you around!

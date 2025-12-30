@@ -1,0 +1,11 @@
+@nsobid-9B4E43650501A4D4489B4BBFDB740F26AF3CF850
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Prevent glue Thingy from spawning
+
+@enabled
+00FCE2BC 00000091 // nop
+@stop
+

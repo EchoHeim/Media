@@ -2,37 +2,42 @@
   "mods": [
     {
       "name": "C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\C_\u6797\u514B\u5E7B\u5F69\u7D2B\u8272\u5934\u53D1",
       "enabled": true
     },
     {
       "name": "C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\C_\u6ED1\u7FD4\u4F1E_\u6DFB\u52A0\u95EA\u95EA\u53D1\u5149\u7684\u6548\u679C",
       "enabled": true
     },
     {
       "name": "E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\E_\u6708\u4EAE\u53D8\u4E3A\u5DE8\u578B\u84DD\u6708",
+      "enabled": true
+    },
+    {
+      "name": "E_\u6797\u514B\u62E5\u6709\u53D1\u5149\u7684\u624B\u81C2\uFF08\u84DD\u7EFF\u8272\uFF09",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\E_\u6797\u514B\u62E5\u6709\u53D1\u5149\u7684\u624B\u81C2\uFF08\u84DD\u7EFF\u8272\uFF09",
       "enabled": true
     },
     {
       "name": "S_\u5F69\u8272\u8D24\u8005\u5206\u8EAB",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u5F69\u8272\u8D24\u8005\u5206\u8EAB",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u5F69\u8272\u8D24\u8005\u5206\u8EAB",
       "enabled": true
     },
     {
       "name": "S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6_Ryjinx",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6_Ryjinx",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u7B80\u5316\u91CD\u590D\u4E8B\u4EF6_Ryjinx",
       "enabled": true
     },
     {
       "name": "S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u8D85\u7EA7\u89C6\u89D2_UltraCam",
       "enabled": true
     },
     {
       "name": "S_\u968F\u673AMod_1.4.4",
-      "path": "D:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u968F\u673AMod_1.4.4",
+      "path": "E:\\Media\\games\\Switch_EMU\\Ryujinx\\portable\\mods\\contents\\0100f2c0115b6000\\S_\u968F\u673AMod_1.4.4",
       "enabled": true
     }
   ]
